@@ -1,0 +1,11 @@
+# Site settings
+name: MPP
+title: Molecular Programming Project
+email: your-email@domain.com
+description: "Molecular Programming | Architectures, Abstractions, Algorithyms and Applications"
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty

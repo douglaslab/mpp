@@ -1,0 +1,197 @@
+---
+layout: default
+---
+
+
+
+
+
+
+<div id="top-pane" class="hide-on-mobile">
+
+	<div class="row"">
+
+
+		<div id="mission">
+
+
+						<div id="lab-name" class="fadeIn animated longdelay">
+                <h1>
+                    MMP</br>Molecular Programming
+                </h1>
+
+                <div id="mission-share">
+
+
+                    <a href="#" class="icon-twitter">follow on twitter</a>
+
+                    <a href="#" class="icon-facebook-squared ">follow on facebook</a>
+
+
+                </div>
+            </div>
+		<div id="wl"></div>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class ="featured mid-pane">
+
+
+
+	<div class="row">
+
+		<section class="third">
+
+			<img  src="/assets/images/icons/icon4.png" />
+
+
+		</section>
+
+
+		<section class="two-thirds">
+			<h2 >Welcome to the 2nd-generation Molecular Programming Project. </h2>
+
+
+				<p>Underneath the computer revolution that has changed our lives are the fundamental principles of computer science—these principles have allowed us to master electronic systems with billions of components and software with millions of lines of code to do amazingly complex tasks.</p>
+
+				<p>The Molecular Programming Project (MPP) began in 2008 as an NSF Expedition in Computing—a collaboration of 6 faculty developing computer science principles for programming information-bearing molecules like DNA and RNA to create artificial biomolecular programs of similar complexity. In 2013, the team grew to 11 faculty and was awarded a second Expedition with the mandate to develop molecular programming into a sophisticated, user-friendly, and widely-used technology for creating nanoscale devices and systems.ms.</p>
+
+				<p>The biomolecular programs of life serve as inspiration for our work, from the low-level operating system controlling cell metabolism, to the high-level code for biological development, the process by which a single cell becomes an entire organism. Molecular programming involves the specification of structures, circuits, and behaviors both within living and non-living systems—systems in which computing and decision-making will carried out by chemical processes themselves.</p>
+
+				<p>Our work involves four themes.
+					<ol>
+						<li>The establishment of powerful architectures for programmable molecular systems—standardized molecular components and methods for combining them into larger systems.</li>
+						<li>The refinement of abstractions for describing molecular systems, including programming languages, compilers, and computer-aided design tools.</li>
+						<li>The theoretical study of algorithms excecuted by molecular systems, identifying the best ways to carry out molecular tasks and the fundamental principles governing what can and cannot be done.</li>
+						<li>the application of molecular programming to real-world problems such as the fabrication of complex molecularly-defined electronic and optical materials, the integration of molecular-scale recognition and amplification circuits within analytical techniques for studying biology, and `smart' therapeutics with programmable control over drug delivery.</li>
+					</ol>
+					</p>
+
+				<p>Our long-term vision is to establish molecular programming as a subdiscipline of computer science—one that will enable a yet-to-be imagined array of applications from chemical circuitry for interacting with biological molecules to nanoscale computing and molecular robotics.</p>
+
+				<p>More information is available at the MPP Wiki.</p>
+
+		</section>
+
+
+
+	</div>
+
+
+
+
+</div>
+
+
+
+
+<div class="main">
+
+
+
+	<div class="row">
+
+		<div class="half">
+
+			<h4 id="latest-photos" class="hide-on-mobile">Photos</h4>
+
+				<div id="sidebar-photos" class="flexslider hide-on-mobile">
+			            <ul class="slides">
+			                    <li><img src="/assets/images/photos/lab1.jpg" /></li>
+			                    <li><img src="/assets/images/photos/lab2.jpg" /> </li>
+			                    <li><img src="/assets/images/photos/lab3.jpg" /></li>
+													<li><img src="/assets/images/photos/lab4.jpg" /></li>
+													<li><img src="/assets/images/photos/lab5.jpg" /> </li>
+													<li><img src="/assets/images/photos/lab6.jpg" /></li>
+													<li><img src="/assets/images/photos/lab7.jpg" /></li>
+													<li><img src="/assets/images/photos/lab8.jpg" /> </li>
+									</ul>
+				</div>
+
+
+		</div>
+
+		<div class="half">
+
+			<h4 id="latest-blogs">Latest News<small><a class="green" href="/news/">See All</a></small></h4>
+
+			<!-- slideshow blog list for tablet/desktop -->
+			<div class="posts hide-on-mobile flexslider">
+				<ul class="slides">
+				{% for post in site.posts limit:4 %}
+				<li>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<span>{{ post.date | date_to_string }}</span>
+				{{ post.excerpt }}
+				<a href="{{ post.url }}">Continue Reading &raquo;</a>
+				</li>
+				{% endfor %}
+				</ul>
+				<div class="post-nav"></div>
+			</div>
+
+
+			<!--  blog list for mobile only -->
+			<div class="posts hide-on-desktop hide-on-tablet">
+				<ul id="blog-roll">
+				{% for post in site.posts limit:4 %}
+				<li>
+				<p><a class="green"href="{{ post.url }}">{{ post.title }}</a>
+				<span>{{ post.date | date_to_string }}</span></p>
+			<!--	{{ post.excerpt }} -->
+			<!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->
+				</li>
+				{% endfor %}
+				</ul>
+			</div>
+</div>
+
+
+
+
+
+	</div>
+
+<br style="clear:both" />
+
+</div><!--end .main-->
+<br style="clear:both" />
+
+
+
+
+<!--
+<div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+
+-->
