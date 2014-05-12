@@ -3,6 +3,22 @@
 
 // IMPORTANT. LEAVE the two lines of --- above, or Jekyll wont parse this file into .css
 
+
+
+// The semantic grid we use is neat, which has bourbon as its dependency.
+// Here's how I installed it locally before adding it to the repo.
+// (You don't need to do this, dont worry)
+// https://github.com/thoughtbot/neat#requirements
+//
+// Examples of neat can be found here:
+// http://neat.bourbon.io/examples/
+//
+// Remember, the bourbon and neat libraries are stored in /_sass
+// And that location is set in the _config.yml file
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -18,7 +34,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: red;
+  background-color: white;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
