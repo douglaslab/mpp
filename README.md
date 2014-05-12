@@ -11,7 +11,7 @@ Jekyll is a static website generator that makes websites:
 - SAFE from MySQL injection attacks (because it doesn't use a database)
 - It needs NO security patches or updates.
 - It doesn't need any special server script software (like php,python or ruby or perl etc)
-- And there's no need for you to create or remember a password. You can make changes via git or the wall lab github account.
+- And there's no need for you to create or remember a password. You can make changes via git or the github account.
 
 
 ## where is the content ?
