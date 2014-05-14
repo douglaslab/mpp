@@ -1,0 +1,127 @@
+
+
+body {
+  margin:60px 0 0 0;//86px is the height of the fixed-height header/nav bar
+}
+
+.float-right{float:right}
+.float-left{float:left}
+
+// omega class
+.omega {@include omega();}
+
+.row {
+  @include outer-container;
+}
+
+.main { // this is the outer container
+
+    // wow, this line below adds padding to the MAIN element. works well.
+    // normally id add this to aside and section instead. lets roll with this.
+   // @include pad(30px 0px);
+}
+
+
+// headers inside section boxes
+// color of which is in color.scss
+section header {
+  padding:0;
+  margin:0;
+}
+
+body > footer {
+    padding-top: 2rem;
+}
+
+.post section, aside section {
+  //@include pad(20px);
+}
+.post section {padding-right:20px;}
+
+
+
+.page_number {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 0 0.5em;
+}
+
+
+.quarter:last-child,
+.third:last-child,
+.two-thirds:last-child { text-align: justify; }
+
+
+
+
+@include media($mobile) {
+  // grid has 4 columns in total
+  // see grid-settings for more info about media query widths.
+
+
+   // HIDE ON MOBILE
+  .hide-on-mobile{display:none;visibility:hidden}
+  .hide-on-desktop{display:block;visibility:visible}
+
+  .row {
+    // give content some breathing room on small screens
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+
+  main {@include span-columns(4);}
+  aside section{@include span-columns(4);}
+
+  // is this next line still necessary?
+  .main .row { padding-bottom: 0 }
+  .third{@include span-columns(4);}
+  .two-thirds{@include span-columns(4);}
+  .half {@include span-columns(4);}
+  .quarter{@include span-columns(4);}
+
+
+
+}
+
+
+
+@include media($tablet) { // grid has 8 columns in total
+
+  .hide-on-mobile{display:block;visibility:visible}
+  .hide-on-desktop{display:none;visibility:hidden}
+
+  main {@include span-columns(5); }
+   aside section {@include span-columns(3);}
+  .third{ @include span-columns(2.6);}
+  .two-thirds{@include span-columns(5.2);}
+  .half {@include span-columns(4);}
+  .quarter{@include span-columns(2);}
+}
+
+
+
+
+
+@include media($desktop) { // grid has 12 columns in total
+
+  main {@include span-columns(8);}
+  aside section {@include span-columns(4);}
+  .third{@include span-columns(4);}
+  .two-thirds{@include span-columns(8);}
+  .half {@include span-columns(6);}
+  .quarter{@include span-columns(3);}
+   footer { padding: 0; }
+
+}
+
+@include media($largedesktop) { // grid has 16 columns in total
+
+    main {@include span-columns(11);}
+    aside section {@include span-columns(5);}
+   .third{@include span-columns(5);} // fractional columns! close enough for browsers to round up to 16 total
+   .two-thirds{@include span-columns(11);}
+   .half {@include span-columns(8);}
+   .quarter{@include span-columns(4);}
+
+}
