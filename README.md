@@ -38,3 +38,11 @@ Remember, it's crucial that you include the correct date as a prefix in filename
 If you're working on a blog post and it isnt finished you can name it 'something-title.md'; and commit it to the repository. When it's ready you can 'pubish' it by prepending the date to the name. Alternatively you can add:
     published: true
 to that file's yaml frontmatter.
+
+## Template Particulars.
+
+### SCSS and CSS
+
+The /assets/css/main.scss is really the important file here. It just imports a list of .scss files - jekyll knows where those are located (/assets/_sass), we tell it in the _config.yml file in the root dir.
+
+Jekyll parses all the files imported in the '/assets/css/main.scss' file, and generates it into one, single, compressed file ucalled /_site/assets/css/main.css.
