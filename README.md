@@ -58,4 +58,4 @@ We don't mention the grid anywhere else, not in styles or typography or anywhere
 
 #### Typography
 
-We use [Typlate](http://typeplate.com/) to set some basicly proper typographical proportions. They're loaded in /assets/_sass/typelate-scss/*
+We use [Typeplate](http://typeplate.com/) to set some basicly proper typographical proportions - not font choices but their behavior, relationship stuff. This is very subtle stuff, and shouldnt be touched. They're loaded in /assets/_sass/typelate-scss/*
