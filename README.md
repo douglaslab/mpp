@@ -2,6 +2,8 @@
 
 This is based on a subset the [template](https://github.com/douglaslab/templates/tree/master/project) we use for projects in the lab. We've omitted experiments, paper, and protocols.
 
+### BEFORE this can be hosted in production, remove the line _site/* from .gitignore
+
 ## directory structure
 
 * **code**
