@@ -2,6 +2,7 @@ mpp
 ===
 
 
+### BEFORE this can be hosted in production, remove the line _site/* from .gitignore
 
 ## A Little About Jekyll
 Jekyll is a static website generator that makes websites:
