@@ -130,9 +130,42 @@
 </header>
 
 
+<!-- triangles -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="/assets/js/trianglify.js"></script>
+
+
+<script>
+
+var t = new Trianglify();
+var pattern = t.generate(1800, 600); // svg width, height
+pattern.svg         // SVG DOM Node object
+pattern.svgString   // String representation of the svg element
+pattern.base64      // Base64 representation of the svg element
+pattern.dataUri     // data-uri string
+pattern.dataUrl     // data-uri string wrapped in url() for use in css
+pattern.append()    // append pattern to <body>. Useful for testing.
+
+var t = new Trianglify();
+var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
+document.header.setAttribute('style', 'background-image: '+pattern.dataUrl);
+
+</script>
+
+<header id="trianglify">
+
+
+</header>
+
+
+
+
     <div class="page-content">
+
+
       <div class="wrap">
       <div class="post">
+  
 
   <header class="post-header">
     <h1>Visiting Days</h1>
@@ -144,6 +177,7 @@
   </article>
 
 </div>
+
       </div>
     </div>
 
@@ -232,7 +266,12 @@
     <!-- Javascript -->
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
+
+
+    <!--conceal email adderess-->
     <script src="/assets/js/concealemail.js"></script>
+
+    <!-- make nav bar responsive-->
     <script src="/assets/js/responsive-nav.min.js"></script>
 
     <!--initialises email concealment js -->
