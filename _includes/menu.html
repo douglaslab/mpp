@@ -1,66 +1,14 @@
-
-
 <nav>
-	<div class="container content-navigation">
-		<div class="section row navigation">
-			<h1>Department of Cellular and Molecular Pharmacology at UCSF</h1>
-		</div>
-		<div class="cf"></div>
 
 
-		<div class="section row">
-		    <div class="col six mobile-full">
-			    <p class="headline">Main Sections</p>
-			    <ul>
-					<li><a href="{{BASE_PATH}}/pages/faculty"><span>Faculty</span></a></li>
-					<li><a href="{{BASE_PATH}}/pages/faculty/affiliated.html">Affiliated Faculty</a></li>
-					<li><a href="{{BASE_PATH}}/pages/faculty/publications.html">Publications</a></li>
+	<ul class="horizontal">
+		<li id="logo-thing"> <a id="logo" title=" {{ site.title }}" href="/"> {{ site.name }}  </a>  </li>
 
-					<li> <a href="{{BASE_PATH}}/pages/teaching">Teaching</a> </li>
+		{% for page in site.pages %}
+			<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		{% endfor %}
 
-            		<li> <a href="{{BASE_PATH}}/pages/ccbgrad">CCB Grad Program</a>  </li>
+	</ul>
 
-            		<li><a href="{{BASE_PATH}}/pages/postdocs">Post-Doc Scholars</a> </li>
-
-            		<li> <a href="{{BASE_PATH}}/pages/students">Grad Students</a> </li>
-
-
-				</ul>
-		    </div>
-		    <div class="col six mobile-full">
-		    	<p class="headline">Central Administration</p>
-				<ul>
-					<li><a href="{{BASE_PATH}}/pages/cmp-administration"><span>Central Admin</span></a></li>
-					<li><a href="{{BASE_PATH}}/pages/cmp-administration/staff.html">Staff Lists</a></li>
-                    <li><a href="{{BASE_PATH}}/pages/cmp-administration/grants.html">Grants</a></li>
-                    <li><a href="{{BASE_PATH}}/pages/cmp-administration/fellows.html">Fellowships</a></li>
-                    <li><a href="{{BASE_PATH}}/pages/cmp-administration/computer-support">Computer Support</a></li>
-                    <li><a href="{{BASE_PATH}}/pages/cmp-administration/purchasing.html">Purchasing</a></li>
-                    <li> <a href="{{BASE_PATH}}/pages/contact">Contact</a></li>
-				</ul>
-		    </div>
-		</div>
-
-
-
-		<div class="cf"></div>
-		<div class="section row">
-			<p class="headline">Latest Posts <a>atom</a><a>rss</a></p>
-			<ul>
-				{% for post in site.categories.blog limit:5 %}
-				<li>
-					<span><a href="{{ post.url }}">{{ post.title }}
-					<time> &raquo; {{ post.date | date_to_string }}</time></a> </span>
-
-				</li>
-				{% endfor %}
-				<li class="view-all"><a href="{{BASE_PATH}}/blog"><i class="icon-right-open"></i> View All Posts</a></li>
-			</ul>
-		</div>
-		<div class="cf"></div>
-        <p class="nav-close"><span><i class="icon-up-open-mini"></i>close navigation menu<i class="icon-up-open-mini"></i></span></p>
-	</div>
 
 </nav>
-
-<div class="top-margin">&nbsp;</div>
