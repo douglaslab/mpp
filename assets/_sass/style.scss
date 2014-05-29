@@ -1,10 +1,18 @@
+header#header{
+  height:60px;
+  background:white;
+  position:fixed;
+  margin:0;
+  width:100%;
+}
 
 header#trianglify {
   height:200px;
   width:100%;
   overflow:hidden;
   display:block;
-  border:5px solid red;
-
   //margin:0 auto;
+}
+body {
+  margin:60px 0 0 0;//86px is the height of the fixed-height header/nav bar
 }

@@ -1,8 +1,7 @@
 
 
-body {
-  margin:60px 0 0 0;//86px is the height of the fixed-height header/nav bar
-}
+
+
 
 .float-right{float:right}
 .float-left{float:left}
@@ -18,7 +17,7 @@ body {
 
     // wow, this line below adds padding to the MAIN element. works well.
     // normally id add this to aside and section instead. lets roll with this.
-   // @include pad(30px 0px);
+    @include pad(30px 0px);
 }
 
 
