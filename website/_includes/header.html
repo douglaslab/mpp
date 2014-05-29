@@ -1,31 +1,10 @@
 
-<!-- mobile first-->
-<header id="header-mobile" class="hide-on-desktop">
-  <h4 ><a href="/">The Wall Lab at Stanford University</a></h4>
-  <nav>
-    <ul class="nav-collapse">
-      <li><a class="" href="#">item</a></li>
-      <li><a class="" href="#">item</a></li>
-      <li><a class="" href="#">item</a></li>
-      <li><a class="" href="#">item</a></li>
-      <li><a class="" href="#">item</a></li>
-    </ul>
-  </nav>
-  <a class="hide-on-desktop icon-angle-circled-down" id="toggle" class="closed">Menu</a>
-</header>
-<!-- end mobile-->
 
 <!-- desktop next-->
 <header id="header-desktop" class="hide-on-mobile">
-  <nav>
-    <ul class="horizontal">
-      <li id="logo-thing"> <a id="logo" title=" {{ site.title }}" href="/"> {{ site.name }}  </a>  </li>
 
-      {% for page in site.pages %}
-        <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-      {% endfor %}
+{% include menu.html %}
 
-    </ul>
 </header>
 
 
