@@ -94,15 +94,32 @@
     <!-- make nav bar responsive-->
     <script src="/assets/js/responsive-nav.min.js"></script>
 
+    <!-- support libraries for background designs in headers -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="/assets/js/trianglify.js"></script>
+
     <!--initialises email concealment js -->
-    <script>(function($) {
-        $(document).ready( function() {
-            $('.e').emailLink();
-        } );
-    })(jQuery);
+    <script>
+        (function($) {
+
+            $(document).ready( function() {
+
+                $('.e').emailLink();
+
+                var t = new Trianglify();
+                var pattern = t.generate(document.body.clientWidth, 200); // svg width, height
+
+                var t = new Trianglify();
+                var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
+                console.log(pattern.dataUrl);
+                $("header#trianglify").css({
+                  'background-image': pattern.dataUrl
+                });
+
+            } );
+
+        })(jQuery);
     </script>
-
-
 
 
     </body>
