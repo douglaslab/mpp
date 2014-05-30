@@ -3,14 +3,17 @@
 		<div class="main">
 
 			<ul class="horizontal">
-				<li id="logo-thing"> <a id="logo" title=" {{ site.title }}" href="/"> {{ site.name }}  </a>  </li>
+				<li id="logo-thing" class="navigation"> <a id="logo" title=" {{ site.title }}" href="/"> {{ site.name }}  </a>  </li>
 
 				{% for page in site.pages %}
 					<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endfor %}
 
 			</ul>
-			
+
 		</div>
+
+		<p class="nav-close"><span><i class="icon-up-open-mini"></i>close navigation menu<i class="icon-up-open-mini"></i></span></p>
+
 	</div>
 </nav>
