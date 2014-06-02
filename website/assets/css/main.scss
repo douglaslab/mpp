@@ -24,9 +24,14 @@
 // the bourbon grid stuff
 @import "neat/neat";
 
+// the typeplate library
+@import "typeplate-scss/typeplate";
+@import "typeplate-scss/vars-typeplate";
+
 // everything to do with sizes of elements are in here
 // particularly the media query stuff
-// remember, I'm found in /assets/_sass
+// remember, I am found in /assets/_sass
+
 @import "layout";
 @import "style";
 @import "navigation";
