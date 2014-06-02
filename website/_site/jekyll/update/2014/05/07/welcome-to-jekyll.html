@@ -131,10 +131,7 @@
 
 
 
-    <div class="page-content">
 
-
-      <div class="wrap">
       <div class="post">
 
   <header class="post-header">
@@ -160,8 +157,7 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
   </article>
 
 </div>
-      </div>
-    </div>
+
 
     <footer>
 	<hr>
@@ -261,13 +257,15 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="/assets/js/trianglify.js"></script>
 
-    <!--initialises email concealment js -->
     <script>
         (function($) {
 
             $(document).ready( function() {
 
+                <!--initialises email concealment js -->
                 $('.e').emailLink();
+
+                <!--initialises trianglify js -->
 
                 var t = new Trianglify();
                 var pattern = t.generate(document.body.clientWidth, 200); // svg width, height

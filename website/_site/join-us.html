@@ -131,17 +131,10 @@
 
 
 
-    <div class="page-content">
 
-
-      <div class="wrap">
-      <div class="row main">
-
- 	<main>
-    <header>
-			<h1>Join Us</h1>
-    </header>
-
+      <div class="row ">
+ 	
+      <h1>Join Us</h1>
 			<h1 id="join-us">Join Us</h1>
 
 <h1 id="molecular-programming-architectures-abstractions-algorithms-applications">Molecular Programming Architectures, Abstractions, Algorithms, Applications</h1>
@@ -165,24 +158,9 @@
 
 
 
-    	</section>
-	</main>
-
-<!--
-    <aside>
-    	<section>
-
-  
-</section>
-
-    </aside>
--->
-
-
 </div>
 
-      </div>
-    </div>
+
 
     <footer>
 	<hr>
@@ -282,13 +260,15 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="/assets/js/trianglify.js"></script>
 
-    <!--initialises email concealment js -->
     <script>
         (function($) {
 
             $(document).ready( function() {
 
+                <!--initialises email concealment js -->
                 $('.e').emailLink();
+
+                <!--initialises trianglify js -->
 
                 var t = new Trianglify();
                 var pattern = t.generate(document.body.clientWidth, 200); // svg width, height
