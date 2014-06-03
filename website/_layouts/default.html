@@ -105,7 +105,7 @@
                 var t = new Trianglify();
                 var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
                 console.log(pattern.dataUrl);
-                $("header#trianglify").css({
+                $("#trianglify").css({
                   'background-image': pattern.dataUrl
                 });
 

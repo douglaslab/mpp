@@ -60,7 +60,7 @@
     <body>
 
     <!-- desktop next-->
-<header id="header">
+<nav id="header">
 
 
     <div class="menu ">
@@ -73,7 +73,7 @@
     </div>
 
 
-</header>
+</nav>
 
 <nav>
 	<div class="row">
@@ -366,7 +366,7 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
                 var t = new Trianglify();
                 var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
                 console.log(pattern.dataUrl);
-                $("header#trianglify").css({
+                $("#trianglify").css({
                   'background-image': pattern.dataUrl
                 });
 

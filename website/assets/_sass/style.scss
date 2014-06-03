@@ -24,3 +24,13 @@ body {
 body#frontpage{
   background:$salmon;
 }
+
+body#post{ //blog posts, right?
+
+  header{
+    margin: 0 auto;
+    padding: 4.5em 2em;
+    text-align: center;
+  }
+
+}
