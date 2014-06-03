@@ -49,7 +49,7 @@
   </head>
 
 
-  <body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
+  <body id="{% if page.body_class %}{{ page.body_class }}{% endif %}">
     <!-- Old Browser Warning -->
     <!--[if lt IE 8]>
       <section class="container">
@@ -59,9 +59,9 @@
 
     <body>
 
-    {% include header.html %}
+    {% include navigation.html %}
 
-    {% include trianglify.html %}
+    <!-- include trianglify.html -->
 
 
 

@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll! This appears in a h1 tag."
+subheading: "A short sort of introduction to jekyll. This appears in a h2 tag."
 date:   2014-05-07 16:39:46
+author: kris
+author_url: http://github.com/stgabriel
 categories: jekyll update
 ---
 
