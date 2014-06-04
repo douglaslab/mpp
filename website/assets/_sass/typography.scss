@@ -2,8 +2,13 @@
 
 body {
 	font-family: 'Lato', Arial, sans-serif;
+
+
 }
 
 .centered{
 	text-align:center;
 }
+
+.half:first-child{text-align:right}
+.half:last-child{text-align:left}

@@ -1,10 +1,32 @@
+/* COLORS */
+/* these colors are from */
+/* http://mycolorscreen.com/2013/12/06/flat-v-for-themer/ */
+/* so use all of them together. no whites or grays! */
+
+$darkslategray:#4d433d; // frontpage
+$darkslategrayhighlight:#463d37;
+$indianred:#b1544f;
+$lightindianred:#b76352;
+$darksalmon:#f2977a;
+$sandybrown:#fac85a;
+$darksandybrown:#f1b056;
+$darkkhaki:#c4b565;
+$slategray:#5b9184;
+$gray:#717976;
+$darkdimgray:#477278;
+$dimgray:#456d6a;
+$lightdimgray:#567d7a;
+$lightslategray:#699192;
+
+
 $green:#81c439;
 $darkgreen:#72b02f;
 
 
-$frontpage-bg:$green;
+$frontpage-bg:$darkslategray;
+$highlight:$darkslategrayhighlight;
+
 $frontpage-fg:white;
-$highlight:$darkgreen;
 
 #header{ // this is the topbar
   height:60px;
