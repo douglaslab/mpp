@@ -67,6 +67,15 @@ body#frontpage{
 
   // highlight is
   .highlight{background:$highlight;}
+
+  //buttons
+  .button-primary,
+  .button-selected,
+  a.button-primary,
+  a.button-selected {
+      background-color:$indianred;
+      color: #fff;
+  }
 }
 
 body#post{ //blog posts, right?
@@ -95,7 +104,7 @@ body#post{ //blog posts, right?
 
 section {
 	position: relative;
-	padding: 10em 10%;
+	padding: 7em 0;
 	color: #fff;
 
 }
