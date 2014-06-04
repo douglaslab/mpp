@@ -23,7 +23,7 @@ $dimgray:#456d6a;
 $lightdimgray:#567d7a;
 $lightslategray:#699192;
 
-
+$frontpage-header:$indianred;
 $frontpage-bg:$chocolate;
 $highlight:$brown; //alternating section background color
 $frontpage-text:$lightbrown;
@@ -57,6 +57,8 @@ body#frontpage{
 
   background:$frontpage-bg;
   color:$frontpage-text;
+
+  #header{background:$frontpage-header}
   p{color:$frontpage-text}
 
   h1,h2,h3,h4,h5,h6,
