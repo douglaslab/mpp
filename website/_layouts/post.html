@@ -9,7 +9,7 @@ body_class: post
     {% if page.subheading %}<h2>{{ page.subheading }}</h2>{% endif %}
 
     <p class="meta">
-      {{ page.date | date: "%b %-d, %Y" }}
+      <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
       {% if page.author && if page.author_url %} • <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
     </p>
 

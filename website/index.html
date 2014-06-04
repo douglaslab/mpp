@@ -57,7 +57,7 @@ body_class: frontpage
 					{% for post in site.posts limit:4 %}
 					<li>
 					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					<span>{{ post.date | date_to_string }}</span>
+					<time datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
 					{{ post.excerpt }}
 					<a href="{{ post.url }}">Continue Reading &raquo;</a>
 					</li>
