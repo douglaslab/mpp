@@ -26,7 +26,7 @@ $serif-boolean: true !default;
 
 $font-family: if($serif-boolean, serif, sans-serif) !default; // Non-font-face font-stack
 
-$font-weight: normal !default;
+$font-weight: 300 !default;
 $line-height: 1.45 !default;
 //$font-size: 112.5 !default; // percentage value (16 * 112.5% = 18px)
 $font-size: 131.25; // percentage value (16 * 131.25% = 21px)

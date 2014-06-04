@@ -3,8 +3,13 @@
 /* http://mycolorscreen.com/2013/12/06/flat-v-for-themer/ */
 /* so use all of them together. no whites or grays! */
 
-$darkslategray:#4d433d; // frontpage
-$darkslategrayhighlight:#463d37;
+$chocolate:#4d433d; // frontpage
+$brown:#463d37; //highlight
+$lightbrown:#ACA7A2;  // text color,frontpage
+$lightbrowngray:#DBDAD9; //h1-h6 frontpage
+
+
+//not yet used
 $indianred:#b1544f;
 $lightindianred:#b76352;
 $darksalmon:#f2977a;
@@ -19,14 +24,10 @@ $lightdimgray:#567d7a;
 $lightslategray:#699192;
 
 
-$green:#81c439;
-$darkgreen:#72b02f;
-
-
-$frontpage-bg:$darkslategray;
-$highlight:$darkslategrayhighlight;
-
-$frontpage-fg:white;
+$frontpage-bg:$chocolate;
+$highlight:$brown; //alternating section background color
+$frontpage-text:$lightbrown;
+$frontpage-h1:$lightbrowngray;
 
 #header{ // this is the topbar
   height:60px;
@@ -53,8 +54,14 @@ body {
 
 
 body#frontpage{
+
   background:$frontpage-bg;
-  color:$frontpage-fg;
+  color:$frontpage-text;
+  p{color:$frontpage-text}
+
+  h1,h2,h3,h4,h5,h6,
+    h1 a,h2 a,h3 a,h4 a,h5 a,h6 a
+      {color:$}
 
   // highlight is
   .highlight{background:$highlight;}
