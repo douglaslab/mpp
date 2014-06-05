@@ -54,8 +54,10 @@ body {
 }
 body.page,body.post{
   #header-background{
-    background:$gray;
-    h1,h2{color:white}
+    background:$sandybrown;
+    h2,h4{color:white}
+    // meta is time and author in the header
+    .meta, .meta a{color:white;}
   }
 }
 

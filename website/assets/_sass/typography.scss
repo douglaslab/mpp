@@ -2,17 +2,27 @@
 
 body {
 	font-family: 'Lato', Arial, sans-serif;
-
+	color:#5a5350;
 }
 
 a:link,a:visited{
 	text-decoration:none;
 }
+
+h1{@extend .alpha;}
+h2{@extend .beta;}
+h3{@extend .gamma;}
+h4{@extend .delta;}
+h5{@extend .epsilon;}
+h6{@extend .zeta;}
+
+// meta is the author and time paragraph in the header on .post pages.
+.meta {@extend .zeta;margin-bottom:0}
+
+
 .centered{
 	text-align:center;
 }
 
 .half:first-child{text-align:right}
 .half:last-child{text-align:left}
-
-time {color:white}
