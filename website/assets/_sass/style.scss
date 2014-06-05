@@ -36,6 +36,7 @@ $frontpage-h1:$lightbrowngray;
   margin:0;
   width:100%;
   z-index: 20;
+
 }
 
 /*
@@ -89,8 +90,25 @@ body#post{ //blog posts, right?
 }
 
 
+.icon {
+	display: block;
+	width: 1.7em;
+	height: 1.7em;
+	border-radius: 50%;
+	background: rgba(0,0,0,0.1);
+	color: #fff;
+	text-align: center;
+	font-size: 8em;
+	line-height: 2em;
+	margin: 0 auto;
+}
+img#glyph{
 
+  display: block;
+margin:0 auto;
+padding-top:30px;
 
+}
 
 
 // separators
