@@ -17,8 +17,7 @@
 }
 
 
-// main is the outer container on .page and .post pages.
-// main is NOT used on frontpage
+// main is an inner container  pages.
 .page,.post{
   header,main {
     @include pad(50px 0px);
@@ -48,7 +47,7 @@ body > footer {
 .post section, aside section {
   //@include pad(20px);
 }
-.post section {padding-right:20px;}
+//.post section {padding-right:20px;}
 
 
 
@@ -93,13 +92,22 @@ body > footer {
   .half {@include span-columns(4);}
   .quarter{@include span-columns(4);}
 
-// main is the outer container on .page and .post pages.
-// main is NOT used on frontpage
+// main is the inner container on pages.
   .post,.page{
     main,header {
       @include span-columns(4);
     }
   }
+
+  .frontpage{
+     main {
+       @include span-columns(4);
+       .third{@include span-columns(4);} // fractional columns! close enough for browsers to round up to 16 total
+       .two-thirds{@include span-columns(4);}
+       .half {@include span-columns(4);}
+       .quarter{@include span-columns(4);}
+     }
+   }
 
 }
 
@@ -126,6 +134,17 @@ body > footer {
      }
    }
 
+// frontpage has its own template too.
+  .frontpage{
+     main {
+       @include span-columns(8);
+       .third{@include span-columns(2.6);} // fractional columns! close enough for browsers to round up to 16 total
+       .two-thirds{@include span-columns(5.2);}
+       .half {@include span-columns(4);}
+       .quarter{@include span-columns(2);}
+     }
+   }
+
 }
 
 
@@ -142,14 +161,26 @@ body > footer {
   .quarter{@include span-columns(3);}
    footer { padding: 0; }
 
-// main is the outer container on .page and .post pages.
-// main is NOT used on frontpage
-.post,.page{
-    main,header {
-      @include span-columns(8);
-      @include shift(2);
+// main is the inner container on pages.
+  .post,.page{
+      main,header {
+        @include span-columns(8);
+        @include shift(2);
+      }
     }
-  }
+
+// frontpage has its own template too.
+  .frontpage{
+     main {
+       @include span-columns(12);
+      // @include shift(1);
+       .third{@include span-columns(4);} // fractional columns! close enough for browsers to round up to 16 total
+       .two-thirds{@include span-columns(8);}
+       .half {@include span-columns(6);}
+       .quarter{@include span-columns(3);}
+     }
+   }
+
 }
 
 @include media($largedesktop) { // grid has 16 columns in total
@@ -161,8 +192,7 @@ body > footer {
    .quarter{@include span-columns(4);}
 
 
-// main is the outer container on .page and .post pages.
-// main is NOT used on frontpage
+// main is the inner container on pages.
   .post,.page{
      main,header {
        @include span-columns(8);
@@ -170,5 +200,11 @@ body > footer {
      }
    }
 
+// frontpage has its own template too.
+  .frontpage{
+     main {
+         @include outer-container;
+     }
+   }
 
 }
