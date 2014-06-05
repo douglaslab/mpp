@@ -8,16 +8,21 @@
 
 // omega class
 .omega {@include omega();}
+// wow, this line below adds padding to the MAIN element. works well.
+// normally id add this to aside and section instead. lets roll with this.
+//  @include pad(30px 0px);
 
 .row {
   @include outer-container;
 }
 
-.main { // this is the outer container
 
-    // wow, this line below adds padding to the MAIN element. works well.
-    // normally id add this to aside and section instead. lets roll with this.
-    @include pad(30px 0px);
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+main {
+
+//margin:0 auto;
+
 }
 
 
@@ -65,17 +70,23 @@ body > footer {
   }
 
 
-  main {@include span-columns(4);}
-  aside section{@include span-columns(4);}
+//  aside section{@include span-columns(4);}
 
   // is this next line still necessary?
-  .main .row { padding-bottom: 0 }
+  //.main .row { padding-bottom: 0 }
+
   .third{@include span-columns(4);}
   .two-thirds{@include span-columns(4);}
   .half {@include span-columns(4);}
   .quarter{@include span-columns(4);}
 
-
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+  #post,#page{
+    main,header {
+      @include span-columns(4);
+    }
+  }
 
 }
 
@@ -86,12 +97,22 @@ body > footer {
   .hide-on-mobile{display:block;visibility:visible}
   .hide-on-desktop{display:none;visibility:hidden}
 
-  main {@include span-columns(5); }
-   aside section {@include span-columns(3);}
+//   aside section {@include span-columns(3);}
   .third{ @include span-columns(2.6);}
   .two-thirds{@include span-columns(5.2);}
   .half {@include span-columns(4);}
   .quarter{@include span-columns(2);}
+
+
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+  #post,#page{
+    main,header {
+      @include span-columns(6);
+      @include shift(1);
+     }
+   }
+
 }
 
 
@@ -100,23 +121,41 @@ body > footer {
 
 @include media($desktop) { // grid has 12 columns in total
 
-  main {@include span-columns(8);}
-  aside section {@include span-columns(4);}
+
+//  aside section {@include span-columns(4);}
   .third{@include span-columns(4);}
   .two-thirds{@include span-columns(8);}
   .half {@include span-columns(6);}
   .quarter{@include span-columns(3);}
    footer { padding: 0; }
 
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+#post,#page{
+    main,header {
+      @include span-columns(8);
+      @include shift(2);
+    }
+  }
 }
 
 @include media($largedesktop) { // grid has 16 columns in total
 
-    main {@include span-columns(11);}
-    aside section {@include span-columns(5);}
+  //  aside section {@include span-columns(5);}
    .third{@include span-columns(5);} // fractional columns! close enough for browsers to round up to 16 total
    .two-thirds{@include span-columns(11);}
    .half {@include span-columns(8);}
    .quarter{@include span-columns(4);}
+
+
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+  #post,#page{
+     main,header {
+       @include span-columns(8);
+       @include shift(4);
+     }
+   }
+
 
 }
