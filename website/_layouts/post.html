@@ -2,25 +2,26 @@
 layout: default
 body_class: post
 ---
-<div class="row">
+<div id="header-background">
+  <div class="row">
+    <header>
+      {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+      {% if page.subheading %}<h2>{{ page.subheading }}</h2>{% endif %}
 
-  <header>
-    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-    {% if page.subheading %}<h2>{{ page.subheading }}</h2>{% endif %}
-
-    <p class="meta">
-      <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-      {% if page.author && if page.author_url %} • <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-    </p>
-
-  </header>
-
-  <main>
+    
+        <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+        {% if page.author && if page.author_url %} • <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
 
 
-    <article>
-    {{ content }}
-    </article>
-  </main>
-
+    </header>
+  </div>
 </div>
+
+
+  <div class="row">
+    <main>
+      <article>
+      {{ content }}
+      </article>
+    </main>
+  </div>

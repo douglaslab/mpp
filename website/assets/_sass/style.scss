@@ -52,9 +52,14 @@ header#trianglify { // currently not in use
 body {
   margin:60px 0 0 0;//86px is the height of the fixed-height header/nav bar
 }
+body.page,body.post{
+  #header-background{
+    background:$gray;
+    h1,h2{color:white}
+  }
+}
 
-
-body#frontpage{
+body.frontpage{
 
   background:$frontpage-bg;
   color:$frontpage-text;

@@ -2,20 +2,19 @@
 layout: default
 body_class: page
 ---
+{% if page.title %}
+<div id="header-background">
+  <div class="row">
+    <header>
+          {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+          {% if page.subheading %}<h2>{{ page.title }}</h1>{% endif %}
+    </header>
+  </div>
+</div>
+{% endif %}
 
-
-<div class="row ">
-
-  {% if page.title %}
-  <header>
-        {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-        {% if page.subheading %}<h2>{{ page.title }}</h1>{% endif %}
-
-  </header>
-  {% endif %}
-
+<div class="row">
   <main>
   {{ content }}
   </main>
-
 </div>

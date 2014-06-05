@@ -19,11 +19,24 @@
 
 // main is the outer container on .page and .post pages.
 // main is NOT used on frontpage
-main {
+.page,.post{
+  header,main {
+    @include pad(50px 0px);
+  }
 
-//margin:0 auto;
+  header {
+
+  }
+
+  main {
+
+  //margin:0 auto;
+
+  }
 
 }
+
+
 
 
 
