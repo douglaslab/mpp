@@ -19,10 +19,31 @@ h6{@extend .zeta;}
 // meta is the author and time paragraph in the header on .post pages.
 .meta {@extend .zeta;margin-bottom:0}
 
+// override _template.scss from 65 to 80
 
 .centered{
 	text-align:center;
 }
 
+.frontpage{
 .half:first-child{text-align:right}
 .half:last-child{text-align:left}
+}
+
+// override the text-alignment in .half on the frontpage's menu.
+.frontpage nav{
+	.half:first-child{text-align:left}
+}
+
+
+
+footer {
+	h5 {margin-bottom:10px;}
+	// footers have different list styles etc.
+	ul {
+		@extend small;
+		//font-size:.8em;
+		list-style-type:none;
+		padding:0
+		}
+}

@@ -30,12 +30,18 @@ $frontpage-text:$lightbrown;
 $frontpage-h1:$lightbrowngray;
 
 #header{ // this is the topbar
-  height:60px;
+  height:53px;
+  padding-top:7px;
   background:white;
   position:fixed;
   margin:0;
   width:100%;
   z-index: 20;
+
+}
+#navigation{
+//  padding-top:7px;
+  #logo-thing{}
 
 }
 

@@ -7,6 +7,15 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Dummy Post.</title>
+        <description>&lt;p&gt;Blah blah&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Jun 2014 12:39:46 -0400</pubDate>
+        <link>/jekyll/stuff/2014/06/20/dummy-post.html</link>
+        <guid isPermaLink="true">/jekyll/stuff/2014/06/20/dummy-post.html</guid>
+      </item>
+    
+      <item>
         <title>Welcome to Jekyll! This appears in a h1 tag.</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
