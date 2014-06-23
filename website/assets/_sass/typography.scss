@@ -24,16 +24,26 @@ h6{@extend .zeta;}
 .centered{
 	text-align:center;
 }
+.text-left {
+	text-align:left;
+}
+.text-right {
+	text-align:right;
+}
+
+/*
 
 .frontpage{
 .half:first-child{text-align:right}
 .half:last-child{text-align:left}
 }
 
+
 // override the text-alignment in .half on the frontpage's menu.
 .frontpage nav{
 	.half:first-child{text-align:left}
 }
+*/
 
 
 
