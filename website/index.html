@@ -1,111 +1,108 @@
 ---
 layout: frontpage
 ---
+	<section class="frontpage-section">
+		<div class="row">
+			<main>
+				<div class="half">
 
-<section class="frontpage-section">
-	<div class="row">
-		<main>
-			<div class="half">
+					<h1>Molecular Programming Project</h1>
+					<h3>This is a subheading</h3>
+					<button class="button button-primary">A Primary Button</button>
+				</div>
 
-				<h1>Molecular Programming Project</h1>
-				<h3>This is a subheading</h3>
-				<button class="button button-primary">A Primary Button</button>
-			</div>
+				<div class="half">
 
-			<div class="half">
+					<div class="circle">
+						<img id="glyph" src="/assets/images/mpp-white-logo.png" />
+					</div>
 
-				<div class="circle">
-					<img id="glyph" src="/assets/images/mpp-white-logo.png" />
+				</div>
+			</main>
+
+		</div>
+	</section>
+
+
+	<section class="frontpage-section highlight section-multitriangles">
+		<div class="row">
+			<main>
+					<div class="third centered">
+						<span class="icon icon-mobile"></span>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
+					</div>
+					<div class="third centered">
+						<span class="icon icon-drawer"></span>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
+					</div>
+					<div class="third centered">
+						<span class="icon icon-download"></span>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
+					</div>
+			</main>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	<section>
+		<div class="row">
+			<main>
+
+				<div class="half">
+
+				heh
+
 
 				</div>
 
-			</div>
-		</main>
+				<div class="half">
 
-	</div>
-</section>
+					<h4 id="latest-blogs">Latest News<small><a class="green" href="/news/">See All</a></small></h4>
 
-
-<section class="frontpage-section highlight section-multitriangles">
-	<div class="row">
-		<main>
-				<div class="third centered">
-					<span class="icon icon-mobile"></span>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
-				</div>
-				<div class="third centered">
-					<span class="icon icon-drawer"></span>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
-				</div>
-				<div class="third centered">
-					<span class="icon icon-download"></span>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
-				</div>
-		</main>
-	</div>
-</section>
+					<!-- slideshow blog list for tablet/desktop -->
+					<div class="posts hide-on-mobile flexslider">
+						<ul class="slides">
+						{% for post in site.posts limit:4 %}
+						<li>
+						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<time datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+						{{ post.excerpt }}
+						<a href="{{ post.url }}">Continue Reading &raquo;</a>
+						</li>
+						{% endfor %}
+						</ul>
+						<div class="post-nav"></div>
+					</div>
 
 
-
-
-
-
-
-
-
-<section>
-	<div class="row">
-		<main>
-
-			<div class="half">
-
-			heh
-
-
-			</div>
-
-			<div class="half">
-
-				<h4 id="latest-blogs">Latest News<small><a class="green" href="/news/">See All</a></small></h4>
-
-				<!-- slideshow blog list for tablet/desktop -->
-				<div class="posts hide-on-mobile flexslider">
-					<ul class="slides">
-					{% for post in site.posts limit:4 %}
-					<li>
-					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					<time datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-					{{ post.excerpt }}
-					<a href="{{ post.url }}">Continue Reading &raquo;</a>
-					</li>
-					{% endfor %}
-					</ul>
-					<div class="post-nav"></div>
-				</div>
-
-
-				<!--  blog list for mobile only -->
-				<div class="posts hide-on-desktop hide-on-tablet">
-					<ul id="blog-roll">
-					{% for post in site.posts limit:4 %}
-					<li>
-					<p><a class="green"href="{{ post.url }}">{{ post.title }}</a>
-					<span>{{ post.date | date_to_string }}</span></p>
-				<!--	{{ post.excerpt }} -->
-				<!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->
-					</li>
-					{% endfor %}
-					</ul>
-				</div>
-		</main>
-	</div>
-</section>
+					<!--  blog list for mobile only -->
+					<div class="posts hide-on-desktop hide-on-tablet">
+						<ul id="blog-roll">
+						{% for post in site.posts limit:4 %}
+						<li>
+						<p><a class="green"href="{{ post.url }}">{{ post.title }}</a>
+						<span>{{ post.date | date_to_string }}</span></p>
+					<!--	{{ post.excerpt }} -->
+					<!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->
+						</li>
+						{% endfor %}
+						</ul>
+					</div>
+			</main>
+		</div>
+	</section>
 
 
 
 
-<br style="clear:both" />
-
+	<br style="clear:both" />
 
 
 

@@ -96,7 +96,7 @@ body#post{ //blog posts, right?
 
 }
 
-
+.container {background:red}
 .circle {
 	display: block;
 	width: 1.7em;
@@ -107,7 +107,7 @@ body#post{ //blog posts, right?
 	//text-align: center;
 	font-size: 8em;
 	line-height: 2em;
-	margin: 0 auto;
+	margin-left:30px;
   //margin-left:40px;
 }
 img#glyph{
