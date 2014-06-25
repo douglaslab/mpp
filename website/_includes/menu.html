@@ -1,9 +1,23 @@
 <nav>
+
+
 	<div class="row">
-		<div class="main">
+		<a title="{{ site.title }}" href="{{ site.url }}"><h1> Molecular Programming Project </h1> </a>
+
+	</div>
+
+
+	<div class="row">
+
+
+
+
+
+		<div class="half">
+			<h5>Sections</h5>
+
 
 			<ul class="horizontal">
-				<li id="logo-thing" class="navigation"> <a id="logo" title=" {{ site.title }}" href="/"> {{ site.name }}  </a>  </li>
 
 				{% for page in site.pages %}
 					<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
@@ -13,7 +27,28 @@
 
 		</div>
 
-		<p class="nav-close"><span><i class="icon-up-open-mini"></i>close navigation menu<i class="icon-up-open-mini"></i></span></p>
+		<div class="half">
+			<h5>Latest News</h5>
+
+			<ul class="posts">
+				{% for post in site.posts offset: 0 limit: 8 %}
+					<li>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+						<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+					</li>
+				{% endfor %}
+			</ul>
+
+			<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+
+		</div>
 
 	</div>
+
+
+		<p class="nav-close"><span><i class="icon-up-open-mini"></i>close navigation menu<i class="icon-up-open-mini"></i></span></p>
+
 </nav>

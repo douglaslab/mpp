@@ -12,7 +12,7 @@
 
 
     <!-- rss feed autodiscovery link -->
-    <link rel="alternate" type="application/rss+xml" title="MPP News" href="http://yourdomain.com/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="MPP News" href="http://localhost:4000/feed.xml" />
 
     <!-- Mobile Screen Resizing -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,8 +60,9 @@
 
 
     <!-- desktop next-->
-<div id="header">
-
+<header class="headroom">
+  <div class="row">
+    <a id="menu-logo" title=" Molecular Programming Project" href="/"> MPP  </a>
 
     <div class="menu ">
       <a href="#" title="Main Navigation" id="navigation">
@@ -72,15 +73,31 @@
       </a>
     </div>
 
+  </div>
 
-</div>
+
+</header>
 
 <nav>
+
+
 	<div class="row">
-		<div class="main">
+		<a title="Molecular Programming Project" href="http://localhost:4000"><h1> Molecular Programming Project </h1> </a>
+
+	</div>
+
+
+	<div class="row">
+
+
+
+
+
+		<div class="half">
+			<h5>Sections</h5>
+
 
 			<ul class="horizontal">
-				<li id="logo-thing" class="navigation"> <a id="logo" title=" Molecular Programming Project" href="/"> MPP  </a>  </li>
 
 				
 					<li><a class="page-link" href="/about/">About</a></li>
@@ -89,9 +106,9 @@
 				
 					<li><a class="page-link" href="/events.html">Events Calendar</a></li>
 				
-					<li><a class="page-link" href="/feed.xml"></a></li>
+					<li><a class="page-link" href="/feed.xml">RSS Feed</a></li>
 				
-					<li><a class="page-link" href="/index.html"></a></li>
+					<li><a class="page-link" href="/index.html">Home</a></li>
 				
 					<li><a class="page-link" href="/join-us.html">Join Us</a></li>
 				
@@ -114,9 +131,36 @@
 
 		</div>
 
-		<p class="nav-close"><span><i class="icon-up-open-mini"></i>close navigation menu<i class="icon-up-open-mini"></i></span></p>
+		<div class="half">
+			<h5>Latest News</h5>
+
+			<ul class="posts">
+				
+					<li>
+						<a class="post-link" href="/jekyll/stuff/2014/06/20/dummy-post.html">Dummy Post.</a>
+						<span class="post-date">Jun 20, 2014</span>
+
+					</li>
+				
+					<li>
+						<a class="post-link" href="/jekyll/update/2014/05/07/welcome-to-jekyll.html">Welcome to Jekyll! This appears in a h1 tag.</a>
+						<span class="post-date">May 7, 2014</span>
+
+					</li>
+				
+			</ul>
+
+			<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+
+
+		</div>
 
 	</div>
+
+
+		<p class="nav-close"><span><i class="icon-up-open-mini"></i>close navigation menu<i class="icon-up-open-mini"></i></span></p>
+
 </nav>
 
 
@@ -166,71 +210,60 @@
 
 
 
-    <footer>
-	<hr>
+    
+<hr>
+
+<footer>
 	<div class="row">
 
-
-
-	<div class="quarter">
-	<h3>links</h3>
-		<ul class="list-unstyled">
-			<li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-
-		</ul>
-		</div>
-
 		<div class="quarter">
-		<h3>links</h3>
-			<ul class="list-unstyled">
-
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-
-
+			<h5>links</h5>
+			<ul>
+				<li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
 
 			</ul>
 		</div>
 
-
-<div class="quarter">
-	<h3>links</h3>
-	<ul class="list-unstyled">
-
-		<li> <a href="#">Possible Menu Item</a> </li>
-    <li> <a href="#">Possible Menu Item</a> </li>
-    <li> <a href="#">Possible Menu Item</a> </li>
-    <li> <a href="#">Possible Menu Item</a> </li>
-    <li> <a href="#">Possible Menu Item</a> </li>
-
-
-	</ul>
-	</div>
+		<div class="quarter">
+			<h5>links</h5>
+			<ul>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+			</ul>
+		</div>
 
 
+		<div class="quarter">
+			<h5>links</h5>
+			<ul>
+				<li> <a href="#">Possible Menu Item</a> </li>
+		    <li> <a href="#">Possible Menu Item</a> </li>
+		    <li> <a href="#">Possible Menu Item</a> </li>
+		    <li> <a href="#">Possible Menu Item</a> </li>
+		    <li> <a href="#">Possible Menu Item</a> </li>
+			</ul>
+		</div>
 
 
-	<div class="quarter omega">
-	 <h3>links</h3>
-		<ul class="list-unstyled">
 
 
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-      <li> <a href="#">Possible Menu Item</a> </li>
-
-
-		</ul>
-	</div>
+		<div class="quarter omega">
+			<h5>links</h5>
+			<ul>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+	      <li> <a href="#">Possible Menu Item</a> </li>
+			</ul>
+		</div>
 
 
 	</div>
@@ -260,9 +293,14 @@
     <!-- make nav bar responsive-->
     <script src="/assets/js/responsive-nav.min.js"></script>
 
+
+    <script src="/assets/js/headroom.js"></script>
+
     <!-- support libraries for background designs in headers -->
+    <!--
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="/assets/js/trianglify.js"></script>
+    -->
 
 
     <script>
@@ -270,20 +308,21 @@
 
             $(document).ready( function() {
 
+
+
                 <!--initialises email concealment js -->
                 $('.e').emailLink();
 
-                <!--initialises trianglify js -->
 
-                var t = new Trianglify();
-                var pattern = t.generate(document.body.clientWidth, 200); // svg width, height
 
-                var t = new Trianglify();
-                var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
-                console.log(pattern.dataUrl);
-                $("#trianglify").css({
-                  'background-image': pattern.dataUrl
-                });
+                <!-- headroom -->
+
+                // grab an element
+                var myElement = document.querySelector("header");
+                // construct an instance of Headroom, passing the element
+                var headroom  = new Headroom(myElement);
+                // initialise
+                headroom.init();
 
             } );
 

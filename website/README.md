@@ -1,6 +1,10 @@
 mpp
 ===
 
+### to be fixed
+
+Right now the top nav.menu, left column, is generating dynamic items. For no reason I can understand it's including main.css as a 'page'. Could be a jekyll bug.
+If we don't resolve it, let's change the items to static.
 
 ### BEFORE this can be hosted in production, remove the line _site/* from .gitignore
 
