@@ -210,18 +210,18 @@ body#post{ //blog posts, right?
 
 }
 
-.container {background:red}
-.circle {
-	display: block;
-	width: 1.7em;
-	height: 1.7em;
-	border-radius: 50%;
-	background: rgba(0,0,0,0.1);
 
-	//text-align: center;
-	font-size: 8em;
-	line-height: 2em;
-	margin-left:30px;
+.circle {
+  display: block;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.1);
+
+  //text-align: center;
+  font-size: 8em;
+  line-height: 2em;
+  margin: 0 auto;
   //margin-left:40px;
 }
 img#glyph{
@@ -251,15 +251,15 @@ padding-top:30px;
 *,
 *:after,
 *::before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 section {
-	position: relative;
-	padding: 7em 0;
-	color: #fff;
+  position: relative;
+  padding: 7em 0;
+  color: #fff;
 
 }
 /*** Individual section styles and separators ***/
@@ -267,31 +267,31 @@ section {
 /* Common style for pseudo-elements */
 section::before,
 section::after {
-	position: absolute;
-	content: '';
-	pointer-events: none;
+  position: absolute;
+  content: '';
+  pointer-events: none;
 }
 
 
 /* Multiple Triangles */
 .section-multitriangles::before,
 .section-multitriangles::after {
-	left: 50%;
-	width: 50px;
-	height: 50px;
-	-webkit-transform: translateX(-50%) rotate(45deg);
-	transform: translateX(-50%) rotate(45deg);
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
 }
 
 .section-multitriangles::before {
-	top: -25px;
-	background: inherit;
-	box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
+  top: -25px;
+  background: inherit;
+  box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
 }
 
 .section-multitriangles::after {
-	bottom: -25px;
-	z-index: 10;
-	background: inherit;
-	box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
+  bottom: -25px;
+  z-index: 10;
+  background: inherit;
+  box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
 }
