@@ -6,6 +6,10 @@
 .float-right{float:right}
 .float-left{float:left}
 
+.pad-right { // this is used by the .half section on the front page that encloses The Mission
+  padding-right:40px;
+}
+
 // omega class
 .omega {@include omega();}
 // wow, this line below adds padding to the MAIN element. works well.
