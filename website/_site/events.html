@@ -60,9 +60,9 @@
 
 
     <!-- desktop next-->
-<div id="header">
+<header class="headroom" id="header">
   <div class="row">
-    <a id="menu-logo" title=" Molecular Programming Project" href="/"> MPP  </a>  
+    <a id="menu-logo" title=" Molecular Programming Project" href="/"> MPP  </a>
 
     <div class="menu ">
       <a href="#" title="Main Navigation" id="navigation">
@@ -76,7 +76,7 @@
   </div>
 
 
-</div>
+</header>
 
 <nav>
 
@@ -435,9 +435,14 @@
     <!-- make nav bar responsive-->
     <script src="/assets/js/responsive-nav.min.js"></script>
 
+
+    <script src="/assets/js/headroom.js"></script>
+
     <!-- support libraries for background designs in headers -->
+    <!--
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="/assets/js/trianglify.js"></script>
+    -->
 
 
     <script>
@@ -445,20 +450,21 @@
 
             $(document).ready( function() {
 
+
+
                 <!--initialises email concealment js -->
                 $('.e').emailLink();
 
-                <!--initialises trianglify js -->
 
-                var t = new Trianglify();
-                var pattern = t.generate(document.body.clientWidth, 200); // svg width, height
 
-                var t = new Trianglify();
-                var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
-                console.log(pattern.dataUrl);
-                $("#trianglify").css({
-                  'background-image': pattern.dataUrl
-                });
+                <!-- headroom -->
+
+                // grab an element
+                var myElement = document.querySelector("header");
+                // construct an instance of Headroom, passing the element
+                var headroom  = new Headroom(myElement);
+                // initialise
+                headroom.init();
 
             } );
 
