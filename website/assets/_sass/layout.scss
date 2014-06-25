@@ -18,10 +18,8 @@
 
 .row {
   @include outer-container;
-  //max-width: 1088px;
-
+  max-width:1100px;
 }
-
 
 
 // main is the outer container on .page and .post pages.
