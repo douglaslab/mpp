@@ -172,17 +172,17 @@
 
       <div id="header-background">
   <div class="row">
-    <header>
+    <div id="top">
       <h2>Welcome to Jekyll! This appears in a h1 tag.</h1>
       <h4>A short sort of introduction to jekyll. This appears in a h2 tag.</h2>
 
+      <p class="meta">
+      <time datetime="May 7, 2014">May 7, 2014</time>
+       • <a href="http://github.com/stgabriel">kris</a>
+      </p>
 
-        <p class="meta"><time datetime="May 7, 2014">May 7, 2014</time>
-         • <a href="http://github.com/stgabriel">kris</a>
-        </p>
 
-
-    </header>
+    </div>
   </div>
 </div>
 
@@ -320,7 +320,17 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
                 // grab an element
                 var myElement = document.querySelector("header");
                 // construct an instance of Headroom, passing the element
-                var headroom  = new Headroom(myElement);
+                var headroom  = new Headroom(myElement, {
+                  "tolerance": 5,
+                  "offset": 205,
+                  "classes": {
+                    "initial": "animated",
+                    "pinned": "slideDown",
+                    "unpinned": "slideUp",
+                    "top": "headroom--top",
+                    "notTop": "headroom--not-top"
+                  }
+                });
                 // initialise
                 headroom.init();
 

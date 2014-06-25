@@ -126,7 +126,7 @@ body.frontpage{
   background:$frontpage-bg;
   color:$frontpage-text;
 
-  #header{background:$frontpage-header}
+  .headroom{background:$frontpage-header}
   p{color:$frontpage-text}
 
   h1,h2,h3,h4,h5,h6,
@@ -148,7 +148,7 @@ body.frontpage{
 
 body#post{ //blog posts, right?
 
-  header{
+  #header-background {
     margin: 0 auto;
     padding: 4.5em 2em;
     text-align: center;

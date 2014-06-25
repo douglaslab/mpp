@@ -25,13 +25,12 @@
 // main is the outer container on .page and .post pages.
 // main is NOT used on frontpage
 .page,.post{
-  header,main {
+  
+  #top,main {
     @include pad(50px 0px);
   }
 
-  header {
 
-  }
 
   main {
 
@@ -101,7 +100,7 @@ body > footer {
 // main is the outer container on .page and .post pages.
 // main is NOT used on frontpage
   .post,.page{
-    main,header {
+    main,#top {
       @include span-columns(4);
     }
   }
@@ -125,7 +124,7 @@ body > footer {
 // main is the outer container on .page and .post pages.
 // main is NOT used on frontpage
   .post,.page{
-    main,header {
+    main,#top {
       @include span-columns(6);
       @include shift(1);
      }
@@ -150,7 +149,7 @@ body > footer {
 // main is the outer container on .page and .post pages.
 // main is NOT used on frontpage
 .post,.page{
-    main,header {
+    main,#top {
       @include span-columns(8);
       @include shift(2);
     }
@@ -169,7 +168,7 @@ body > footer {
 // main is the outer container on .page and .post pages.
 // main is NOT used on frontpage
   .post,.page{
-     main,header {
+     main,#top {
        @include span-columns(8);
        @include shift(4);
      }
