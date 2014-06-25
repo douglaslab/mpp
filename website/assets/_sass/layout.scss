@@ -25,7 +25,7 @@
 // main is the outer container on .page and .post pages.
 // main is NOT used on frontpage
 .page,.post{
-  
+
   #top,main {
     @include pad(50px 0px);
   }
@@ -70,6 +70,17 @@ body > footer {
 */
 
 
+/* front page */
+.icon { // circles with icons, 3 in a row
+  display: block;
+  width: 1.7em;
+  height: 1.7em;
+  margin-bottom:3em;
+  margin: 0 auto 40px auto;
+  padding-bottom:30px;
+}
+// text beneath the icon circles. they needed padding
+.third.centered p {padding:0 15px}
 
 @include media($mobile) {
   // grid has 4 columns in total
@@ -105,11 +116,21 @@ body > footer {
     }
   }
 
+
+  /* front page */
+  .icon { // circles with icons, 3 in a row
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+
 }
 
 
 
 @include media($tablet) { // grid has 8 columns in total
+
+
 
   .hide-on-mobile{display:block;visibility:visible}
   .hide-on-desktop{display:none;visibility:hidden}
@@ -129,6 +150,14 @@ body > footer {
       @include shift(1);
      }
    }
+
+
+  /* front page */
+  .icon { // circles with icons, 3 in a row
+    width: 1.3em;
+    height: 1.3em;
+  }
+
 
 }
 
@@ -154,6 +183,17 @@ body > footer {
       @include shift(2);
     }
   }
+
+  /* front page */
+
+
+  /* front page */
+  .icon { // circles with icons, 3 in a row
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+
 }
 
 @include media($largedesktop) { // grid has 16 columns in total
@@ -173,6 +213,9 @@ body > footer {
        @include shift(4);
      }
    }
+
+
+  /* front page */
 
 
 }

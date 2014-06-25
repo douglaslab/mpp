@@ -44,7 +44,12 @@ h6{@extend .zeta;}
 	.half:first-child{text-align:left}
 }
 */
-
+ol {
+	@extend small;
+	li {
+		margin-bottom:1.3em;
+	}
+}
 
 
 footer {
