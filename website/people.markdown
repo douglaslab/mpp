@@ -1,38 +1,58 @@
 ---
 layout: page
 title:  "People"
+subheading: "People involved with the Molecular Programming Project include:"
 body_class: people
 ---
 
-Here you will find a list of people involved with the Molecular Programming
-Project.
-
-## HH At the California Institute of Technology...
+### HH At the California Institute of Technology...
 
 [Shuki Bruck](http://www.paradise.caltech.edu/bruck.html) (PI)
+
 [Harry Choi](http://piercelab.caltech.edu/) (research scientist)
+
 [David Doty](http://www.dna.caltech.edu/~ddoty/) (postdoc)
+
 [Constantine Evans](http://www.dna.caltech.edu/) (G)
+
 [Ashwin Gopanath](http://www.dna.caltech.edu/) (postdoc)
-[Jongmin Kim](http://www.cds.caltech.edu/~murray/wiki/index.php/Molecular_Prog
+
+[Jongmin Kim](http://www.cds.caltech.edu/~murray/wiki/
+index.php/Molecular_Prog
 ramming_Project) (postdoc)
+
 [Mikhail Hanewich Hollatz](http://piercelab.caltech.edu/) (G)
+
 [Richard Murray](http://www.cds.caltech.edu/~murray) (PI)
+
 [Niles Pierce](http://www.piercelab.caltech.edu/) (PI)
+
 [Lulu Qian](http://qianlab.caltech.edu/people.html) (PI)
+
 [Paul Rothemund](http://www.dna.caltech.edu/~pwkr/) (PI)
+
 [Dan Siegel-Gaskins](http://dantimatter.com/wiki/home) (postdoc)
+
 [Niranjan Srinivas](http://www.its.caltech.edu/~niranjan/Home.html) (G)
+
 [Conrad Steenberg](http://piercelab.caltech.edu/) (research staff)
+
 [Grigory (Greg) Tikhomirov](http://qianlab.caltech.edu/people.html) (postdoc)
+
 [Anu Thubagere](http://www.cms.caltech.edu/) (G)
+
 [Zhiying Wang](http://paradise.caltech.edu/~zhiying/) (G)
+
 [Erik Winfree](http://www.dna.caltech.edu/~winfree) (PI)
+
 [Brian Wolfe](http://piercelab.caltech.edu/) (G)
+
 [Sungwook Woo](http://www.dna.caltech.edu/) (G)
+
 [Damien Woods](http://www.dna.caltech.edu/~woods/) (postdoc)
 
-## At the University of Washington, Seattle...
+
+### At the University of Washington, Seattle...
 
 [Leandra
 Brettner](http://depts.washington.edu/soslab/mw/index.php?title=People) (G)
@@ -48,7 +68,7 @@ ig.html) (PI)
 [David Younger](http://depts.washington.edu/soslab/mw/index.php?title=People)
 (G)
 
-## At Harvard University...
+### At Harvard University...
 
 [Maier Avendano](http://molsys.net/people.html) (Grad)
 [Xi Chen](http://molsys.net/people.html) (Postdoc)
@@ -102,13 +122,13 @@ Hahn](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
 (Grad)
 ...and others...
 
-## At the University of California, San Francisco...
+### At the University of California, San Francisco...
 
 Shawn Douglas (PI)
 Brian O'Donovan (G)
 Parsa Nafisi (G)
 
-## Collaborators around the world...
+### Collaborators around the world...
 
 [David Baker](http://depts.washington.edu/bakerpg/) (UW)
 [Luca Cardelli](http://lucacardelli.name/indexMe.html) (Microsoft Research,

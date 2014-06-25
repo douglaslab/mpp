@@ -1,15 +1,10 @@
 ---
 layout: page
 title: Join Us
+subheading: Molecular Programming Architectures, Abstractions, Algorithms, Applications
 body_class: joinus
 published: true
 ---
-
-# Join Us
-
-
-
-# Molecular Programming Architectures, Abstractions, Algorithms, Applications
 
 
 

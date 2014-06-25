@@ -9,6 +9,7 @@ a:link,a:visited{
 	text-decoration:none;
 }
 
+p+p { text-ident:0}
 h1{@extend .alpha;}
 h2{@extend .beta;}
 h3{@extend .gamma;}
@@ -29,6 +30,12 @@ h6{@extend .zeta;}
 }
 .text-right {
 	text-align:right;
+}
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
 }
 
 /*
