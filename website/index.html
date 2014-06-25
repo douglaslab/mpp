@@ -4,7 +4,6 @@ body_class: frontpage
 title: Home
 ---
 
-
 <section class="frontpage-section">
 	<div class="row">
 
@@ -28,7 +27,6 @@ title: Home
 </section>
 
 
-
 <section class="frontpage-section highlight section-multitriangles">
 	<div class="row">
 				<div class="third centered">
@@ -47,24 +45,7 @@ title: Home
 </section>
 
 
-	<section class="frontpage-section highlight section-multitriangles">
-		<div class="row">
-			<main>
-					<div class="third centered">
-						<span class="icon icon-mobile"></span>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
-					</div>
-					<div class="third centered">
-						<span class="icon icon-drawer"></span>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
-					</div>
-					<div class="third centered">
-						<span class="icon icon-download"></span>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...</p>
-					</div>
-			</main>
-		</div>
-	</section>
+
 
 
 
@@ -82,49 +63,12 @@ title: Home
 			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
 			</p>
 
+
 			</div>
 
-				<div class="half">
+			<div class="half">
 
-					<h4 id="latest-blogs">Latest News<small><a class="green" href="/news/">See All</a></small></h4>
-
-					<!-- slideshow blog list for tablet/desktop -->
-					<div class="posts hide-on-mobile flexslider">
-						<ul class="slides">
-						{% for post in site.posts limit:4 %}
-						<li>
-						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-						<time datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-						{{ post.excerpt }}
-						<a href="{{ post.url }}">Continue Reading &raquo;</a>
-						</li>
-						{% endfor %}
-						</ul>
-						<div class="post-nav"></div>
-					</div>
-
-
-					<!--  blog list for mobile only -->
-					<div class="posts hide-on-desktop hide-on-tablet">
-						<ul id="blog-roll">
-						{% for post in site.posts limit:4 %}
-						<li>
-						<p><a class="green"href="{{ post.url }}">{{ post.title }}</a>
-						<span>{{ post.date | date_to_string }}</span></p>
-					<!--	{{ post.excerpt }} -->
-					<!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->
-						</li>
-						{% endfor %}
-						</ul>
-					</div>
-			</main>
-		</div>
-	</section>
-
-
-
-
-	<br style="clear:both" />
+				<h4 id="latest-blogs">Latest News<small><a class="green" href="/news/">See All</a></small></h4>
 
 				<!-- slideshow blog list for tablet/desktop -->
 				<div class="posts hide-on-mobile flexslider">
@@ -172,18 +116,18 @@ title: Home
 <!--
 <div class="home">
 
-  <h1>Posts</h1>
+	<h1>Posts</h1>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+	<ul class="posts">
+		{% for post in site.posts %}
+			<li>
+				<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+		{% endfor %}
+	</ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
 
