@@ -1,11 +1,9 @@
 ---
 layout: page
 title:  "Software"
-published: false
+subheading: Useful software members of our organistion use or maintain
+published: true
 ---
-
-# Software
-<hr>
 
 
 ##  gro
