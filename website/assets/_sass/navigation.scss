@@ -2,7 +2,7 @@
 nav {
   margin:0px;
 
-
+  hr {margin:3em 0}
 
   h1 {
     margin:40px 0;
@@ -101,10 +101,8 @@ nav time {color:#ccc;font-size:1.5rem;}
 
 nav hr {
   display: block;
-  height: 1px;
-  border: 0;
-  border-top: 5px solid #e64759;
-  margin: 1em 0;
+  border-top: 0;
+  margin: 2em 0;
   padding: 0; }
 
 .headline {
