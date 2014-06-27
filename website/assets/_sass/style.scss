@@ -39,7 +39,15 @@ $frontpage-h1:$lightbrowngray;
   z-index: 20;
 
 }
+// this is the same as headroom, but it appears inside nav
+.header-inside-nav{
+  height:53px;
+  padding-top:7px;
+  background:white;
+  width:100%;
+}
 
+a#menu-logo{margin-top:5px}
 
 /**
  HEADROOM STUFF
