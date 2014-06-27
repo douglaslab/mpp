@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+subheading: Welcome to the 2nd-generation Molecular Programming Project.
 permalink: /about/
 ---
 
@@ -8,7 +9,7 @@ permalink: /about/
 
 
 
-## Welcome to the 2nd-generation Molecular Programming Project.
+
 
 
 Underneath the computer revolution that has changed our lives are the fundamental principles of computer science—these principles have allowed us to master electronic systems with billions of components and software with millions of lines of code to do amazingly complex tasks.

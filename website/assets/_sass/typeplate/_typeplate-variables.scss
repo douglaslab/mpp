@@ -23,12 +23,12 @@ $custom-font-family: false; // Custom font-face stack, if set will be added to t
 // -------------------------------------//
 
 // Text Indentation Value
-$indent-val: 0em;
+$indent-val: 1.5em;
 
 // Paragraph Styling Boolean
 // 'false' means no vertical whitespace
 // between subsequent paragraphs.
-$paragraph-vertical-whitespace: false;
+$paragraph-vertical-whitespace: true;
 
 
 // $Small Print
