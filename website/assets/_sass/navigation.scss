@@ -2,7 +2,7 @@
 nav {
   margin:0px;
 
-  
+
 
   h1 {
     margin:40px 0;
@@ -53,15 +53,18 @@ p a {
 .menu {
   float: right;
   display: block;
-  pointer-events: auto; }
+  pointer-events: auto;
 
-.menu span {
-  width: 30px;
-  height: 4px;
-  margin-bottom: 6px;
-  border-radius: 1000px;
-  display: block;
-  top:4px;
+  span {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 1000px;
+    display: block;
+    top:4px;
+    background:red;
+  }
+
 }
 
 
@@ -100,7 +103,7 @@ nav hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 5px solid #2980b9;
+  border-top: 5px solid #e64759;
   margin: 1em 0;
   padding: 0; }
 
@@ -109,7 +112,7 @@ nav hr {
   margin-bottom: 2em;
   font-weight: bold;
   font-size: 0.77273em;
-  color: #2980b9; }
+  color: #e64759; }
 
 .headline a {
   float: right;
@@ -122,7 +125,7 @@ nav ul {
   padding: 0; }
 
 nav li {
-  border-top: 2px solid #2980b9;
+  border-top: 2px solid #e64759;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -133,10 +136,11 @@ nav li {
   position: relative;
 }
 
+
 nav li:hover,
 nav li.view-all:hover,
 .nav-close span:hover {
-  background: #2980b9;
+  background: #e64759;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -153,7 +157,7 @@ nav li:hover:after { /* right angle bracket on right edge of menu item */
 }
 
 nav li:last-child {
-  border-bottom: 2px solid #2980b9; }
+  border-bottom: 2px solid #e64759; }
 nav li.view-all { /* link to blog index */
   text-transform: none;
   background: #F0EDEA;
@@ -163,7 +167,7 @@ nav li.view-all a {
   left: -6px;
 }
 nav li a {
-  color: #2980b9;
+  color: #e64759;
   width: 100%;
   display: block;
   margin: -0.6em;
@@ -171,18 +175,22 @@ nav li a {
   position: relative; }
 
 nav li a:visited {
-  color: #2980b9; }
+  color: #e64759; }
 
 nav li a:hover {
   color: #fff;
   text-decoration: none; }
+
+nav li time {
+  @extend small;
+}
 
 .nav-close {
   text-align: center;
   margin: 4rem 0 0;
 }
 .nav-close span {
-  background: #2980b9;
+  background: #e64759;
   border-radius: 8px 8px 0 0;
   color:#fff;
   cursor: pointer;

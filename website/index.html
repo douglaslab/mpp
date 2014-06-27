@@ -71,11 +71,11 @@ title: Home
 				<h4 >Latest News<small><a class="float-right" href="/news/">See All</a></small></h4>
 
 				<!-- slideshow blog list for tablet/desktop -->
-				<div class="posts hide-on-mobile flexslider">
+				<div class=" hide-on-mobile flexslider">
 					<ul class="slides">
 					{% for post in site.posts limit:4 %}
 					<li>
-					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+					<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
 					<time datetime="{{ post.date | date: "%b %-d, %Y" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
 				<!--	{{ post.excerpt }} -->
 				{{ post.subheading }}
@@ -92,7 +92,7 @@ title: Home
 					<ul id="blog-roll">
 					{% for post in site.posts limit:4 %}
 					<li>
-					<p><a class="green"href="{{ post.url }}">{{ post.title }}</a>
+					<p><a class="" href="{{ post.url }}">{{ post.title }}</a>
 					<span>{{ post.date | date_to_string }}</span></p>
 				<!--	{{ post.excerpt }} -->
 				<!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->

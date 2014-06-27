@@ -23,11 +23,15 @@ $dimgray:#456d6a;
 $lightdimgray:#567d7a;
 $lightslategray:#699192;
 
-$frontpage-header:$indianred;
-$frontpage-bg:$chocolate;
-$highlight:$brown; //alternating section background color
-$frontpage-text:$lightbrown;
-$frontpage-h1:$lightbrowngray;
+
+$frontpage-header:#fcfcfc;
+$frontpage-bg:#f9f9f9;
+$highlight:#fff; //alternating section background color
+$frontpage-text:#89867e;
+$frontpage-h1:#777;
+$frontpage-h2-h6:#bbb;
+$frontpage-button:#e64759;
+$frontpage-link:#333;
 
 .headroom{ // this is the topbar
   height:53px;
@@ -124,11 +128,8 @@ a#menu-logo{margin-top:5px}
 // END HEADROOM STUFF
 
 
-#navigation{
-//  padding-top:7px;
-  #logo-thing{}
 
-}
+
 
 
 
@@ -152,9 +153,13 @@ body.frontpage{
   .headroom{background:$frontpage-header}
   p{color:$frontpage-text}
 
-  h1,h2,h3,h4,h5,h6,
-    h1 a,h2 a,h3 a,h4 a,h5 a,h6 a
-      {color:$frontpage-h1}
+  h1, h1 a {
+    color:$frontpage-h1;
+  }
+  h2,h3,h4,h5,h6,
+    h2 a,h3 a,h4 a,h5 a,h6 a {
+      color:$frontpage-h2-h6
+      }
 
   // highlight is
   .highlight{background:$highlight;}
@@ -164,9 +169,17 @@ body.frontpage{
   .button-selected,
   a.button-primary,
   a.button-selected {
-      background-color:$darksalmon;
+      background-color:$frontpage-button;
       color: #fff;
   }
+
+  section {
+    a,a:link,a:visited {color:$frontpage-link}
+
+  }
+  footer {
+    background:white
+    }
 }
 
 body#post{ //blog posts, right?
@@ -220,12 +233,7 @@ padding-top:30px;
   box-sizing: border-box;
 }
 
-.frontpage {
-  section {
-  color: #fff;
-  }
 
-}
 /*** Individual section styles and separators ***/
 
 /* Common style for pseudo-elements */
