@@ -2,6 +2,7 @@
 layout: page
 title:  News
 body_class: news
+published: true
 ---
 
 <h1> News</h1>

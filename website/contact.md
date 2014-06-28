@@ -2,6 +2,7 @@
 layout: page
 title:  "Contact Us"
 body_class: contact
+published: true
 ---
 
 # Contact Us

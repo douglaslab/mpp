@@ -3,6 +3,7 @@ layout: page
 title:  "People"
 subheading: "People involved with the Molecular Programming Project include:"
 body_class: people
+published: true
 ---
 
 ### HH At the California Institute of Technology...

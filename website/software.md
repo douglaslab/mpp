@@ -1,7 +1,8 @@
 ---
 layout: page
 title:  "Software"
-subheading: Useful software members of our organistion use or maintain
+subheading: Useful software members of our organistion use or maintain.
+body_class: software
 published: true
 ---
 

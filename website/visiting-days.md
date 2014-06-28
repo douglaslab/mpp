@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Visiting Days
-body_class: outreach
+body_class: visitingdays
 published: true
 ---

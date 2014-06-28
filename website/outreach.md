@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-body_class: research
+body_class: outreach
 published: true
 ---
 
@@ -17,7 +17,7 @@ We sometimes participate in <a href="http://sciencecafe.org">Science Cafes</a>, 
  Molecular Programming "Boot Camp" Summer School: planned for 2011
  <a href="http://www.cds.caltech.edu/~murray/amwiki/index.php/Biomolecular_Feedback_Systems" >Biomolecular Feedback Systems</a>: Book manuscript
 
-## Education 
+## Education
  MPP-related curriculum development
  Caltech BE/CS 191 "Biomolecular Computation"
  <a href="http://www.cds.caltech.edu/~murray/wiki/index.php/ARL/ICB_Crash_Course_in_Systems_Biology,_August_2010" >Crash Course on Systems Biology</a> (ARL supported, included MPP participants)

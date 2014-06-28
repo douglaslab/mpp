@@ -9,19 +9,33 @@ $lightbrown:#ACA7A2;  // text color,frontpage
 $lightbrowngray:#DBDAD9; //h1-h6 frontpage
 
 
-//not yet used
-$indianred:#b1544f;
-$lightindianred:#b76352;
-$darksalmon:#f2977a;
-$sandybrown:#fac85a;
-$darksandybrown:#f1b056;
-$darkkhaki:#c4b565;
-$slategray:#5b9184;
-$gray:#717976;
-$darkdimgray:#477278;
-$dimgray:#456d6a;
-$lightdimgray:#567d7a;
-$lightslategray:#699192;
+$darkseagreen:#8dca9d; //default page header
+$slategray:#666699;//about
+$cadetblue:#699fa6;//contact
+$lightsteelblue:#97c6cc;//events
+$steelblue:#3399cc;//joinus
+$salmon:#fb887c;//labs
+$tomato:#fa524e;//media
+$palevioletred:#cc6699;//news
+$olivedrab:#749222;//outreach
+$goldenrod:#cab80f;//people
+$firebrick:#bf2a2a;//software
+$mediumvioletred:#a71571;//visitingdays
+
+$page-header-default:$darkseagreen;
+
+$page-about:$slategray;
+$page-contact:$cadetblue;
+$page-events:$lightsteelblue;
+$page-joinus:$steelblue;
+$page-labs:$salmon;
+$page-media:$tomato;
+$page-news:$palevioletred;
+$page-outreach:$olivedrab;
+$page-people:$goldenrod;
+$page-software:$firebrick;
+$page-visitingdays:$mediumvioletred;
+
 
 
 $frontpage-header:#fcfcfc;
@@ -53,81 +67,6 @@ $frontpage-link:#333;
 
 a#menu-logo{margin-top:5px}
 
-/**
- HEADROOM STUFF
- */
-
-.header--fixed{
-  position:fixed;
-  z-index:15;
-  right:0;
-  left:0;
-  top:0
-}
-
-/*****/
-
-.animated{-webkit-animation-duration:.5s;
-  -moz-animation-duration:.5s;
-  -o-animation-duration:.5s;
-  animation-duration:.5s;
-  -webkit-animation-fill-mode:both;
-  -moz-animation-fill-mode:both;
-  -o-animation-fill-mode:both;
-  animation-fill-mode:both
-}
-
-.animated.slideDown{
-  -webkit-animation-name:slideDown;
-  -moz-animation-name:slideDown;
-  -o-animation-name:slideDown;
-  animation-name:slideDown
-}
-.animated.slideUp{
-  -webkit-animation-name:slideUp;
-  -moz-animation-name:slideUp;
-  -o-animation-name:slideUp;
-  animation-name:slideUp
-}
-
-
-@-webkit-keyframes slideDown{
-  0%{-webkit-transform:translateY(-100%)}
-  100%{-webkit-transform:translateY(0)}
-}
-@-moz-keyframes slideDown{
-  0%{-moz-transform:translateY(-100%)}
-  100%{-moz-transform:translateY(0)}
-}
-@-o-keyframes slideDown{
-  0%{-o-transform:translateY(-100%)}
-  100%{-o-transform:translateY(0)}
-}
-@keyframes slideDown{
-  0%{transform:translateY(-100%)}
-  100%{transform:translateY(0)}
-}
-
-@-webkit-keyframes slideUp{
-  0%{-webkit-transform:translateY(0)}
-  100%{-webkit-transform:translateY(-100%)}
-}
-@-moz-keyframes slideUp{
-  0%{-moz-transform:translateY(0)}
-  100%{-moz-transform:translateY(-100%)}
-}
-@-o-keyframes slideUp{
-  0%{-o-transform:translateY(0)}
-  100%{-o-transform:translateY(-100%)}
-}
-@keyframes slideUp{
-  0%{transform:translateY(0)}
-  100%{transform:translateY(-100%)}
-}
-
-// END HEADROOM STUFF
-
-
 
 
 
@@ -136,12 +75,103 @@ a#menu-logo{margin-top:5px}
 body {
   margin: 0;
 }
+
 body.page,body.post{
   #header-background{
-    background:$sandybrown;
-    h2,h4{color:white}
+    background:$page-header-default;
+    h1,h2{color:white}
+    h2 {opacity:0.8;}
     // meta is time and author in the header
     .meta, .meta a{color:white;}
+  }
+
+}
+body.page.about{
+  #header-background{
+    background:$page-about;
+  }
+  main a:link,main a:visited{
+    color:$page-about;
+  }
+}
+body.page.contact{
+  #header-background{
+    background:$page-contact;
+  }
+  main a:link,main a:visited{
+    color:$page-contact;
+  }
+}
+body.page.events{
+  #header-background{
+    background:$page-events;
+  }
+  main a:link,main a:visited{
+    color:$page-events;
+  }
+}
+body.page.joinus{
+  #header-background{
+    background:$page-joinus;
+  }
+  main a:link,main a:visited{
+    color:$page-joinus;
+  }
+}
+body.page.labs{
+  #header-background{
+    background:$page-labs;
+  }
+  main a:link,main a:visited{
+    color:$page-labs;
+  }
+}
+body.page.media{
+  #header-background{
+    background:$page-media;
+  }
+  main a:link,main a:visited{
+    color:$page-media;
+  }
+}
+body.page.news{
+  #header-background{
+    background:$page-news;
+  }
+  main a:link,main a:visited{
+    color:$page-news;
+  }
+}
+body.page.outreach{
+  #header-background{
+    background:$page-outreach;
+  }
+  main a:link,main a:visited{
+    color:$page-outreach;
+  }
+}
+body.page.people{
+  #header-background{
+    background:$page-people;
+  }
+  main a:link,main a:visited{
+    color:$page-people;
+  }
+}
+body.page.software{
+  #header-background{
+    background:$page-software;
+  }
+  main a:link,main a:visited{
+    color:$page-software;
+  }
+}
+body.page.visitingdays{
+  #header-background{
+    background:$page-visitingdays;
+  }
+  main a:link,main a:visited{
+    color:$page-visitingdays;
   }
 }
 
@@ -267,3 +297,79 @@ section::after {
   background: inherit;
   box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
 }
+
+
+
+/**
+ HEADROOM STUFF
+ */
+
+.header--fixed{
+  position:fixed;
+  z-index:15;
+  right:0;
+  left:0;
+  top:0
+}
+
+/*****/
+
+.animated{-webkit-animation-duration:.5s;
+  -moz-animation-duration:.5s;
+  -o-animation-duration:.5s;
+  animation-duration:.5s;
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both
+}
+
+.animated.slideDown{
+  -webkit-animation-name:slideDown;
+  -moz-animation-name:slideDown;
+  -o-animation-name:slideDown;
+  animation-name:slideDown
+}
+.animated.slideUp{
+  -webkit-animation-name:slideUp;
+  -moz-animation-name:slideUp;
+  -o-animation-name:slideUp;
+  animation-name:slideUp
+}
+
+
+@-webkit-keyframes slideDown{
+  0%{-webkit-transform:translateY(-100%)}
+  100%{-webkit-transform:translateY(0)}
+}
+@-moz-keyframes slideDown{
+  0%{-moz-transform:translateY(-100%)}
+  100%{-moz-transform:translateY(0)}
+}
+@-o-keyframes slideDown{
+  0%{-o-transform:translateY(-100%)}
+  100%{-o-transform:translateY(0)}
+}
+@keyframes slideDown{
+  0%{transform:translateY(-100%)}
+  100%{transform:translateY(0)}
+}
+
+@-webkit-keyframes slideUp{
+  0%{-webkit-transform:translateY(0)}
+  100%{-webkit-transform:translateY(-100%)}
+}
+@-moz-keyframes slideUp{
+  0%{-moz-transform:translateY(0)}
+  100%{-moz-transform:translateY(-100%)}
+}
+@-o-keyframes slideUp{
+  0%{-o-transform:translateY(0)}
+  100%{-o-transform:translateY(-100%)}
+}
+@keyframes slideUp{
+  0%{transform:translateY(0)}
+  100%{transform:translateY(-100%)}
+}
+
+// END HEADROOM STUFF
