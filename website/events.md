@@ -5,8 +5,6 @@ body_class: events
 published: true
 ---
 
-# Events Calendar
-
 Subgroup meetings and supergroup meetings are held in the New Media Classroom (Caltech, [File:NMCmap.pdf][2]) or Kane Hall Room 019 (UW) at 3:00pm unless otherwise noted.
 
 ##  2014

@@ -3,10 +3,6 @@
 /* http://mycolorscreen.com/2013/12/06/flat-v-for-themer/ */
 /* so use all of them together. no whites or grays! */
 
-$chocolate:#4d433d; // frontpage
-$brown:#463d37; //highlight
-$lightbrown:#ACA7A2;  // text color,frontpage
-$lightbrowngray:#DBDAD9; //h1-h6 frontpage
 
 
 $darkseagreen:#8dca9d; //default page header
@@ -196,8 +192,11 @@ body.frontpage{
 
   //buttons
   .button-primary,
+
   .button-selected,
-  a.button-primary,
+  a.button-primary:link,
+  a.button-primary:visited,
+
   a.button-selected {
       background-color:$frontpage-button;
       color: #fff;
@@ -208,7 +207,8 @@ body.frontpage{
 
   }
   footer {
-    background:white
+    background:white;
+    a:link,a:visited{color:black;font-weight:400}
     }
 }
 
