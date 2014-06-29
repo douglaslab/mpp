@@ -48,6 +48,15 @@ body > footer {
 }
 
 
+.share-row {
+  @include pad(40px 0px 55px 0);
+  ul#share-buttons{
+    list-style-type:none;
+    li {float:left;margin-left:20px;}
+  }
+
+}
+
 
 
 
