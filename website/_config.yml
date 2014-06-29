@@ -10,6 +10,14 @@ url: "http://localhost:4000"
 markdown: kramdown
 permalinks: pretty
 
+#opengraph stuff
+og_image: assets/images/icon-300x300.jpg # Default image for Open Graph tag
+og_image_type: image/jpg
+og_image_width: 300
+og_image_height: 300
+#fb_profile_id: cooltrainer.org
+#fb_admins: 000000
+
 # pagination
 paginate: 5
 paginate_path: "news/page:num/index.html"

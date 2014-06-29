@@ -1,0 +1,32 @@
+<div class=" share-row">
+  <div class="row">
+    <div class="">
+      <ul  id="share-buttons">
+        <li>
+          Share this on
+        </li>
+
+        <li>
+          <a href="https://www.facebook.com/sharer.php?s=100&amp;p%5Burl%5D={{ canonical }}&amp;p%5Bimages%5D%5B0%5D={{ site.url }}/{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}&amp;p%5Btitle%5D={{ page.title }}&amp;p%5Bsummary%5D={{ description }}" class="button facebook">Facebook</a>
+        </li>
+
+        <li>
+
+          <a href="https://plus.google.com/share?url={{ canonical }}" class="button googleplus">Google+</a>
+        </li>
+
+
+
+        <li>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ canonical }}&amp;title={{ page.title }}&amp;summary={{ page.subheading }}" class="button linkedin">LinkedIn</a>
+        </li>
+
+        <li>
+          <a href=https://twitter.com/intent/tweet?url={{ canonical }}&amp;text={% if page.title %}{{ page.title | escape | truncate:80 | replace:' ','%20' }}{% else %}{{ site.title | escape | truncate:80 | replace:' ','%20' }}{% endif %} class="button twitter">Twitter</a>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+</div>
