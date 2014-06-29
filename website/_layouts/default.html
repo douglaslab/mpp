@@ -2,23 +2,26 @@
 <html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
   <head>
+    {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% elsif site.permalink contains category_dir %}{{ '/' | page.url | remove:'index.html' | '/' }}{% else %}{{ page.url | remove:'index.html' | '/' }}{% endif %}{% endcapture %}
+    {% capture title %}{% if page.title %}{{ page.title }} {% else %} {{% site.title %}}{% endif %}{% endcapture %}
+    {% capture description %}{% if page.subheading %}{{ page.subheading }}{% else %}{{ content | raw_content | strip_html | condense_spaces | truncate:300 }}{% endif %}{% endcapture %}
+    {% capture image %}{% if site.url contains 'https://' %}{{ site.url | replace:'https://','http://' }}{% else %}{{ site.url }}{% endif %}/{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}{% endcapture %}
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+    <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+    <meta name="description" content="{{ description }}">
+    <link rel="canonical" href="{{ canonical }}">
 
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% else %}{% endif %}">
+    <meta property="og:title" content="{{ title }}">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="en_US">
-    {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% elsif site.permalink contains category_dir %}{{ '/' | page.url | remove:'index.html' | '/' }}{% else %}{{ page.url | remove:'index.html' | '/' }}{% endif %}{% endcapture %}
-    {% capture description %}{% if page.subheading %}{{ page.subheading }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
-    {% capture image %}{% if site.url contains 'https://' %}{{ site.url | replace:'https://','http://' }}{% else %}{{ site.url }}{% endif %}/{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}{% endcapture %}
+
+
     <meta property="og:url" content="{{ canonical }}">
-    <meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:300 }}">
+    <meta property="og:description" content="{{ description }}">
     <meta property="og:image" content="{{ image }}">
     {% if site.url contains 'https://' %}<meta property="og:image:secure_url" content="{{ site.url }}/{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">{% endif %}
     <meta property="og:image:type" content="{% if page.og_image %}{{ page.og_image_type }}{% else %}{{ site.og_image_type }}{% endif %}">
