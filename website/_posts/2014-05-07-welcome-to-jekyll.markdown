@@ -6,6 +6,7 @@ date:   2014-05-07 16:39:46
 author: kris
 author_url: http://github.com/stgabriel
 categories: jekyll update
+published: true
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
