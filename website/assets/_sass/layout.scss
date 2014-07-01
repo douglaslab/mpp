@@ -49,8 +49,9 @@ body > footer {
 
 
 .share-row {
-  @include pad(40px 0px 55px 0);
+  @include pad(50px 0px 50px 0);
   ul#share-buttons{
+    margin:0 auto;
     list-style-type:none;
     li {float:left;margin-left:20px;}
   }
@@ -105,7 +106,6 @@ body > footer {
 
    // HIDE ON MOBILE
   .hide-on-mobile{display:none;visibility:hidden}
-  .hide-on-desktop{display:block;visibility:visible}
 
   .row {
     // give content some breathing room on small screens
@@ -145,7 +145,8 @@ body > footer {
     height: 1.5em;
   }
 
-
+  // share icons in footer
+  ul#share-buttons{width:400px;}
 }
 
 
@@ -155,6 +156,7 @@ body > footer {
 
 
   .hide-on-mobile{display:block;visibility:visible}
+  .hide-on-tablet{display:none;visibility:hidden}
   .hide-on-desktop{display:none;visibility:hidden}
 
 //   aside section {@include span-columns(3);}
@@ -185,6 +187,9 @@ body > footer {
   }
 
 
+  // share icons in footer
+  ul#share-buttons{width:700px;}
+
 }
 
 
@@ -193,6 +198,9 @@ body > footer {
 
 @include media($desktop) { // grid has 12 columns in total
 
+  .hide-on-mobile{display:block;visibility:visible}
+  .hide-on-tablet{display:block;visibility:visible}
+  .hide-on-desktop{display:block;visibility:visible}
 
 //  aside section {@include span-columns(4);}
   .third{@include span-columns(4);}
@@ -219,6 +227,8 @@ body > footer {
     height: 1.5em;
   }
 
+  // share icons in footer
+  ul#share-buttons{width:860px;}
 
 }
 
