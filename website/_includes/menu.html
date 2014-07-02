@@ -1,0 +1,99 @@
+<nav>
+
+<!-- desktop next-->
+<header class="header-inside-nav">
+	<div class="row">
+		<a id="menu-logo" title=" {{ site.title }}" href="/"> {{ site.name }}  </a>
+
+		<div class="menu ">
+			<a href="#" title="Main Navigation" id="navigation">
+				<span></span>
+				<span></span>
+				<span></span>
+				<p>Menu</p>
+
+			</a>
+		</div>
+
+	</div>
+
+
+</header>
+
+
+
+	<div class="row">
+		<a title="{{ site.title }}" href="{{ site.url }}"><h1> Molecular Programming Project </h1> </a>
+
+	</div>
+
+
+	<div class="row">
+
+
+
+
+
+		<div class="half">
+			<h5>Sections</h5>
+			<ul class="horizontal">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/contact.html">Contact Us</a></li>
+				<li><a href="/events.html">Events Calendar</a></li>
+				<li><a href="/feed.xml">RSS Feed</a></li>
+				<li><a href="/join-us.html">Join Us</a></li>
+				<li><a href="/labs.html">Labs</a></li>
+			</ul>
+		</div>
+
+		<div class="half">
+			<h5>Sections</h5>
+			<ul class="horizontal">
+				<li><a href="/media.html">Media</a></li>
+				<li><a href="/news/">News</a></li>
+				<li><a href="/outreach.html">Research</a></li>
+				<li><a href="/people.html">People</a></li>
+				<li><a href="/visiting-days.html">Visiting Days</a></li>
+				<li><a href="/software.html">Software</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="row">
+		<hr>
+	</div>
+
+	<div class="row">
+
+		<h5>Latest News</h5>
+
+		<ul class="posts">
+			{% for post in site.posts offset: 0 limit: 8 %}
+				<li>
+					<a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+					<time>{{ post.date | date: "%b %-d, %Y" }}</time></a>
+
+				</li>
+			{% endfor %}
+		</ul>
+
+		<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+
+	</div>
+
+
+		<p class="nav-close"><span><i class="icon-up-open-mini"></i>close navigation menu<i class="icon-up-open-mini"></i></span></p>
+
+</nav>
+
+
+<!--
+
+{% for page in site.pages %}
+	<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+{% endfor %}
+
+-->

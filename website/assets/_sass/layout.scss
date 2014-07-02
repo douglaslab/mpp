@@ -1,0 +1,257 @@
+
+
+
+
+
+.float-right{float:right}
+.float-left{float:left}
+
+.pad-right { // this is used by the .half section on the front page that encloses The Mission
+  padding-right:40px;
+}
+
+// omega class
+.omega {@include omega();}
+// wow, this line below adds padding to the MAIN element. works well.
+// normally id add this to aside and section instead. lets roll with this.
+//  @include pad(30px 0px);
+
+.row {
+  @include outer-container;
+  max-width:1100px;
+}
+
+
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+.page,.post{
+
+  #top {
+    @include pad(90px 0px 40px 0);
+  }
+
+  main {
+    @include pad(30px 0px 30px 0);
+
+  }
+
+
+}
+
+
+
+
+
+
+body > footer {
+    padding-top: 2rem;
+}
+
+
+.share-row {
+  @include pad(50px 0px 50px 0);
+  ul#share-buttons{
+    margin:0 auto;
+    list-style-type:none;
+    li {float:left;margin-left:20px;}
+  }
+
+}
+
+
+
+
+.page_number {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 0 0.5em;
+}
+
+/*
+// dont do this in this template
+.quarter:last-child,
+.third:last-child,
+.two-thirds:last-child { text-align: justify; }
+*/
+
+
+/* front page */
+.frontpage {
+  section {
+    position: relative;
+    padding: 4em 0;
+  }
+
+  #top-of-page{
+    padding-top:6em;
+  }
+}
+.icon { // circles with icons, 3 in a row
+  display: block;
+  width: 1.7em;
+  height: 1.7em;
+  margin-bottom:3em;
+  margin: 0 auto 40px auto;
+  padding-bottom:30px;
+}
+// text beneath the icon circles. they needed padding
+.third.centered p {padding:0 15px}
+
+
+
+@include media($mobile) {
+  // grid has 4 columns in total
+  // see grid-settings for more info about media query widths.
+
+
+   // HIDE ON MOBILE
+  .hide-on-mobile{display:none;visibility:hidden}
+
+  .row {
+    // give content some breathing room on small screens
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+
+//  aside section{@include span-columns(4);}
+
+  // is this next line still necessary?
+  //.main .row { padding-bottom: 0 }
+
+  .third{@include span-columns(4);}
+  .two-thirds{@include span-columns(4);}
+  .half {@include span-columns(4);}
+  .quarter{@include span-columns(4);}
+
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+  .post,.page{
+    main,#top {
+      @include span-columns(4);
+    }
+  }
+
+
+  /* front page */
+
+  #greeting{
+    text-align:center;
+    margin-bottom:40px;
+    }
+
+  .icon { // circles with icons, 3 in a row
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  // share icons in footer
+  ul#share-buttons{width:400px;}
+}
+
+
+
+@include media($tablet) { // grid has 8 columns in total
+
+
+
+  .hide-on-mobile{display:block;visibility:visible}
+  .hide-on-tablet{display:none;visibility:hidden}
+  .hide-on-desktop{display:none;visibility:hidden}
+
+//   aside section {@include span-columns(3);}
+  .third{ @include span-columns(2.6);}
+  .two-thirds{@include span-columns(5.2);}
+  .half {@include span-columns(4);}
+  .quarter{@include span-columns(2);}
+
+
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+  .post,.page{
+    main,#top {
+      @include span-columns(6);
+      @include shift(1);
+     }
+   }
+
+
+  /* front page */
+
+
+  #greeting {text-align:right}
+
+  .icon { // circles with icons, 3 in a row
+    width: 1.3em;
+    height: 1.3em;
+  }
+
+
+  // share icons in footer
+  ul#share-buttons{width:700px;}
+
+}
+
+
+
+
+
+@include media($desktop) { // grid has 12 columns in total
+
+  .hide-on-mobile{display:block;visibility:visible}
+  .hide-on-tablet{display:block;visibility:visible}
+  .hide-on-desktop{display:block;visibility:visible}
+
+//  aside section {@include span-columns(4);}
+  .third{@include span-columns(4);}
+  .two-thirds{@include span-columns(8);}
+  .half {@include span-columns(6);}
+  .quarter{@include span-columns(3);}
+   footer { padding: 0; }
+
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+.post,.page{
+    main,#top {
+      @include span-columns(8);
+      @include shift(2);
+    }
+  }
+
+  /* front page */
+
+
+  /* front page */
+  .icon { // circles with icons, 3 in a row
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  // share icons in footer
+  ul#share-buttons{width:860px;}
+
+}
+
+@include media($largedesktop) { // grid has 16 columns in total
+
+  //  aside section {@include span-columns(5);}
+   .third{@include span-columns(5);} // fractional columns! close enough for browsers to round up to 16 total
+   .two-thirds{@include span-columns(11);}
+   .half {@include span-columns(8);}
+   .quarter{@include span-columns(4);}
+
+
+// main is the outer container on .page and .post pages.
+// main is NOT used on frontpage
+  .post,.page{
+     main,#top {
+       @include span-columns(8);
+       @include shift(4);
+     }
+   }
+
+
+  /* front page */
+
+
+}

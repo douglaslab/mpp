@@ -1,0 +1,39 @@
+---
+---
+
+// IMPORTANT. LEAVE the two lines of --- above, or Jekyll wont parse this file into .css
+
+// NEXT: all the *.scss files are under /assets/_sass - and
+// they all get compiled and compressed into /css/main.css
+
+// The semantic grid we use is called 'neat', which has bourbon as its dependency.
+// Here's how I installed it locally before adding it to the repo.
+// (You don't need to do this, dont worry)
+// https://github.com/thoughtbot/neat#requirements
+//
+// Examples of neat can be found here:
+// http://neat.bourbon.io/examples/
+//
+// Remember, the bourbon and neat libraries included here are stored in /assets/_sass
+// And that location is set in the _config.yml file
+@import "bourbon/bourbon";
+
+// grid settings, important
+@import "grid-settings";
+
+// the bourbon grid stuff
+@import "neat/neat";
+
+// the typeplate library
+@import "typeplate/typeplate-variables";
+@import "typeplate/typeplate";
+
+// everything to do with sizes of elements are in here
+// particularly the media query stuff
+// remember, I am found in /assets/_sass
+
+@import "layout";
+@import "buttons";
+@import "style";
+@import "navigation";
+@import "typography";

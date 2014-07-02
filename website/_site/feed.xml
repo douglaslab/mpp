@@ -7,7 +7,16 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Dummy Post.</title>
+        <description>&lt;p&gt;Blah blah&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Jun 2014 12:39:46 -0400</pubDate>
+        <link>/jekyll/stuff/2014/06/20/dummy-post.html</link>
+        <guid isPermaLink="true">/jekyll/stuff/2014/06/20/dummy-post.html</guid>
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll! This appears in a h1 tag.</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
@@ -22,7 +31,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 07 May 2014 09:39:46 -0700</pubDate>
+        <pubDate>Wed, 07 May 2014 12:39:46 -0400</pubDate>
         <link>/jekyll/update/2014/05/07/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">/jekyll/update/2014/05/07/welcome-to-jekyll.html</guid>
       </item>

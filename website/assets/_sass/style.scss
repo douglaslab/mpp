@@ -1,0 +1,389 @@
+/* COLORS */
+
+
+
+
+$darkseagreen:#8dca9d; //default page header
+$slategray:#666699;//about
+$cadetblue:#699fa6;//contact
+$lightsteelblue:#97c6cc;//events
+$steelblue:#3399cc;//joinus
+$salmon:#fb887c;//labs
+$tomato:#fa524e;//media
+$palevioletred:#cc6699;//news
+$olivedrab:#749222;//outreach
+$goldenrod:#cab80f;//people
+$firebrick:#bf2a2a;//software
+$mediumvioletred:#a71571;//visitingdays
+
+$page-header-default:$darkseagreen;//if no specifid header color, page header will be darkseagreen.
+
+$page-about:$slategray;
+$page-contact:$cadetblue;
+$page-events:$lightsteelblue;
+$page-joinus:$steelblue;
+$page-labs:$salmon;
+$page-media:$tomato;
+$page-news:$palevioletred;
+$page-outreach:$olivedrab;
+$page-people:$goldenrod;
+$page-software:$firebrick;
+$page-visitingdays:$mediumvioletred;
+
+
+/*
+$frontpage-header:#fcfcfc;
+$frontpage-bg:#f9f9f9;
+$highlight:#fff; //alternating section background color
+$frontpage-text:#89867e;
+$frontpage-h1:#777;
+$frontpage-h2-h6:#bbb;
+$frontpage-button:#e64759;
+$frontpage-link:#333;
+*/
+
+$frontpage-header:#eceef2;
+$frontpage-bg:#fff;
+$highlight:#eceef2; //alternating section background color
+$frontpage-text:#5d6268;
+$frontpage-h1:#5d6268;
+$frontpage-h2-h6:#bbb;
+$frontpage-button:#e64759;
+$frontpage-link:#333;
+
+
+
+.headroom{ // this is the topbar
+  height:53px;
+  padding-top:7px;
+  background:white;
+//  position:fixed;
+//  margin:0;
+  width:100%;
+  z-index: 20;
+
+}
+// this is the same as headroom, but it appears inside nav
+.header-inside-nav{
+  height:53px;
+  padding-top:7px;
+  background:white;
+  width:100%;
+}
+
+a#menu-logo{margin-top:5px}
+
+
+
+
+
+
+body {
+  margin: 0;
+}
+
+body.page,body.post{
+  #header-background{
+    background:$page-header-default;
+    h1,h2{color:white}
+    h2 {opacity:0.8;}
+    // meta is time and author in the header
+    .meta, .meta a{color:white;}
+  }
+
+}
+body.page.about{
+  #header-background{
+    background:$page-about;
+  }
+  main a:link,main a:visited{
+    color:$page-about;
+  }
+}
+body.page.contact{
+  #header-background{
+    background:$page-contact;
+  }
+  main a:link,main a:visited{
+    color:$page-contact;
+  }
+}
+body.page.events{
+  #header-background{
+    background:$page-events;
+  }
+  main a:link,main a:visited{
+    color:$page-events;
+  }
+}
+body.page.joinus{
+  #header-background{
+    background:$page-joinus;
+  }
+  main a:link,main a:visited{
+    color:$page-joinus;
+  }
+}
+body.page.labs{
+  #header-background{
+    background:$page-labs;
+  }
+  main a:link,main a:visited{
+    color:$page-labs;
+  }
+}
+body.page.media{
+  #header-background{
+    background:$page-media;
+  }
+  main a:link,main a:visited{
+    color:$page-media;
+  }
+}
+body.page.news{
+  #header-background{
+    background:$page-news;
+  }
+  main a:link,main a:visited{
+    color:$page-news;
+  }
+}
+body.page.outreach{
+  #header-background{
+    background:$page-outreach;
+  }
+  main a:link,main a:visited{
+    color:$page-outreach;
+  }
+}
+body.page.people{
+  #header-background{
+    background:$page-people;
+  }
+  main a:link,main a:visited{
+    color:$page-people;
+  }
+}
+body.page.software{
+  #header-background{
+    background:$page-software;
+  }
+  main a:link,main a:visited{
+    color:$page-software;
+  }
+}
+body.page.visitingdays{
+  #header-background{
+    background:$page-visitingdays;
+  }
+  main a:link,main a:visited{
+    color:$page-visitingdays;
+  }
+}
+
+body.frontpage{
+
+  background:$frontpage-bg;
+  color:$frontpage-text;
+
+  .headroom{background:$frontpage-header}
+  p{color:$frontpage-text}
+
+  h1, h1 a {
+    color:$frontpage-h1;
+  }
+  h2,h3,h4,h5,h6,
+    h2 a,h3 a,h4 a,h5 a,h6 a {
+      color:$frontpage-h2-h6
+      }
+
+  // highlight is
+  .highlight{background:$highlight;}
+
+  //buttons
+  .button-primary,
+
+  .button-selected,
+  a.button-primary:link,
+  a.button-primary:visited,
+
+  a.button-selected {
+      background-color:$frontpage-button;
+      color: #fff;
+  }
+
+  section {
+    a,a:link,a:visited {color:$frontpage-link}
+
+  }
+  footer {
+    background:white;
+    a:link,a:visited{color:black;font-weight:400}
+    }
+}
+
+body#post{ //blog posts, right?
+
+  #header-background {
+
+  }
+
+}
+
+.share-row{
+    background:#d8dbe1;
+}
+
+
+.circle {
+  display: block;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.1);
+
+  //text-align: center;
+  font-size: 8em;
+  line-height: 2em;
+  margin: 0 auto;
+  //margin-left:40px;
+}
+img#glyph{
+
+  display: block;
+margin:0 auto;
+padding-top:30px;
+
+}
+
+//  .icon is as yet not used
+.icon {
+  border-radius: 50%;
+  background: rgba(0,0,0,0.1);
+  color: #fff;
+  text-align: center;
+  font-size: 8em;
+  line-height: 2em;
+
+}
+
+
+// separators
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/*** Individual section styles and separators ***/
+
+/* Common style for pseudo-elements */
+section::before,
+section::after {
+  position: absolute;
+  content: '';
+  pointer-events: none;
+}
+
+
+/* Multiple Triangles */
+.section-multitriangles::before,
+.section-multitriangles::after {
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.section-multitriangles::before {
+  top: -25px;
+  background: inherit;
+  box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
+}
+
+.section-multitriangles::after {
+  bottom: -25px;
+  z-index: 10;
+  background: inherit;
+  box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
+}
+
+
+
+/**
+ HEADROOM STUFF
+ */
+
+.header--fixed{
+  position:fixed;
+  z-index:15;
+  right:0;
+  left:0;
+  top:0
+}
+
+/*****/
+
+.animated{-webkit-animation-duration:.5s;
+  -moz-animation-duration:.5s;
+  -o-animation-duration:.5s;
+  animation-duration:.5s;
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both
+}
+
+.animated.slideDown{
+  -webkit-animation-name:slideDown;
+  -moz-animation-name:slideDown;
+  -o-animation-name:slideDown;
+  animation-name:slideDown
+}
+.animated.slideUp{
+  -webkit-animation-name:slideUp;
+  -moz-animation-name:slideUp;
+  -o-animation-name:slideUp;
+  animation-name:slideUp
+}
+
+
+@-webkit-keyframes slideDown{
+  0%{-webkit-transform:translateY(-100%)}
+  100%{-webkit-transform:translateY(0)}
+}
+@-moz-keyframes slideDown{
+  0%{-moz-transform:translateY(-100%)}
+  100%{-moz-transform:translateY(0)}
+}
+@-o-keyframes slideDown{
+  0%{-o-transform:translateY(-100%)}
+  100%{-o-transform:translateY(0)}
+}
+@keyframes slideDown{
+  0%{transform:translateY(-100%)}
+  100%{transform:translateY(0)}
+}
+
+@-webkit-keyframes slideUp{
+  0%{-webkit-transform:translateY(0)}
+  100%{-webkit-transform:translateY(-100%)}
+}
+@-moz-keyframes slideUp{
+  0%{-moz-transform:translateY(0)}
+  100%{-moz-transform:translateY(-100%)}
+}
+@-o-keyframes slideUp{
+  0%{-o-transform:translateY(0)}
+  100%{-o-transform:translateY(-100%)}
+}
+@keyframes slideUp{
+  0%{transform:translateY(0)}
+  100%{transform:translateY(-100%)}
+}
+
+// END HEADROOM STUFF

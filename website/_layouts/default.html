@@ -1,19 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
-  {% include head.html %}
+  <head>
+    {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% elsif site.permalink contains category_dir %}{{ '/' | page.url | remove:'index.html' | '/' }}{% else %}{{ page.url | remove:'index.html' | '/' }}{% endif %}{% endcapture %}
+    {% capture title %}{% if page.title %}{{ page.title }} {% else %} {{% site.title %}}{% endif %}{% endcapture %}
+    {% capture description %}{% if page.subheading %}{{ page.subheading }}{% else %}{{ content | raw_content | strip_html | condense_spaces | truncate:300 }}{% endif %}{% endcapture %}
+    {% capture image %}{% if site.url contains 'https://' %}{{ site.url | replace:'https://','http://' }}{% else %}{{ site.url }}{% endif %}/{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}{% endcapture %}
 
-    <body>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ description }}">
+    <link rel="canonical" href="{{ canonical }}">
 
-    {% include header.html %}
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="en_US">
 
-    <div class="page-content">
-      <div class="wrap">
+
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="{{ image }}">
+    {% if site.url contains 'https://' %}<meta property="og:image:secure_url" content="{{ site.url }}/{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">{% endif %}
+    <meta property="og:image:type" content="{% if page.og_image %}{{ page.og_image_type }}{% else %}{{ site.og_image_type }}{% endif %}">
+    <meta property="og:image:width" content="{% if page.og_image %}{{ page.og_image_width }}{% else %}{{ site.og_image_width }}{% endif %}">
+    <meta property="og:image:height" content="{% if page.og_image %}{{ page.og_image_height }}{% else %}{{ site.og_image_height }}{% endif %}">
+
+    <!-- rss feed autodiscovery link -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} News" href="{{ site.url }}/feed.xml" />
+
+    <!-- Mobile Screen Resizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
+    <link rel="icon" href="/assets/images/icons/favicon-32.png" sizes="32x32">
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/icons/favicon-152.png">
+    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/icons/favicon-144.png">
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/images/icons/favicon-120.png">
+    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon-114.png">
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/icons/favicon-72.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/icons/favicon-57.png">
+    <!-- Microsoft icon -->
+    <meta name="msapplication-TileColor" content="#6cc4fc"/>
+    <meta name="msapplication-TileImage" content="/assets/images/icons/favicon-144.png"/>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+
+
+
+    <!-- HTML5 Shim for IE 6-8 -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+
+  <body class="{% if page.type_class %}{{ page.type_class }}{% endif %} {% if page.body_class %}{{ page.body_class }}{% endif %}">
+    <!-- Old Browser Warning -->
+    <!--[if lt IE 8]>
+      <section class="container">
+          Did you know that your web browser is a bit old? Some of the content on this site might not work right as a result. <a href="http://whatbrowser.org">Upgrade your browser</a> for a faster, better, and safer web experience.
+      </section>
+    <![endif]-->
+
+
+
+    {% include navigation.html %}
+
+    {% include menu.html %}
+
+
+
+
+
       {{ content }}
-      </div>
-    </div>
+
+    {% include share.html %}
 
     {% include footer.html %}
+
+
+
+    <!-- Javascript -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <!-- navigation slide-down -->
+    <script src="/assets/js/rapid.js"></script>
+
+    <!--conceal email adderess-->
+    <script src="/assets/js/concealemail.js"></script>
+
+    <!-- make nav bar responsive-->
+    <script src="/assets/js/responsive-nav.min.js"></script>
+
+
+    <script src="/assets/js/headroom.js"></script>
+
+    <!-- support libraries for background designs in headers -->
+    <!--
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="/assets/js/trianglify.js"></script>
+    -->
+
+
+    <script>
+        (function($) {
+
+            $(document).ready( function() {
+
+
+
+                <!--initialises email concealment js -->
+                $('.e').emailLink();
+
+
+
+                <!-- headroom -->
+
+                // grab an element
+                var myElement = document.querySelector("header");
+                // construct an instance of Headroom, passing the element
+                var headroom  = new Headroom(myElement, {
+                  "tolerance": 5,
+                  "offset": 50,
+                  "classes": {
+                    "initial": "animated",
+                    "pinned": "slideDown",
+                    "unpinned": "slideUp",
+                    "top": "headroom--top",
+                    "notTop": "headroom--not-top"
+                  }
+                });
+                // initialise
+                headroom.init();
+
+            } );
+
+        })(jQuery);
+    </script>
+
 
     </body>
 </html>
