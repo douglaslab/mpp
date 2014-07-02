@@ -70,9 +70,8 @@ title: Home
 
 				<h4 >Latest News<small><a class="float-right" href="/news/">See All</a></small></h4>
 
-				<!-- slideshow blog list for tablet/desktop -->
-				<div class=" hide-on-mobile flexslider">
-					<ul class="slides">
+				<div class=" ">
+					<ul >
 					{% for post in site.posts limit:4 %}
 					<li>
 					<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
@@ -83,23 +82,9 @@ title: Home
 					</li>
 					{% endfor %}
 					</ul>
-					<div class="post-nav"></div>
 				</div>
 
 
-				<!--  blog list for mobile only -->
-				<div class="posts hide-on-desktop hide-on-tablet">
-					<ul id="blog-roll">
-					{% for post in site.posts limit:4 %}
-					<li>
-					<p><a class="" href="{{ post.url }}">{{ post.title }}</a>
-					<span>{{ post.date | date_to_string }}</span></p>
-				<!--	{{ post.excerpt }} -->
-				<!--	<a href="{{ post.url }}">Continue Reading &raquo;</a>-->
-					</li>
-					{% endfor %}
-					</ul>
-				</div>
 	</div>
 </section>
 
