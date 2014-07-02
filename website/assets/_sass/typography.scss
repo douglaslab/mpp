@@ -1,21 +1,54 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
-body {
-	font-family: 'Lato', Arial, sans-serif;
-	color:#5a5350;
+.sans {
+	font-family: 'Open Sans', sans-serif;
+}
+.serif {
+	font-family: 'Gentium Basic', serif;
 }
 
+body {
+	font-weight:300;
+	color:#5a5350;
+}
+.share-row { @extend .sans}
 a:link,a:visited{
 	text-decoration:none;
 }
 
-//p+p { text-ident:0}
-h1{@extend .alpha;}
-h2{@extend .beta;}
-h3{@extend .gamma;}
-h4{@extend .delta;}
-h5{@extend .epsilon;}
-h6{@extend .zeta;}
+h1,h2,h3,h4,h5,h6{
+	@extend .sans;
+}
+h1{
+	@extend .alpha;
+	font-weight:700;}
+h2{
+	@extend .beta;
+	font-weight:300;
+	}
+h3{
+	@extend .gamma;
+	font-weight:400;
+}
+h4{
+	@extend .delta;
+	font-weight:400;
+
+	}
+h5{
+	// blog roll headlines on front page. bold, dark.
+	@extend .epsilon;
+	font-weight:700;
+	margin-bottom:.3em;
+
+
+	}
+h6{ // headlines in footer
+	@extend .zeta;
+	font-weight:300;
+	margin-bottom:.3em;
+}
 
 // meta is the author and time paragraph in the header on .post pages.
 .meta {@extend .zeta;margin-bottom:0}
@@ -64,9 +97,31 @@ footer {
 	h5 {margin-bottom:10px;}
 	// footers have different list styles etc.
 	ul {
-		@extend small;
+		@extend .zeta;
+		@extend .sans;
+
 		//font-size:.8em;
 		list-style-type:none;
 		padding:0
 		}
+		.quarter:last-child{
+			text-align:right;
+		}
+}
+
+ul#blogroll{//front page
+ list-style-type:none;padding:0;
+ li {margin-bottom:1.5em;}
+ time {
+	opacity:1;
+	font-weight:300;
+	@extend .zeta;
+	//font-family: 'Open Sans', sans-serif;
+	//@extend small;
+	}
+}
+
+// buttons get sans-serif font
+a.button,a.button-primary{
+		@extend .sans;
 }
