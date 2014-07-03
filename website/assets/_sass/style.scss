@@ -242,7 +242,10 @@ body.frontpage{
   }
   footer {
     background:#f5f7fa;
-    a:link,a:visited{color:black;font-weight:400}
+    a:link,a:visited{
+      color:black;
+      //font-weight:400;
+      }
     }
 }
 
