@@ -30,11 +30,12 @@ $page-people:$goldenrod;
 $page-software:$firebrick;
 $page-visitingdays:$mediumvioletred;
 
-
+$footer-background:#d8dbe1;
+$footer-color:#a1a6ac;
 /*
 $frontpage-header:#fcfcfc;
 $frontpage-bg:#f9f9f9;
-$highlight:#fff; //alternating section background color
+$frontpage-middle:#fff; //alternating section background color
 $frontpage-text:#89867e;
 $frontpage-h1:#777;
 $frontpage-h2-h6:#bbb;
@@ -42,16 +43,31 @@ $frontpage-button:#e64759;
 $frontpage-link:#333;
 */
 
+/*
 $frontpage-header:#eceef2;
 $frontpage-bg:#fff;
-$highlight:#eceef2; //alternating section background color
+$frontpage-middle:#eceef2; //alternating section background color
 $frontpage-text:#5d6268;
 $frontpage-h1:#5d6268;
 $frontpage-h2-h6:#bbb;
 $frontpage-button:#e64759;
 $frontpage-link:#333;
+*/
 
-
+$frontpage-header:#fff;
+$frontpage-bg:#fff;
+$frontpage-top:#45a1be;
+$frontpage-top-h1-h6:#fff;
+$frontpage-top-text:#add6e2;
+$frontpage-middle:#343e49;
+$frontpage-middle-h1-h6:#fff;
+$frontpage-middle-text:#b8bbbf; //alternating section background color
+$frontpage-text:#5d6268;
+$frontpage-h1:#5d6268;
+$frontpage-h2-h6:#bbb;
+$frontpage-button:#fff;
+$frontpage-button-text:#000;
+$frontpage-link:#333;
 
 .headroom{ // this is the topbar
   height:53px;
@@ -61,6 +77,7 @@ $frontpage-link:#333;
 //  margin:0;
   width:100%;
   z-index: 20;
+  box-shadow: 0 0.05em 0.15em 0 rgba(0,0,0,0.15);
 
 }
 // this is the same as headroom, but it appears inside nav
@@ -189,16 +206,23 @@ body.frontpage{
   .headroom{background:$frontpage-header}
   p{color:$frontpage-text}
 
-  h1, h1 a {
-    color:$frontpage-h1;
+  #frontpage-top{
+    background:$frontpage-top;
+    h1,h2,h3,h4,h5,h6{color:$frontpage-top-h1-h6;}
+    p {
+      color:$frontpage-top-text;
+    }
   }
-  h2,h3,h4,h5,h6,
-    h2 a,h3 a,h4 a,h5 a,h6 a {
-      color:$frontpage-h2-h6
-      }
 
-  // highlight is
-  .highlight{background:$highlight;}
+
+  // frontpage middle
+  #frontpage-middle{
+    background:$frontpage-middle;
+    h1,h2,h3,h4,h5,h6{color:$frontpage-middle-h1-h6;}
+    p {
+      color:$frontpage-middle-text;
+    }
+  }
 
   //buttons
   .button-primary,
@@ -209,7 +233,7 @@ body.frontpage{
 
   a.button-selected {
       background-color:$frontpage-button;
-      color: #fff;
+      color: $frontpage-button-text;
   }
 
   section {
@@ -217,7 +241,7 @@ body.frontpage{
 
   }
   footer {
-    background:white;
+    background:#f5f7fa;
     a:link,a:visited{color:black;font-weight:400}
     }
 }
@@ -231,7 +255,8 @@ body#post{ //blog posts, right?
 }
 
 .share-row{
-    background:#d8dbe1;
+    background:$footer-background;
+    color:$footer-color;
 }
 
 
@@ -302,14 +327,14 @@ section::after {
 .section-multitriangles::before {
   top: -25px;
   background: inherit;
-  box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
+  box-shadow: -50px 50px 0 $frontpage-middle, 50px -50px 0 $frontpage-middle;
 }
 
 .section-multitriangles::after {
   bottom: -25px;
   z-index: 10;
   background: inherit;
-  box-shadow: -50px 50px 0 $highlight, 50px -50px 0 $highlight;
+  box-shadow: -50px 50px 0 $frontpage-middle, 50px -50px 0 $frontpage-middle;
 }
 
 
