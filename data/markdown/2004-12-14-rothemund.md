@@ -1,9 +1,8 @@
 
 ---
-layout: post
+layout: publication
 title:  "Algorithmic self-assembly of DNA Sierpinski triangles."
 date:   2004-12-14 12:00:00
-category:  publication
 published: true
 pmid: 15583715
 ---

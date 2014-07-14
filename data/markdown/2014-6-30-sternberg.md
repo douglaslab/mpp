@@ -1,9 +1,8 @@
 
 ---
-layout: post
+layout: publication
 title:  "Exquisite Sequence Selectivity with Small Conditional RNAs."
 date:   2014-6-30 12:00:00
-category:  publication
 published: true
 pmid: 24979041
 ---

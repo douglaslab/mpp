@@ -1,9 +1,8 @@
 
 ---
-layout: post
+layout: publication
 title:  "DNA as a universal substrate for chemical kinetics."
 date:   2010-03-24 12:00:00
-category:  publication
 published: true
 pmid: 20203007
 ---

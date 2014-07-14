@@ -1,9 +1,8 @@
 
 ---
-layout: post
+layout: publication
 title:  "Ensemble Bayesian analysis of bistability in a synthetic transcriptional switch."
 date:   2013-05-08 12:00:00
-category:  publication
 published: true
 pmid: 23651285
 ---

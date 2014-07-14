@@ -1,9 +1,8 @@
 
 ---
-layout: post
+layout: publication
 title:  "Design and characterization of programmable DNA nanotubes."
 date:   2004-12-16 12:00:00
-category:  publication
 published: true
 pmid: 15600335
 ---

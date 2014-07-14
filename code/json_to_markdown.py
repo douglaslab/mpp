@@ -37,10 +37,9 @@ filename = "../data/json/2014-07-13_pubmed_result.json"
 
 post_template = """
 ---
-layout: post
+layout: publication
 title:  "%s"
 date:   %s 12:00:00
-category:  publication
 published: true
 pmid: %s
 ---

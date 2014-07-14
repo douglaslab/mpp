@@ -1,9 +1,8 @@
 
 ---
-layout: post
+layout: publication
 title:  "Selective cell death mediated by small conditional RNAs."
 date:   2010-09-30 12:00:00
-category:  publication
 published: true
 pmid: 20823260
 ---

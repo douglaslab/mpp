@@ -1,9 +1,8 @@
 
 ---
-layout: post
+layout: publication
 title:  "Recapitulation of the forward nuclear auxin response pathway in yeast."
 date:   2014-07-02 12:00:00
-category:  publication
 published: true
 pmid: 24979769
 ---

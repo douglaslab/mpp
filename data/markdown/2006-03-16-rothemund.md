@@ -1,9 +1,8 @@
 
 ---
-layout: post
+layout: publication
 title:  "Folding DNA to create nanoscale shapes and patterns."
 date:   2006-03-16 12:00:00
-category:  publication
 published: true
 pmid: 16541064
 ---
