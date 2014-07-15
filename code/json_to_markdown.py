@@ -35,28 +35,20 @@ import json
 filename = "../data/json/2014-07-13_pubmed_result.json"
 
 
-post_template = """
----
+post_template = """---
 layout: post
-title:  "%s"
-date:   %s 12:00:00
 published: true
+title: "%s"
+date: %s 12:00:00
 pmid: %s
+authors: "%s"
 ---
-
-Title: %s
-
-Authors: %s
 
 Journal: %s
 
 Abstract: %s
 
-PMID: %s
-
 """
-
-#
 
 with open(filename) as json_data:
     d = json.load(json_data)
@@ -71,7 +63,7 @@ with open(filename) as json_data:
         journal = citation["Article"]["Journal"]
         journalname = journal["ISOAbbreviation"]
         pubdate = journal["JournalIssue"]["PubDate"]
-
+        
         if "Month" in pubdate and "Day" in pubdate:
             pubdateStr = "%s %s %s" % (pubdate["Year"], pubdate["Month"], pubdate["Day"])
         else:
@@ -100,7 +92,7 @@ with open(filename) as json_data:
         authorStr = ", ".join(authorList)
         firstAuthorLN = authors[0]["LastName"].lower()
         mdFilename = "%s-%s.md" % (dateStr, firstAuthorLN)
-        mdContent = post_template % (title, dateStr, pmid, title, authorStr, citeStr, abstract, pmid)
+        mdContent = post_template % (title, dateStr, pmid, authorStr, citeStr, abstract)
         mdContent = mdContent.encode("utf-8")
         print mdFilename
         print mdContent
