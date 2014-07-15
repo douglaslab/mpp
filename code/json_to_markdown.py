@@ -37,7 +37,7 @@ filename = "../data/json/2014-07-13_pubmed_result.json"
 
 post_template = """
 ---
-layout: publication
+layout: post
 title:  "%s"
 date:   %s 12:00:00
 published: true
@@ -56,7 +56,7 @@ PMID: %s
 
 """
 
-# 
+#
 
 with open(filename) as json_data:
     d = json.load(json_data)
@@ -71,7 +71,7 @@ with open(filename) as json_data:
         journal = citation["Article"]["Journal"]
         journalname = journal["ISOAbbreviation"]
         pubdate = journal["JournalIssue"]["PubDate"]
-        
+
         if "Month" in pubdate and "Day" in pubdate:
             pubdateStr = "%s %s %s" % (pubdate["Year"], pubdate["Month"], pubdate["Day"])
         else:

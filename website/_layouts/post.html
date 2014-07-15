@@ -22,7 +22,12 @@ type_class: publication
   <div class="row">
     <main>
       <article>
-      {{ content }}
+        {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+        {% if page.authors %}<h1>{{ page.authors }}</h1>{% endif %}
+        {% if page.journal %}<h1>{{ page.journal }}</h1>{% endif %}
+        {% if page.abstract %}<h1>{{ page.abstract }}</h1>{% endif %}
+
+      <!--{{ content }}-->
       </article>
     </main>
   </div>
