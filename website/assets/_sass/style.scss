@@ -10,7 +10,7 @@ $lightsteelblue:#97c6cc;//events
 $steelblue:#3399cc;//joinus
 $salmon:#fb887c;//labs
 $tomato:#fa524e;//media
-$palevioletred:#cc6699;//news
+$palevioletred:#cc6699;//publications
 $olivedrab:#749222;//outreach
 $goldenrod:#cab80f;//people
 $firebrick:#bf2a2a;//software
@@ -24,7 +24,7 @@ $page-events:$lightsteelblue;
 $page-joinus:$steelblue;
 $page-labs:$salmon;
 $page-media:$tomato;
-$page-news:$palevioletred;
+$page-publications:$palevioletred;
 $page-outreach:$olivedrab;
 $page-people:$goldenrod;
 $page-software:$firebrick;
@@ -157,12 +157,12 @@ body.page.media{
     color:$page-media;
   }
 }
-body.page.news{
+body.page.publications{
   #header-background{
-    background:$page-news;
+    background:$page-publications;
   }
   main a:link,main a:visited{
-    color:$page-news;
+    color:$page-publications;
   }
 }
 body.page.outreach{
@@ -285,13 +285,11 @@ padding-top:30px;
 }
 
 //  .icon is as yet not used
-.icon {
+img.icon {
   border-radius: 50%;
   background: rgba(0,0,0,0.1);
   color: #fff;
   text-align: center;
-  font-size: 8em;
-  line-height: 2em;
 
 }
 

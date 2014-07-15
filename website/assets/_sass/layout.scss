@@ -87,13 +87,16 @@ body > footer {
     padding-top:6em;
   }
 }
-.icon { // circles with icons, 3 in a row
+img.icon { // circles with icons, 3 in a row
   display: block;
-  width: 1.7em;
-  height: 1.7em;
-  margin-bottom:3em;
+//  font-size: 8em;
+  line-height: 2em;
+
+  width: 278px;
+  height: 278px;
+//  margin-bottom:3em;
   margin: 0 auto 40px auto;
-  padding-bottom:30px;
+//  padding-bottom:30px;
 }
 // text beneath the icon circles. they needed padding
 .third.centered p {padding:0 15px}
@@ -141,9 +144,11 @@ body > footer {
     margin-bottom:40px;
     }
 
-  .icon { // circles with icons, 3 in a row
-    width: 1.5em;
-    height: 1.5em;
+  img.icon { // circles with icons, 3 in a row
+    // width: 1.5em;
+    // height: 1.5em;
+    width:50%;
+    height:50%;
   }
 
   // share icons in footer
@@ -182,9 +187,11 @@ body > footer {
 
   #greeting {text-align:right}
 
-  .icon { // circles with icons, 3 in a row
-    width: 1.3em;
-    height: 1.3em;
+  img.icon { // circles with icons, 3 in a row
+    width:80%;
+    height:80%;
+    // width: 1.3em;
+    // height: 1.3em;
   }
 
 
@@ -222,11 +229,11 @@ body > footer {
   /* front page */
 
 
-  /* front page */
-  .icon { // circles with icons, 3 in a row
-    width: 1.5em;
-    height: 1.5em;
-  }
+  // /* front page */
+  // .icon { // circles with icons, 3 in a row
+  //   width: 1.5em;
+  //   height: 1.5em;
+  // }
 
   // share icons in footer
   ul#share-buttons{width:860px;}
