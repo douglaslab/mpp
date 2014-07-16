@@ -49,8 +49,8 @@ body > footer {
 
 
 .share-row {
-  @include pad(50px 0px 30px 0);
-  margin:0;
+  @include pad(50px 0px 50px 0);
+  margin:0 auto;
   ul#share-buttons{
     margin:0 auto;
     list-style-type:none;
@@ -99,7 +99,9 @@ img.icon { // circles with icons, 3 in a row
 //  padding-bottom:30px;
 }
 // text beneath the icon circles. they needed padding
-.third.centered p {padding:0 15px}
+.third.centered p {
+  padding:0 15px;
+  }
 
 
 
@@ -194,9 +196,12 @@ img.icon { // circles with icons, 3 in a row
     // height: 1.3em;
   }
 
+  .share-row{
+    @include pad(50px 0px 30px 0);
+    ul#share-buttons{width:820px;}
 
+  }
   // share icons in footer
-  ul#share-buttons{width:700px;}
 
 }
 
