@@ -29,22 +29,20 @@ type_class: publication
         </header>
 
       <hr>
-      <q>{{ content }}</q>
+      {{ content }}
 
 
-
-
-        {% if page.authors || page.date %}
-        <footer class="meta">
-        {% if page.authors %}
-          {{ page.authors }}
-        {% endif %}
-        •
-        {% if page.date %}
-          <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-        {% endif %}
-        </footer>
-        {% endif %}
+      {% if page.authors || page.date %}
+      <footer class="meta">
+      {% if page.authors %}
+        {{ page.authors }}
+      {% endif %}
+      •
+      {% if page.date %}
+        <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      {% endif %}
+      </footer>
+      {% endif %}
 
 <!--
         {% if page.journal %}
