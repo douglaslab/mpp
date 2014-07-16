@@ -42,11 +42,14 @@ title: "%s"
 date: %s 12:00:00
 pmid: %s
 authors: "%s"
+firstauthor: "%s"
+journalname: "%s"
+journalvolume: %s
+journalissue: %s
+journalpages: %s
 ---
 
-Journal: %s
-
-Abstract: %s
+%s
 
 """
 
@@ -62,6 +65,9 @@ with open(filename) as json_data:
 
         journal = citation["Article"]["Journal"]
         journalname = journal["ISOAbbreviation"]
+        journalvolume = ""
+        journalissue = ""
+        journalpages = ""
         pubdate = journal["JournalIssue"]["PubDate"]
         
         if "Month" in pubdate and "Day" in pubdate:
@@ -72,15 +78,19 @@ with open(filename) as json_data:
         ji = journal["JournalIssue"]
         vipStr = ""
         if "Volume" in ji and "Issue" in ji:
-            vipStr = "**%s**(%s)" % (ji["Volume"], ji["Issue"])
+            vipStr = "<b>%s</b>(%s)" % (ji["Volume"], ji["Issue"])
+            journalvolume = ji["Volume"]
+            journalissue = ji["Issue"]
             if "Pagination" in citation["Article"]:
                 vipStr += ":%s" % citation["Article"]["Pagination"]["MedlinePgn"]
+                journalpages = citation["Article"]["Pagination"]["MedlinePgn"]
             citeStr = "*%s %s;%s*" % (journalname, pubdateStr, vipStr)
         else:
             citeStr = "*%s %s*" % (journalname, pubdateStr)
 
         # print citeStr
-        title = citation["Article"]["ArticleTitle"]
+        title = citation["Article"]["ArticleTitle"].replace('"', "'")
+        print title
         abstract = citation["Article"]["Abstract"]["AbstractText"]
         authorCount = len(citation["Article"]["AuthorList"]["Author"])
         authors = citation["Article"]["AuthorList"]["Author"]
@@ -90,9 +100,9 @@ with open(filename) as json_data:
         for author in authors:
             authorList.append("%s %s" % (author["LastName"], author["Initials"]))
         authorStr = ", ".join(authorList)
-        firstAuthorLN = authors[0]["LastName"].lower()
-        mdFilename = "%s-%s.md" % (dateStr, firstAuthorLN)
-        mdContent = post_template % (title, dateStr, pmid, authorStr, citeStr, abstract)
+        firstAuthorLN = authors[0]["LastName"]
+        mdFilename = "%s-%s.md" % (dateStr, firstAuthorLN.lower())
+        mdContent = post_template % (title, dateStr, pmid, authorStr, authorList[0], journalname, journalvolume, journalissue, journalpages, abstract)
         mdContent = mdContent.encode("utf-8")
         print mdFilename
         print mdContent
