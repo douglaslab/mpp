@@ -2,57 +2,53 @@
 layout: default
 type_class: publication
 ---
-<div id="header-background">
-  <div class="row">
-    <div id="top">
-<!--
-      {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-      {% if page.subheading %}<h2>{{ page.subheading }}</h2>{% endif %}
-
-      <p class="meta">
-
-      {% if page.author && if page.author_url %} • <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-      </p>
-    -->
 
 
-    </div>
-  </div>
-</div>
+{% capture title %}{% if page.title %}{{ page.title }} {% else %}" "{% endif %}{% endcapture %}
+{% capture link %}{% if page.pmid %}"http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}"{% else %}""{% endif %} {% endcapture %}
+{% capture date %}{% if page.date %}<time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% else %}" "{% endif %}{% endcapture %}
+{% capture authors %}{% if page.authors %}{{ page.authors }} {% else %}" "{% endif %}{% endcapture %}
+{% capture firstauthor %}{% if page.firstauthor %}{{ page.firstauthor }} {% else %} {% endif %}{% endcapture %}
+{% capture journalname %}{% if page.journalname %}{{ page.journalname }} {% else %} {% endif %}{% endcapture %}
+{% capture journalvolume %}{% if page.journalvolume %}{{ page.journalvolume }}{% else %}{% endif %}{% endcapture %}
+{% capture journalissue %}{% if page.journalissue %}({{ page.journalissue }}){% else %}{% endif %}{% endcapture %}
+{% capture journalpages %}{% if page.journalpages %}{{ page.journalpages }} {% else %}{% endif %}{% endcapture %}
+
 
 
   <div class="row">
     <main>
       <article>
         <header>
-        {% if page.title %}<cite>{{ page.title }}</cite>{% endif %}
+
+        {% if page.title && page.pmid %}
+          <a class="icon-book-open" href={{ link }}>{{ title }}</a>
+        {% else %}
+          <h2>{{ title }}</h2>
+        {% endif %}
+
         </header>
 
       <hr>
-      {{ content }}
+      <p>
+        <b>Journal</b>:
+        <cite>
+            {{ authors}},
+            ({{ date }}).
+            {{ title }}
+            <i>{{ journalname}}</i>.
+            {{ journalvolume}}{{ journalissue}},
+            {{ journalpages}}
 
+        </cite>
+      </p>
+        <b>Abstract:</b>
+        {{ content }}
 
-      {% if page.authors || page.date %}
-      <footer class="meta">
-      {% if page.authors %}
-        {{ page.authors }}
-      {% endif %}
-      •
-      {% if page.date %}
-        <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-      {% endif %}
-      </footer>
-      {% endif %}
+        <p>
+          <a class="icon-right-dir" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">read article</a>
+        </p>
 
-<!--
-        {% if page.journal %}
-          <p>{{ page.journal }}</p>
-        {% endif %}
-
-        {% if page.abstract %}
-          <p>{{ page.abstract }}</p>
-        {% endif %}
-  -->
 
       </article>
     </main>

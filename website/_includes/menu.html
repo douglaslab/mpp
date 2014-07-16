@@ -61,10 +61,10 @@
 
 	<div class="row">
 
-		<h5>Latest News</h5>
+		<h5>Latest Publications</h5>
 
 		<ul class="posts">
-			{% for post in site.posts offset: 0 limit: 8 %}
+			{% for post in site.posts offset: 0 limit: 5 %}
 				<li>
 					<a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
 					<time>{{ post.date | date: "%b %-d, %Y" }}</time></a>

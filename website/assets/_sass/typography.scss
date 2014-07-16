@@ -37,12 +37,6 @@ h1{
 
 }
 
-.publication{
-	cite {
-		@extend h2;
-		font-style:normal;
-	}
-}
 .page,.post{
 	h1{
 		@extend .beta;
@@ -102,6 +96,14 @@ q:before {
 }
 q p {
   display: inline;
+}
+
+
+.publication{
+	cite {
+		// @extend h2;
+		font-style:normal;
+	}
 }
 
 // override _template.scss from 65 to 80
