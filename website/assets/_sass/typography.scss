@@ -9,30 +9,32 @@
 @extend .serif;
 */
 
+.normal {font-weight:300;}
+.bold 	{font-weight:700;}
+
 body {
 	font-family: 'Lato', sans-serif;
 
-	font-weight:300;
-	color:#5a5350;
+	@extend .normal;
+	color:#66625b;
 }
 
 a#menu-logo{
-	font-weight:600;
-	color:black;
+	@extend .bold;
 	text-transform:lowercase;
 }
 
 a:link,a:visited{
 	text-decoration:none;
 }
-/*
-h1,h2,h3,h4,h5,h6{
-	//@extend .sans;
+
+h1,h3,h4,h5,h6{
+	@extend .bold;
 }
-*/
+
 h1{
 	@extend .alpha;
-	font-weight:600;
+
 }
 
 .page,.post{
@@ -50,24 +52,25 @@ h2{
 	}
 h3{
 	@extend .gamma;
-	font-weight:600;
+
 }
 h4{
 	@extend .delta;
-	font-weight:600;
+
+	margin:.5em 0;
 
 	}
 h5{
 	// blog roll headlines on front page. bold, dark.
 	@extend .epsilon;
-	font-weight:600;
+
 	margin-bottom:.3em;
 
 
 	}
 h6{ // headlines in footer
 	@extend .zeta;
-	font-weight:600;
+
 	margin-bottom:-0.1em;
 }
 
@@ -92,13 +95,16 @@ h6{ // headlines in footer
 	float:right;
 }
 
+
+
 /*
-
+pedantic, but, the frontpage grid of circular images
+needs to have less line height
+*/
 .frontpage{
-.half:first-child{text-align:right}
-.half:last-child{text-align:left}
+	.centered p{line-height:1.3em}
 }
-
+/*
 
 // override the text-alignment in .half on the frontpage's menu.
 .frontpage nav{
@@ -147,4 +153,5 @@ ul#blogroll{//front page
 
 .share-row {
 	@extend .epsilon;
+	p{margin-top:.4em;font-size:.8em}
 }

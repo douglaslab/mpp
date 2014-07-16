@@ -49,7 +49,7 @@ body > footer {
 
 
 .share-row {
-  @include pad(50px 0px 50px 0);
+  @include pad(50px 0px 30px 0);
   margin:0;
   ul#share-buttons{
     margin:0 auto;
