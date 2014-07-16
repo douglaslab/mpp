@@ -13,7 +13,7 @@ nav {
   }
 
 
-menu, nav ol, nav ul {
+ nav ol, nav ul {
   padding: 0 0 0 40px; }
 
 nav ul, nav ol {
@@ -23,24 +23,6 @@ nav ul, nav ol {
 
 
 
-/* media Queriess */
-/* Mobile Portrait */
-.menu {margin-top:9px;
-  font-size:.7em;
-  font-weight:400;
-}
-.menu p {
-
-  border-radius: 4px 4px 4px 4px;
-
-  letter-spacing: 3px;
-  padding: 8px 7px 2px 11px;
-  position: absolute;
-  right: 45px;
-  text-transform: uppercase;
-  top:6px;
-
-}
 
 p a {
   /* Optimized for touch devices */
@@ -57,19 +39,19 @@ p a {
   float: right;
   display: block;
   pointer-events: auto;
-  margin-right:0;
+  color:#999;
+  margin-top:5px;
 
-  span {
-    width: 30px;
-    height: 4px;
-    margin-bottom: 6px;
-    border-radius: 1000px;
-    display: block;
-    top:4px;
-    background:red;
-  }
-
+  a#navigation {
+    font-size:15px;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-spacing:3px;
+    color:#999;
+    &:hover{color:#666}
+    }
 }
+.icon-menu{font-size:14px;}
 
 
 /* Navigation */

@@ -6,5 +6,125 @@
     <link></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
+      <item>
+        <title>Recapitulation of the forward nuclear auxin response pathway in yeast.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;Proc. Natl. Acad. Sci. U.S.A. 2014 Jul 1;&lt;strong&gt;111&lt;/strong&gt;(26):9407-12&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: Auxin influences nearly every aspect of plant biology through a simple signaling pathway; however, it remains unclear how much of the diversity in auxin effects is explained by variation in the core signaling components and which properties of these components may contribute to diversification in response dynamics. Here, we recapitulated the entire Arabidopsis thaliana forward nuclear auxin signal transduction pathway in Saccharomyces cerevisiae to test whether signaling module composition enables tuning of the dynamic response. Sensitivity analysis guided by a small mathematical model revealed the centrality of auxin/indole-3-acetic acid (Aux/IAA) transcriptional corepressors in controlling response dynamics and highlighted the strong influence of natural variation in Aux/IAA degradation rates on circuit performance. When the basic auxin response circuit was expanded to include multiple Aux/IAAs, we found that dominance relationships between coexpressed Aux/IAAs were sufficient to generate distinct response modules similar to those seen during plant development. Our work provides a new method for dissecting auxin signaling and demonstrates the key role of Aux/IAAs in tuning auxin response dynamics.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 02 Jul 2014 08:00:00 -0400</pubDate>
+        <link>/2014/07/02/pierre-jerome.html</link>
+        <guid isPermaLink="true">/2014/07/02/pierre-jerome.html</guid>
+      </item>
+    
+      <item>
+        <title>Exquisite Sequence Selectivity with Small Conditional RNAs.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;Nano Lett. 2014 Jun 30&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: {u’#text’: u’Dynamic RNA nanotechnology based on programmable hybridization cascades with small conditional RNAs (scRNAs) offers a promising conceptual framework for engineering programmable conditional regulation in vivo. While single-base substitution (SBS) somatic mutations and single-nucleotide polymorphisms (SNPs) are important markers and drivers of disease, it is unclear whether synthetic RNA signal transducers are sufficiently programmable to accept a cognate RNA input while rejecting single-nucleotide sequence variants. Here, we explore the limits of scRNA programmability, demonstrating isothermal, enzyme-free genotyping of RNA SBS cancer markers and SNPs using scRNAs that execute a conditional hybridization cascade in the presence of a cognate RNA target. Kinetic discrimination can be engineered on a time scale of choice from minutes to days. To discriminate even the most challenging single-nucleotide sequence variants, including those that lead to nearly isoenergetic RNA wobble pairs, competitive inhibition with an unstructured scavenger strand or with other scRNAs provides a simple and effective principle for achieving exquisite sequence selectivity.’, u’-NlmCategory’: u’UNLABELLED’}&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 30 Jun 2014 08:00:00 -0400</pubDate>
+        <link>/2014/06/30/sternberg.html</link>
+        <guid isPermaLink="true">/2014/06/30/sternberg.html</guid>
+      </item>
+    
+      <item>
+        <title>Linear DNA for Rapid Prototyping of Synthetic Biological Circuits in an Escherichia coli Based TX-TL Cell-Free System.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;ACS Synth Biol 2014 Jun 20;&lt;strong&gt;3&lt;/strong&gt;(6):387-97&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: Accelerating the pace of synthetic biology experiments requires new approaches for rapid prototyping of circuits from individual DNA regulatory elements. However, current testing standards require days to weeks due to cloning and in vivo transformation. In this work, we first characterized methods to protect linear DNA strands from exonuclease degradation in an Escherichia coli based transcription-translation cell-free system (TX-TL), as well as mechanisms of degradation. This enabled the use of linear DNA PCR products in TX-TL. We then compared expression levels and binding dynamics of different promoters on linear DNA and plasmid DNA. We also demonstrated assembly technology to rapidly build circuits entirely in vitro from separate parts. Using this strategy, we prototyped a four component genetic switch in under 8 h entirely in vitro. Rapid in vitro assembly has future applications for prototyping multiple component circuits if combined with predictive computational models.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 21 Jun 2014 08:00:00 -0400</pubDate>
+        <link>/2014/06/21/sun.html</link>
+        <guid isPermaLink="true">/2014/06/21/sun.html</guid>
+      </item>
+    
+      <item>
+        <title>Siegal Gaskins</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;ACS Synth Biol 2014 Jun 20;&lt;strong&gt;3&lt;/strong&gt;(6):416-25&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: The many successes of synthetic biology have come in a manner largely different from those in other engineering disciplines; in particular, without well-characterized and simplified prototyping environments to play a role analogous to wind-tunnels in aerodynamics and breadboards in electrical engineering. However, as the complexity of synthetic circuits increases, the benefits-in cost savings and design cycle time-of a more traditional engineering approach can be significant. We have recently developed an in vitro “breadboard” prototyping platform based on E. coli cell extract that allows biocircuits to operate in an environment considerably simpler than, but functionally similar to, in vivo. The simplicity of this system makes it a promising tool for rapid biocircuit design and testing, as well as for probing fundamental aspects of gene circuit operation normally masked by cellular complexity. In this work, we characterize the cell-free breadboard using real-time and simultaneous measurements of transcriptional and translational activities of a small set of reporter genes and a transcriptional activation cascade. We determine the effects of promoter strength, gene concentration, and nucleoside triphosphate concentration on biocircuit properties, and we isolate the specific contributions of essential biomolecular resources-core RNA polymerase and ribosomes-to overall performance. Importantly, we show how limits on resources, particularly those involved in translation, are manifested as reduced expression in the presence of orthogonal genes that serve as additional loads on the system.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 21 Jun 2014 00:00:00 -0400</pubDate>
+        <link>/2014/06/21/siegal-gaskins.html</link>
+        <guid isPermaLink="true">/2014/06/21/siegal-gaskins.html</guid>
+      </item>
+    
+      <item>
+        <title>Framework for Engineering Finite State Machines in Gene Regulatory Networks.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;ACS Synth Biol 2014 Mar 5&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: {u’#text’: u’Finite state machines are fundamental computing devices at the core of many models of computation. In biology, finite state machines are commonly used as models of development in multicellular organisms. However, it remains unclear to what extent cells can remember state, how they can transition from one state to another reliably, and whether the existing parts available to the synthetic biologist are sufficient to implement specified finite state machines in living cells. Furthermore, how complex multicellular behaviors can be realized by multiple cells coordinating their states with signaling, growth, and division is not well understood. Here, we describe a method by which any finite state machine can be built using nothing more than a suitably engineered network of readily available repressing transcription factors. In particular, we show the mathematical equivalence of finite state machines with a Boolean model of gene regulatory networks. We describe how such networks can be realized with a small class of promoters and transcription factors. To demonstrate the effectiveness of our approach, we show that the behavior of the coarse grained ideal Boolean network model approximates a fine grained delay differential equation model of gene expression. Finally, we explore a framework for the design of more complex systems via an example, synthetic bacterial microcolony edge detection, that illustrates how finite state machines could be used together with cell signaling to construct novel multicellular behaviors.’, u’-NlmCategory’: u’UNLABELLED’}&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 16 Jun 2014 08:00:00 -0400</pubDate>
+        <link>/2014/06/16/oishi.html</link>
+        <guid isPermaLink="true">/2014/06/16/oishi.html</guid>
+      </item>
+    
+      <item>
+        <title>Complex Reconfiguration of DNA Nanostructures.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;Angew. Chem. Int. Ed. Engl. 2014 Jun 4&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: {u’#text’: u’Nucleic acids have been used to create diverse synthetic structural and dynamic systems. Toehold-mediated strand displacement has enabled the construction of sophisticated circuits, motors, and molecular computers. Yet it remains challenging to demonstrate complex structural reconfiguration in which a structure changes from a starting shape to another arbitrarily prescribed shape. To address this challenge, we have developed a general structural-reconfiguration method that utilizes the modularly interconnected architecture of single-stranded DNA tile and brick structures. The removal of one component strand reveals a newly exposed toehold on a neighboring strand, thus enabling us to remove regions of connected component strands without the need to modify the strands with predesigned external toeholds. By using this method, we reconfigured a two-dimensional rectangular DNA canvas into diverse prescribed shapes. We also used this method to reconfigure a three-dimensional DNA cuboid.’, u’-NlmCategory’: u’UNLABELLED’}&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 05 Jun 2014 08:00:00 -0400</pubDate>
+        <link>/2014/06/05/wei.html</link>
+        <guid isPermaLink="true">/2014/06/05/wei.html</guid>
+      </item>
+    
+      <item>
+        <title>Virus-inspired membrane encapsulation of DNA nanostructures to achieve in vivo stability.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;ACS Nano 2014 May 27;&lt;strong&gt;8&lt;/strong&gt;(5):5132-40&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: DNA nanotechnology enables engineering of molecular-scale devices with exquisite control over geometry and site-specific functionalization. This capability promises compelling advantages in advancing nanomedicine; nevertheless, instability in biological environments and innate immune activation remain as obstacles for in vivo application. Natural particle systems (i.e., viruses) have evolved mechanisms to maintain structural integrity and avoid immune recognition during infection, including encapsulation of their genome and protein capsid shell in a lipid envelope. Here we introduce virus-inspired enveloped DNA nanostructures as a design strategy for biomedical applications. Achieving a high yield of tightly wrapped unilamellar nanostructures, mimicking the morphology of enveloped virus particles, required precise control over the density of attached lipid conjugates and was achieved at 1 per ∼180 nm(2). Envelopment of DNA nanostructures in PEGylated lipid bilayers conferred protection against nuclease digestion. Immune activation was decreased 2 orders of magnitude below controls, and pharmacokinetic bioavailability improved by a factor of 17. By establishing a design strategy suitable for biomedical applications, we have provided a platform for the engineering of sophisticated, translation-ready DNA nanodevices.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 27 May 2014 08:00:00 -0400</pubDate>
+        <link>/2014/05/27/perrault.html</link>
+        <guid isPermaLink="true">/2014/05/27/perrault.html</guid>
+      </item>
+    
+      <item>
+        <title>Next-generation in situ hybridization chain reaction: higher gain, lower cost, greater durability.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;ACS Nano 2014 May 27;&lt;strong&gt;8&lt;/strong&gt;(5):4284-94&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: Hybridization chain reaction (HCR) provides multiplexed, isothermal, enzyme-free, molecular signal amplification in diverse settings. Within intact vertebrate embryos, where signal-to-background is at a premium, HCR in situ amplification enables simultaneous mapping of multiple target mRNAs, addressing a longstanding challenge in the biological sciences. With this approach, RNA probes complementary to mRNA targets trigger chain reactions in which metastable fluorophore-labeled RNA hairpins self-assemble into tethered fluorescent amplification polymers. The properties of HCR lead to straightforward multiplexing, deep sample penetration, high signal-to-background, and sharp subcellular signal localization within fixed whole-mount zebrafish embryos, a standard model system for the study of vertebrate development. However, RNA reagents are expensive and vulnerable to enzymatic degradation. Moreover, the stringent hybridization conditions used to destabilize nonspecific hairpin binding also reduce the energetic driving force for HCR polymerization, creating a trade-off between minimization of background and maximization of signal. Here, we eliminate this trade-off by demonstrating that low background levels can be achieved using permissive in situ amplification conditions (0% formamide, room temperature) and engineer next-generation DNA HCR amplifiers that maximize the free energy benefit per polymerization step while preserving the kinetic trapping property that underlies conditional polymerization, dramatically increasing signal gain, reducing reagent cost, and improving reagent durability.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 27 May 2014 08:00:00 -0400</pubDate>
+        <link>/2014/05/27/choi.html</link>
+        <guid isPermaLink="true">/2014/05/27/choi.html</guid>
+      </item>
+    
+      <item>
+        <title>MicroRNA-based single-gene circuits buffer protein synthesis rates against perturbations.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;ACS Synth Biol 2014 May 16;&lt;strong&gt;3&lt;/strong&gt;(5):324-31&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: Achieving precise control of mammalian transgene expression has remained a long-standing, and increasingly urgent, challenge in biomedical science. Despite much work, single-cell methods have consistently revealed that mammalian gene expression levels remain susceptible to fluctuations (noise) and external perturbations. Here, we show that precise control of protein synthesis can be realized using a single-gene microRNA (miRNA)-based feed-forward loop (sgFFL). This minimal autoregulatory gene circuit consists of an intronic miRNA that targets its own transcript. In response to a step-like increase in transcription rate, the network generated a transient protein expression pulse before returning to a lower steady state level, thus exhibiting adaptation. Critically, the steady state protein levels were independent of the size of the stimulus, demonstrating that this simple network architecture effectively buffered protein production against changes in transcription. The single-gene network architecture was also effective in buffering against transcriptional noise, leading to reduced cell-to-cell variability in protein synthesis. Noise was up to 5-fold lower for a sgFFL than for an unregulated control gene with equal mean protein levels. The noise buffering capability varied predictably with the strength of the miRNA-target interaction. Together, these results suggest that the sgFFL single-gene motif provides a general and broadly applicable platform for robust gene expression in synthetic and natural gene circuits.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 May 2014 08:00:00 -0400</pubDate>
+        <link>/2014/05/22/strovas.html</link>
+        <guid isPermaLink="true">/2014/05/22/strovas.html</guid>
+      </item>
+    
+      <item>
+        <title>Design and Implementation of a Biomolecular Concentration Tracker.</title>
+        <description>&lt;p&gt;Journal: &lt;em&gt;ACS Synth Biol 2014 May 15&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: {u’#text’: u’As a field, synthetic biology strives to engineer increasingly complex artificial systems in living cells. Active feedback in closed loop systems offers a dynamic and adaptive way to ensure constant relative activity independent of intrinsic and extrinsic noise. In this work, we use synthetic protein scaffolds as a modular and tunable mechanism for concentration tracking through negative feedback. Input to the circuit initiates scaffold production, leading to colocalization of a two-component system and resulting in the production of an inhibitory antiscaffold protein. Using a combination of modeling and experimental work, we show that the biomolecular concentration tracker circuit achieves dynamic protein concentration tracking in Escherichia coli and that steady state outputs can be tuned.’, u’-NlmCategory’: u’UNLABELLED’}&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 May 2014 08:00:00 -0400</pubDate>
+        <link>/2014/05/22/hsiao.html</link>
+        <guid isPermaLink="true">/2014/05/22/hsiao.html</guid>
+      </item>
+    
   </channel>
 </rss>
