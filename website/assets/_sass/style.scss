@@ -98,8 +98,13 @@ a#menu-logo{margin-top:5px}
 body {
   margin: 0;
 }
+body.publication{
+  hr {
+    border-top:2px solid #ccc;
+  }
+}
 
-body.page,body.post{
+body.page{
   #header-background{
     background:$page-header-default;
     h1,h2{color:white}

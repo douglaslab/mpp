@@ -23,7 +23,7 @@
 
 // main is the outer container on .page and .post pages.
 // main is NOT used on frontpage
-.page,.post{
+body.page,body.publication{
 
   #top {
     @include pad(90px 0px 40px 0);
@@ -101,6 +101,7 @@ img.icon { // circles with icons, 3 in a row
 // text beneath the icon circles. they needed padding
 .third.centered p {
   padding:0 15px;
+
   }
 
 

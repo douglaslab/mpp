@@ -5,13 +5,15 @@ type_class: publication
 <div id="header-background">
   <div class="row">
     <div id="top">
+<!--
       {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
       {% if page.subheading %}<h2>{{ page.subheading }}</h2>{% endif %}
 
       <p class="meta">
-      <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+
       {% if page.author && if page.author_url %} • <a href="{{ page.author_url }}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
       </p>
+    -->
 
 
     </div>
@@ -22,12 +24,38 @@ type_class: publication
   <div class="row">
     <main>
       <article>
-        {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-        {% if page.authors %}<h1>{{ page.authors }}</h1>{% endif %}
-        {% if page.journal %}<h1>{{ page.journal }}</h1>{% endif %}
-        {% if page.abstract %}<h1>{{ page.abstract }}</h1>{% endif %}
+        <header>
+        {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+        </header>
 
-      <!--{{ content }}-->
+      <hr>
+      <q>{{ content }}</q>
+
+
+
+
+        {% if page.authors || page.date %}
+        <footer class="meta">
+        {% if page.authors %}
+          {{ page.authors }}
+        {% endif %}
+        •
+        {% if page.date %}
+          <time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+        {% endif %}
+        </footer>
+        {% endif %}
+
+<!--
+        {% if page.journal %}
+          <p>{{ page.journal }}</p>
+        {% endif %}
+
+        {% if page.abstract %}
+          <p>{{ page.abstract }}</p>
+        {% endif %}
+  -->
+
       </article>
     </main>
   </div>
