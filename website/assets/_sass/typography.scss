@@ -167,16 +167,28 @@ footer {
 		}
 }
 
-ul#blogroll{//front page
+ul#latest-publications{//front page
  list-style-type:none;padding:0;
- li {margin-bottom:1.5em;}
+ li {
+	margin-bottom:1.5em;
+		a.icon-right-dir{
+			font-size: 0.6em;
+			text-transform: uppercase;
+			font-weight: bold;
+			&:before{
+				margin-right: .03em;
+			}
+		}
+	}
  time {
 	opacity:1;
 	font-weight:300;
 	@extend .zeta;
 	//font-family: 'Open Sans', sans-serif;
 	//@extend small;
+
 	}
+
 }
 
 

@@ -123,17 +123,17 @@ title: Home
 
 			<div class="half">
 
-				<h4 >Latest Publications<small><a class="float-right" href="/publications/">See All</a></small></h4>
+				<h4>Latest Publications<small><a class="float-right" href="/publications/">See All</a></small></h4>
 
 				<div class=" ">
-					<ul id="blogroll">
+					<ul id="latest-publications">
 					{% for post in site.posts limit:4 %}
 					<li>
-						<h5><a href="{{ post.url }}">{{ post.title }}</a>
+						<a class="icon-book-open" href="{{ post.url }}">{{ post.title }}</a>
 						<span><time datetime="{{ post.date | date: "%b %-d, %Y" }}">  ({{ post.date | date: "%b %-d, %Y" }})</time> </span>
-						</h5>
-						{{ post.subheading }}
-						<a href="{{ post.url }}">More &raquo;</a>
+						<a href="{{ post.url }}" class="icon-right-dir">read</a>
+
+
 					</li>
 					{% endfor %}
 					</ul>
