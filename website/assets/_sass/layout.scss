@@ -148,7 +148,7 @@ img.icon { // circles with icons, 3 in a row
 
   // used by workshops
   body.page.fullwidth{
-    main{
+    main,#top{
       //@include row();
       @include span-columns(4);
       @include shift(0);
@@ -218,7 +218,7 @@ img.icon { // circles with icons, 3 in a row
 
 // used by workshops
 body.page.fullwidth{
-    main{
+    main,#top{
       //@include row();
       @include span-columns(8);
       @include shift(0);
@@ -276,7 +276,7 @@ body.publication,body.page{
 
 // used by workshops
 body.page.fullwidth{
-    main{
+    main,#top{
       //@include row();
       @include span-columns(12);
       @include shift(0);
@@ -319,7 +319,7 @@ body.page.fullwidth{
 
 // used by workshops
 body.page.fullwidth{
-    main{
+    main,#top{
       //@include row();
       @include span-columns(16);
       @include shift(0);

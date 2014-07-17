@@ -1,12 +1,14 @@
 $base-border-color:#ddd;
 $table-border-color:#ddd;
-$table-hover-color:#eaeaea;
+$table-hover-color:#f1f1f1;
 $table-background:#fefefe;
-$table-stripe-color: #000;
+$table-stripe-color: #fafafa;
 $base-border-radius:1;
-$table-hover-color:red;
+$table-hover-color:#fff;
 $table-header-color:#ccc;
 $table-padding:.4em;
+
+table tbody tr:nth-child(even){background-color:red}
 
 table {
   $table-border-color: $base-border-color;
@@ -23,6 +25,8 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   border-radius: $base-border-radius;
+
+  margin:3em 0;
 
   tbody {
     background-color: $table-background;

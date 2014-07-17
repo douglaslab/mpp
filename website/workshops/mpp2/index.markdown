@@ -1,15 +1,32 @@
 ---
 layout: page
 title: Workshops
-subheading: Workshops
+subheading: 2013 MPP Workshop Retreat
 permalink: /workshops/1/
 body_class: fullwidth
 published: true
 ---
 
+<div class="row">
 
-Welcome to the web page for the 2013 Molecular Programming Project Workshop, to be held on 13-15 December 2013 at the Embassy Suites Mandalay Beach Hotel in Oxnard, CA. The workshop, held yearly, brings together researchers (a) studying the principles of programming with chemistry and biochemistry; and (b) building novel molecular systems that implement useful computations. The workshop is sponsored by the National Science Foundation, through the Molecular Programming Project, an Expeditions grant funded by NSF 2008-2013, and through the Molecular Programming Architectures, Abstractions, Algorithms, and Applications grant, an Expedition funded by NSF 2013-2018.
+<div class="half">
+
+
+Welcome to the web page for the 2013 Molecular Programming Project Workshop, to be held on 13-15 December 2013 at the Embassy Suites Mandalay Beach Hotel in Oxnard, CA. The workshop, held yearly, brings together researchers (a) studying the principles of programming with chemistry and biochemistry; and (b) building novel molecular systems that implement useful computations. 
+
+
+</div>
+
+<div class="half omega">
+
+
+The workshop is sponsored by the National Science Foundation, through the Molecular Programming Project, an Expeditions grant funded by NSF 2008-2013, and through the Molecular Programming Architectures, Abstractions, Algorithms, and Applications grant, an Expedition funded by NSF 2013-2018.
 The organizers of the workshop are Erik Winfree and Lucinda Acosta. If you have any questions or concerns, let us know at lucinda@caltech.edu.  
+
+</div>
+
+</div>
+
 
 <table width="100%">
 
