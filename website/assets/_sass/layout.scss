@@ -146,6 +146,16 @@ img.icon { // circles with icons, 3 in a row
   }
 
 
+  // used by workshops
+  body.page.fullwidth{
+    main{
+      //@include row();
+      @include span-columns(4);
+      @include shift(0);
+
+  }
+}
+
   /* front page */
 
   #greeting{
@@ -206,6 +216,15 @@ img.icon { // circles with icons, 3 in a row
      }
    }
 
+// used by workshops
+body.page.fullwidth{
+    main{
+      //@include row();
+      @include span-columns(8);
+      @include shift(0);
+
+  }
+}
 
   /* front page */
 
@@ -247,13 +266,23 @@ img.icon { // circles with icons, 3 in a row
 
 // main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
-.publication,.page{
+body.publication,body.page{
     main,#top {
       @include span-columns(8);
       @include shift(2);
     }
 
   }
+
+// used by workshops
+body.page.fullwidth{
+    main{
+      //@include row();
+      @include span-columns(12);
+      @include shift(0);
+
+  }
+}
 
 
   /* front page */
@@ -287,6 +316,16 @@ img.icon { // circles with icons, 3 in a row
        @include shift(4);
      }
    }
+
+// used by workshops
+body.page.fullwidth{
+    main{
+      //@include row();
+      @include span-columns(16);
+      @include shift(0);
+
+  }
+}
 
 
   /* front page */
