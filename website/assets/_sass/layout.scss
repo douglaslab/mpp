@@ -30,7 +30,7 @@ body.page,body.publication{
   }
 
   main {
-    @include pad(30px 0px 30px 0);
+    @include pad(80px 0px 30px 0);
 
   }
 
@@ -131,11 +131,17 @@ img.icon { // circles with icons, 3 in a row
   .half {@include span-columns(4);}
   .quarter{@include span-columns(4);}
 
-// main is the outer container on .page and .post pages.
+// main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
-  .post,.page{
+  .publication,.page{
     main,#top {
       @include span-columns(4);
+    }
+    header{
+      h2.icon-book-open:before{
+          display:none;visibility:hidden;
+
+      }
     }
   }
 
@@ -168,6 +174,9 @@ img.icon { // circles with icons, 3 in a row
   .hide-on-tablet{display:none;visibility:hidden}
   .hide-on-desktop{display:none;visibility:hidden}
 
+  // .show-on-tablet{display:block;visibility:visible}
+
+
 //   aside section {@include span-columns(3);}
   .third{ @include span-columns(2.6);}
   .two-thirds{@include span-columns(5.2);}
@@ -175,12 +184,25 @@ img.icon { // circles with icons, 3 in a row
   .quarter{@include span-columns(2);}
 
 
-// main is the outer container on .page and .post pages.
+// main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
-  .post,.page{
+  .publication,.page{
     main,#top {
       @include span-columns(6);
       @include shift(1);
+     }
+
+     header{
+       h2.icon-book-open:before{
+          display:inline-block;visibility:visible;
+        //text-indent:0;
+         margin-top: 0.2em;
+         padding: 0;
+         margin-left: -1.5em;
+         padding-right: 1.2em;
+         opacity: .15;
+         height:100%;
+       }
      }
    }
 
@@ -223,14 +245,16 @@ img.icon { // circles with icons, 3 in a row
   .quarter{@include span-columns(3);}
    footer { padding: 0; }
 
-// main is the outer container on .page and .post pages.
+// main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
-.post,.page{
+.publication,.page{
     main,#top {
       @include span-columns(8);
       @include shift(2);
     }
+
   }
+
 
   /* front page */
 
@@ -255,9 +279,9 @@ img.icon { // circles with icons, 3 in a row
    .quarter{@include span-columns(4);}
 
 
-// main is the outer container on .page and .post pages.
+// main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
-  .post,.page{
+  .publication,.page{
      main,#top {
        @include span-columns(8);
        @include shift(4);
