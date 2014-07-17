@@ -111,6 +111,7 @@ q p {
 
 .centered{
 	text-align:center;
+	white-space: nowrap;
 }
 .text-left {
 	text-align:left;
@@ -170,11 +171,13 @@ footer {
 ul#latest-publications{//front page
  list-style-type:none;padding:0;
  li {
-	margin-bottom:1.5em;
+	margin-bottom:1.1em;
+	// this is the READ MORE button
 		a.icon-right-dir{
 			font-size: 0.6em;
 			text-transform: uppercase;
 			font-weight: bold;
+			white-space: nowrap;
 			&:before{
 				margin-right: .03em;
 			}
