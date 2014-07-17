@@ -1,5 +1,128 @@
 
 
+// ------------------------------------------------------------
+// Omega Reset Mixin
+// Documention for Omega-Rest was found here:
+// http://joshfry.me/notes/omega-reset-for-bourbon-neat/
+// ------------------------------------------------------------
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
+
+.box{
+  @include media($mobile) {
+    @include span-columns(24); // of 24
+    @include omega(1n);
+  }
+  @include media($tablet) {
+    @include omega-reset(1n); // Reset previous @include omega()
+    @include span-columns(12); // of 24
+    @include omega(2n);
+  }
+  @include media($desktop) {
+    @include omega-reset(2n); // Reset previous @include omega()
+    @include span-columns(8);  // of 24
+    @include omega(3n);
+
+  }
+  @include media($largedesktop) {
+  // we really wanna keep 3 columns until wide desktop below, so
+  // i comment this next section out and we go on to $widedesktop
+  //  @include omega-reset(3n); // Reset previous @include omega()
+  //  @include span-columns(6);  // of 24
+  //  @include omega(4n);
+  }
+
+}
+
+.third {
+  @include media($mobile) {
+    @include span-columns(24); // of 24
+  }
+  @include media($tablet) {
+    @include span-columns(8); // of 24
+  }
+  @include media($desktop) {
+    @include span-columns(8);  // of 24
+  }
+  @include media($largedesktop) {
+    @include span-columns(8);  // of 24
+  }
+
+}
+
+
+.half {
+  @include media($mobile) {
+    @include span-columns(24); // of 24
+  }
+  @include media($tablet) {
+    @include span-columns(12); // of 24
+  }
+  @include media($desktop) {
+    @include span-columns(12);  // of 24
+  }
+  @include media($largedesktop) {
+    @include span-columns(12);  // of 24
+  }
+
+}
+
+
+.quarter {
+  @include media($mobile) {
+    @include span-columns(24); // of 24
+  }
+  @include media($tablet) {
+    @include span-columns(6); // of 24
+  }
+  @include media($desktop) {
+    @include span-columns(6);  // of 24
+  }
+  @include media($largedesktop) {
+    @include span-columns(6);  // of 24
+  }
+
+}
+
+.three-quarters {
+  @include media($mobile) {
+    @include span-columns(24); // of 24
+  }
+  @include media($tablet) {
+    @include span-columns(18); // of 24
+  }
+  @include media($desktop) {
+    @include span-columns(18);  // of 24
+  }
+  @include media($largedesktop) {
+    @include span-columns(18);  // of 24
+  }
+
+}
+
+figure { //resets figure
+  padding:0;
+  // the next two lines - NEAT has those set as 40px each for some reason. we override it.
+  -webkit-margin-start:0px;
+  -webkit-margin-end:0px;
+  margin:0;
+  img{width:100%} // makes ecard images stretch, expand
+}
+
+.box{
+  //@include padding(0 0 1em 0);
+  min-height:300px;
+  margin-bottom:3em;
+  border-bottom:2px solid #ccc;
+  //border:1px solid #ccc;
+  // background:white;
+// box-shadow:0 0 5px 0 rgba(0,0,0,.2);
+}
+
+
+/*----- */
 
 
 .float-right{float:right}
@@ -126,16 +249,11 @@ img.icon { // circles with icons, 3 in a row
   // is this next line still necessary?
   //.main .row { padding-bottom: 0 }
 
-  .third{@include span-columns(4);}
-  .two-thirds{@include span-columns(4);}
-  .half {@include span-columns(4);}
-  .quarter{@include span-columns(4);}
-
 // main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
   .publication,.page{
     main,#top {
-      @include span-columns(4);
+      @include span-columns(24);
     }
     header{
       h2.icon-book-open:before{
@@ -150,7 +268,7 @@ img.icon { // circles with icons, 3 in a row
   body.page.fullwidth{
     main,#top{
       //@include row();
-      @include span-columns(4);
+      @include span-columns(24);
       @include shift(0);
 
   }
@@ -187,19 +305,14 @@ img.icon { // circles with icons, 3 in a row
   // .show-on-tablet{display:block;visibility:visible}
 
 
-//   aside section {@include span-columns(3);}
-  .third{ @include span-columns(2.6);}
-  .two-thirds{@include span-columns(5.2);}
-  .half {@include span-columns(4);}
-  .quarter{@include span-columns(2);}
 
 
 // main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
   .publication,.page{
     main,#top {
-      @include span-columns(6);
-      @include shift(1);
+      @include span-columns(18);
+      @include shift(3);
      }
 
      header{
@@ -220,7 +333,7 @@ img.icon { // circles with icons, 3 in a row
 body.page.fullwidth{
     main,#top{
       //@include row();
-      @include span-columns(8);
+      @include span-columns(24);
       @include shift(0);
 
   }
@@ -258,18 +371,15 @@ body.page.fullwidth{
   .hide-on-desktop{display:block;visibility:visible}
 
 //  aside section {@include span-columns(4);}
-  .third{@include span-columns(4);}
-  .two-thirds{@include span-columns(8);}
-  .half {@include span-columns(6);}
-  .quarter{@include span-columns(3);}
+
    footer { padding: 0; }
 
 // main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
 body.publication,body.page{
     main,#top {
-      @include span-columns(8);
-      @include shift(2);
+      @include span-columns(18);
+      @include shift(3);
     }
 
   }
@@ -278,7 +388,7 @@ body.publication,body.page{
 body.page.fullwidth{
     main,#top{
       //@include row();
-      @include span-columns(12);
+      @include span-columns(24);
       @include shift(0);
 
   }
@@ -302,18 +412,14 @@ body.page.fullwidth{
 @include media($largedesktop) { // grid has 16 columns in total
 
   //  aside section {@include span-columns(5);}
-   .third{@include span-columns(5);} // fractional columns! close enough for browsers to round up to 16 total
-   .two-thirds{@include span-columns(11);}
-   .half {@include span-columns(8);}
-   .quarter{@include span-columns(4);}
 
 
 // main is the outer container on .page and .publication pages.
 // main is NOT used on frontpage
   .publication,.page{
      main,#top {
-       @include span-columns(8);
-       @include shift(4);
+       @include span-columns(12);
+       @include shift(6);
      }
    }
 
@@ -321,7 +427,7 @@ body.page.fullwidth{
 body.page.fullwidth{
     main,#top{
       //@include row();
-      @include span-columns(16);
+      @include span-columns(24);
       @include shift(0);
 
   }
