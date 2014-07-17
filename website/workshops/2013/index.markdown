@@ -2,7 +2,7 @@
 layout: page
 title: Workshops
 subheading: 2013 MPP Workshop Retreat
-permalink: /workshops/1/
+permalink: /workshops/2013/
 body_class: fullwidth
 published: true
 ---
@@ -12,7 +12,7 @@ published: true
 <div class="half">
 
 
-Welcome to the web page for the 2013 Molecular Programming Project Workshop, to be held on 13-15 December 2013 at the Embassy Suites Mandalay Beach Hotel in Oxnard, CA. The workshop, held yearly, brings together researchers (a) studying the principles of programming with chemistry and biochemistry; and (b) building novel molecular systems that implement useful computations. 
+Welcome to the web page for the 2013 Molecular Programming Project Workshop, to be held on 13-15 December 2013 at the Embassy Suites Mandalay Beach Hotel in Oxnard, CA. The workshop, held yearly, brings together researchers (a) studying the principles of programming with chemistry and biochemistry; and (b) building novel molecular systems that implement useful computations.
 
 
 </div>
@@ -21,14 +21,14 @@ Welcome to the web page for the 2013 Molecular Programming Project Workshop, to 
 
 
 The workshop is sponsored by the National Science Foundation, through the Molecular Programming Project, an Expeditions grant funded by NSF 2008-2013, and through the Molecular Programming Architectures, Abstractions, Algorithms, and Applications grant, an Expedition funded by NSF 2013-2018.
-The organizers of the workshop are Erik Winfree and Lucinda Acosta. If you have any questions or concerns, let us know at lucinda@caltech.edu.  
+The organizers of the workshop are Erik Winfree and Lucinda Acosta. If you have any questions or concerns, let us know at lucinda@caltech.edu.
 
 </div>
 
 </div>
 
 
-<table width="100%">
+<table >
 
 <tbody><tr>
 <td>
@@ -130,27 +130,27 @@ The organizers of the workshop are Erik Winfree and Lucinda Acosta. If you have 
 
 ##### Accomodations
 
-The hotel for the work shop is the Embassy Suites Mandalay Beach in Oxnard, CA:  
+The hotel for the work shop is the Embassy Suites Mandalay Beach in Oxnard, CA:
 
-Embassy Suites Mandalay Beach - Hotel & Resort  
-2101 Mandalay Beach Road  
-Oxnard, California, 93035  
-TEL: 1-805-984-2500  
+Embassy Suites Mandalay Beach - Hotel & Resort
+2101 Mandalay Beach Road
+Oxnard, California, 93035
+TEL: 1-805-984-2500
 
 
 Lodging will be arranged for you, expecting arrival Thursday afternoon and departure Sunday afternoon.
 
 #### Driving Directions
 
-Oxnard is ~65 miles from Pasadena (California 134 West to US-101N). From LAX it's also ~65 (Interstate 405 North to US-101 North).  
+Oxnard is ~65 miles from Pasadena (California 134 West to US-101N). From LAX it's also ~65 (Interstate 405 North to US-101 North).
 
-We can provide a link for coordinating carpooling for those interested. Shuttle services from LAX providing transportation to and from Oxnard/LAX are:  
+We can provide a link for coordinating carpooling for those interested. Shuttle services from LAX providing transportation to and from Oxnard/LAX are:
 
-The Coast Shuttle,  
-1 800 449 8267  
-info@coastshuttle.co  
+The Coast Shuttle,
+1 800 449 8267
+info@coastshuttle.co
 
-RoadRunner Shuttle  
-1 800 247 7919  
+RoadRunner Shuttle
+1 800 247 7919
 
 Please contact Lucinda Acosta if you require assistance with booking your travel/transportation arrangements.

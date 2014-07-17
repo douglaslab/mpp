@@ -1,97 +1,73 @@
-$base-border-color:#ddd;
-$table-border-color:#ddd;
-$table-hover-color:#f1f1f1;
-$table-background:#fefefe;
-$table-stripe-color: #fafafa;
-$base-border-radius:1;
-$table-hover-color:#fff;
-$table-header-color:#ccc;
-$table-padding:.4em;
 
-table tbody tr:nth-child(even){background-color:red}
 
 table {
-  $table-border-color: $base-border-color;
-  $table-border: 1px solid $table-border-color;
-  $table-background: lighten($table-border-color, 10);
-  $table-header-color: lighten($table-background, 10);
-  $table-hover-color: darken($table-background, 5);
-  $table-stripe-color: darken($table-background, 4);
-  $table-stripe-color-hover: darken($table-stripe-color, 5);
-  $table-padding: 0.5em;
-
-  border: $table-border;
-  border-left: 0px;
-  border-collapse: separate;
-  border-spacing: 0;
-  border-radius: $base-border-radius;
-
   margin:3em 0;
-
-  tbody {
-    background-color: $table-background;
-    tr:hover > td, tr:hover > th {
-      background-color: $table-hover-color;
-    }
-    tr:nth-child(even) {
-      background-color: $table-stripe-color;
-      &:hover > td {
-        background-color: $table-stripe-color-hover;
-      }
-    }
+  font-size:80%;
+  ul  {-webkit-padding-start: 30px;}
   }
+table td, table th {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
 
-  thead:first-of-type {
-    tr:first-child > th:first-child {
-      border-top-left-radius: $base-border-radius;
-    }
+table tbody tr:nth-child(even) {
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+}
 
-    tr:first-child > th:last-child {
-      border-top-right-radius: $base-border-radius;
-    }
-  }
+table th {
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+    background-image:    -moz-linear-gradient(top, #f5f5f5, #eee);
+    background-image:     -ms-linear-gradient(top, #f5f5f5, #eee);
+    background-image:      -o-linear-gradient(top, #f5f5f5, #eee);
+    background-image:         linear-gradient(top, #f5f5f5, #eee);
+}
 
-  tbody:last-child {
-    tr:last-child > td:first-child {
-      border-bottom-left-radius: $base-border-radius;
-    }
+table th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
 
-    tr:last-child > td:last-child {
-      border-bottom-right-radius: $base-border-radius;
-    }
-  }
+table th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
 
-  thead {
-    th {
-      background-color: $table-header-color;
-      padding: $table-padding;
-      border-left: 1px solid $table-border-color;
-      border-bottom: 0px;
-    }
-  }
+table th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
 
-  tbody {
-    background-color: $table-background;
+table tfoot td {
+    border-bottom: 0;
+    border-top: 1px solid #fff;
+    background-color: #f1f1f1;
+}
 
-    td {
-      padding: $table-padding;
-      border-left: 1px solid $table-border-color;
-      border-top: 1px solid $table-border-color;
-      border-bottom: 0px;
+table tfoot td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
 
-      button {
-        @include button(simple, $table-background);
-        margin-right: 0.5em;
-        display: inline-block;
-        width: 100%;
-        margin-bottom: .3em;
-        outline: none;
+table tfoot td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
 
-        @include media($tablet) {
-          width: auto;
-          margin-bottom: 0;
-        }
-      }
-    }
-  }
+table tfoot td:only-child{
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
 }
