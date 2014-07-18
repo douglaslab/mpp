@@ -20,9 +20,14 @@ body {
 	color:#66625b;
 }
 
+
 a#menu-logo{
+
 	@extend .bold;
 	text-transform:lowercase;
+	margin-top:5px;
+	color:#555;
+	&:hover{color:#111;}
 }
 
 a:link,a:visited{

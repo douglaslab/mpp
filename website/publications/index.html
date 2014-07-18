@@ -30,7 +30,7 @@ body_class: publications
   <article>
   <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 
-  <i>{{ post.date | date: "%B %d, %Y" }}</i>
+  <time datetime="{{ post.date | date: "%b %-d, %Y" }}">  ({{ post.date | date: "%b %-d, %Y" }})</time>
 
     {{ post.content | truncate: 300 | remove:'{u’#text’: u’' }}
     </br>
@@ -38,7 +38,7 @@ body_class: publications
     </br>
     <a class="icon-right-dir" href="{{ post.pmid }}">Link to article</a>
   </article>
-  <hr>
+
 {% endfor %}
 </section>
 

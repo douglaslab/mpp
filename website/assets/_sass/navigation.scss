@@ -1,3 +1,4 @@
+$nav-color:#45a1be;//steelblue
 
 nav {
   margin:0px;
@@ -98,7 +99,7 @@ nav hr {
   margin-bottom: 2em;
   font-weight: bold;
   font-size: 0.77273em;
-  color: #e64759; }
+  color: $nav-color; }
 
 .headline a {
   float: right;
@@ -111,7 +112,7 @@ nav ul {
   padding: 0; }
 
 nav li {
-  border-top: 2px solid #e64759;
+  border-top: 2px solid $nav-color;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -126,7 +127,7 @@ nav li {
 nav li:hover,
 nav li.view-all:hover,
 .nav-close span:hover {
-  background: #e64759;
+  background: $nav-color;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
@@ -156,7 +157,7 @@ nav li:hover:after { /* right angle bracket on right edge of menu item */
 
 
 nav li:last-child {
-  border-bottom: 2px solid #e64759; }
+  border-bottom: 2px solid $nav-color; }
 nav li.view-all { /* link to blog index */
   text-transform: none;
   background: #F0EDEA;
@@ -166,7 +167,7 @@ nav li.view-all a {
   left: -6px;
 }
 nav li a {
-  color: #e64759;
+  color: $nav-color;
   width: 100%;
   display: block;
   margin: -0.6em;
@@ -174,7 +175,7 @@ nav li a {
   position: relative; }
 
 nav li a:visited {
-  color: #e64759; }
+  color: $nav-color; }
 
 nav li a:hover {
   color: #fff;
@@ -189,7 +190,7 @@ nav li time {
   margin: 4rem 0 0;
 }
 .nav-close span {
-  background: #e64759;
+  background: $nav-color;
   border-radius: 8px 8px 0 0;
   color:#fff;
   cursor: pointer;

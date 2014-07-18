@@ -102,6 +102,9 @@
 
 }
 
+
+
+
 figure { //resets figure
   padding:0;
   // the next two lines - NEAT has those set as 40px each for some reason. we override it.
@@ -186,7 +189,14 @@ body.page,body.publication{
 // }
 
 body.publications{
-  section article:last-child{background:red;}
+  section article{
+    .icon-right-dir{font-size:80%}
+    time {font-size:80%;opacity:.5;}  
+    margin-bottom:3em;
+    padding-bottom:1em;
+    border-bottom:1px solid #ddd;
+    &:last-child{border:none}
+  }
 }
 
 .pagination{margin:2em 0}
