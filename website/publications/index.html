@@ -25,8 +25,9 @@ body_class: publications
   {% endif %}
 </div>
 
-<div class="publications-list"
+<section>
 {% for post in paginator.posts %}
+  <article>
   <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 
   <h6>{{ post.date | date: "%B %d, %Y" }}</h6>
@@ -36,11 +37,10 @@ body_class: publications
     <a class="icon-right-dir" href="{{ post.url }}">Read the abstract</a>
     </br>
     <a class="icon-right-dir" href="{{ post.pmid }}">Link to article</a>
-
-
+  </article>
   <hr>
 {% endfor %}
-</div>
+</section>
 
 <!-- Pagination links -->
 <div class="pagination">
