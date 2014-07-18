@@ -20,7 +20,7 @@ og_image_height: 300
 
 # pagination
 paginate: 5
-paginate_path: "news/page:num/index.html"
+paginate_path: "publications/page:num/index.html"
 
 # Sass settings
 sass:
