@@ -176,7 +176,7 @@ body.page,body.publication{
 }
 // this is the list of publications, not the publication itself.
 // ie. /publications
-// body.publications{
+//body.publications{
 //   .publications-list{
 //   //  hr{margin:3em 0}
 //     &:last-child{
@@ -184,6 +184,10 @@ body.page,body.publication{
 //     }
 //   }
 // }
+
+body.publications{
+  section article:last-child{background:red;}
+}
 
 .pagination{margin:2em 0}
 

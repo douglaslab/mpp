@@ -31,7 +31,7 @@ type_class: publication
 
       <hr>
       <p>
-        <b>Journal</b>:
+        <b>Journal</b>:</br>
         <cite>
             {{ authors}},
             ({{ date }}).
@@ -42,8 +42,8 @@ type_class: publication
 
         </cite>
       </p>
-        <b>Abstract:</b>
-        {{ content }}
+        <span><b>Abstract:</b>
+        {{ content | remove:'{u’#text’: u’'  }}</span>
 
         <p>
           <a class="icon-right-dir" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">read article</a>

@@ -4,7 +4,7 @@
   <head>
     {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% elsif site.permalink contains category_dir %}{{ '/' | page.url | remove:'index.html' | '/' }}{% else %}{{ page.url | remove:'index.html' | '/' }}{% endif %}{% endcapture %}
     {% capture title %}{% if page.title %}{{ page.title }} {% else %} {{% site.title %}}{% endif %}{% endcapture %}
-    {% capture description %}{% if page.subheading %}{{ page.subheading }}{% else %}{{ content | raw_content | strip_html | condense_spaces | truncate:300 }}{% endif %}{% endcapture %}
+    {% capture description %}{% if page.subheading %}{{ page.subheading }}{% else %}{{ content | raw_content | strip_html | condense_spaces | truncate:300 | remove:'   ' | strip_newlines  }}{% endif %}{% endcapture %}
     {% capture image %}{% if site.url contains 'https://' %}{{ site.url | replace:'https://','http://' }}{% else %}{{ site.url }}{% endif %}/{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}{% endcapture %}
 
     <meta charset="utf-8">
