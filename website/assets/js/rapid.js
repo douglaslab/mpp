@@ -8,45 +8,45 @@
 // Flat UI
 
 function isPlaceholderSupported() {
- 
+
     var input = document.createElement("input");
-    return ('placeholder' in input); 
- 
+    return ('placeholder' in input);
+
 }
- 
+
 var supported = isPlaceholderSupported();
 
 // Document Ready Functions
 $(document).ready(function() {
 	// Menu Animation
 	$('#header').delay(0).animate({'top': '0px'}, 'slow');
-	
+
 	var retractMenu = function() {
-			$("nav").animate({top: "-2000px"}, 800);
+			$("nav").animate({top: "-2000px"}, 500);
 			$('html').css('overflowY', 'auto');
 			$('#header a').animate({color: '#2C3E50'}, 800);
-			$('#header span').animate({backgroundColor: '#2C3E50'}, 800);        
+			$('#header span').animate({backgroundColor: '#2C3E50'}, 800);
         }
-        
+
         // Show Navigation and prevent scrolling
 	$('.menu').click(function(){
-		if($("nav").css("top") == "-2000px") {
-			$("nav").animate({top: "0px"}, 800);
+		if( $("nav").css("top") == "-2000px") {
+			$("nav").animate({top: "0px"}, 500);
 			$('nav').scrollTop(0);
 			$('html').css('overflowY', 'hidden');
 			var width = $(window).width();
 			if (width >= 1280) {
-			$('.menu a').animate({color: '#fff'}, 800);
-			$('.menu span').animate({backgroundColor: '#fff'}, 800);
-			 }
+  			$('.menu a').animate({color: '#fff'}, 800);
+  			$('.menu span').animate({backgroundColor: '#fff'}, 800);
+			}
 		} else {
-                        retractMenu();
+      retractMenu();
 		}
 		return false;
 	});
-        
+
         $('.nav-close span').click( retractMenu );
-	
+
 	// Catching Windows Resize for 3 Bar Icon Color
 	updateContainer();
 	$(window).resize(function() {
