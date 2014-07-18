@@ -97,6 +97,7 @@ $frontpage-link:#333;
 
 
 body {
+  @include css-hyphens(none);
   margin: 0;
 }
 body.publication{
