@@ -1,3 +1,18 @@
+
+
+### Email concealment.
+We use a conceal email script on the site to prevent bots from adding our email addresses to spamlists.
+
+<span class="e">winfree / caltech, edu </span>
+
+this turns into: winfree@caltech.edu
+
+
+
+ I encourage you to use the <span></span> method when putting email addresses into the site.
+
+
+
 mpp
 ===
 
