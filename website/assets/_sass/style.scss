@@ -278,30 +278,30 @@ body.frontpage{
     a,a:link,a:visited {color:$frontpage-link}
 
   }
-  footer {
-    background:#f5f7fa;
-    a:link,a:visited{
-      color:#a1a6ac;
-      }
-    a:hover{color:darken($page-publication, 10%);}
-
-
-    }
-}
-
-body#post{ //blog posts, right?
-
-  #header-background {
-
-  }
 
 }
+
+
+
+
 
 .share-row{
     background:$footer-background;
     color:$footer-color;
 }
 
+
+footer {
+  background:#f5f7fa;
+  a:link,a:visited{
+    color:#a1a6ac;
+    }
+  a:hover{color:darken(#a1a6ac, 10%);}
+}
+footer.subfooter{
+  background:white;
+  font-size:70%;
+}
 
 .circle {
   display: block;
