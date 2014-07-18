@@ -38,6 +38,7 @@ p a {
 
 .menu {
   float: right;
+  cursor: pointer;
   display: block;
   pointer-events: auto;
   color:#999;
@@ -135,12 +136,13 @@ nav li.view-all:hover,
   color:#fff;
 }
 nav li:hover:after { /* right angle bracket on right edge of menu item */
-  content: '\e805';
+  content: '\e816';
   position: absolute;
   right: 1em;
   top: 0.65em;
-  font-family: 'cmpicons';
+  font-family: 'mppmpp';
 }
+
 
 nav li:last-child {
   border-bottom: 2px solid $nav-color; }
