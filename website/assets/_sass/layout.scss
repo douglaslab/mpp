@@ -186,7 +186,7 @@ body.page,body.publication{
 // }
 
 body.publications{
-  main article::last-child{background:red;}
+  section article:last-child{background:red;}
 }
 
 .pagination{margin:2em 0}

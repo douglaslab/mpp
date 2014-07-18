@@ -11,6 +11,7 @@ $steelblue:#3399cc;//joinus
 $salmon:#fb887c;//labs
 $tomato:#fa524e;//media
 $palevioletred:#cc6699;//publications
+$plum:#dba1df;// publication
 $olivedrab:#749222;//outreach
 $goldenrod:#cab80f;//people
 $firebrick:#bf2a2a;//software
@@ -25,6 +26,7 @@ $page-joinus:$steelblue;
 $page-labs:$salmon;
 $page-media:$tomato;
 $page-publications:$palevioletred;
+$page-publication:$plum;
 $page-outreach:$olivedrab;
 $page-people:$goldenrod;
 $page-software:$firebrick;
@@ -121,6 +123,8 @@ body.page.about{
   }
   main a:link,main a:visited{
     color:$page-about;
+    &:hover{  color:darken($page-about, 10%); }
+
   }
 }
 body.page.contact{
@@ -129,6 +133,8 @@ body.page.contact{
   }
   main a:link,main a:visited{
     color:$page-contact;
+    &:hover{  color:darken($page-contact, 10%); }
+
   }
 }
 body.page.events{
@@ -137,6 +143,7 @@ body.page.events{
   }
   main a:link,main a:visited{
     color:$page-events;
+    &:hover{  color:darken($page-events, 10%); }
   }
 }
 body.page.joinus{
@@ -145,6 +152,8 @@ body.page.joinus{
   }
   main a:link,main a:visited{
     color:$page-joinus;
+    &:hover{  color:darken($page-joinus, 10%); }
+
   }
 }
 body.page.labs{
@@ -153,6 +162,8 @@ body.page.labs{
   }
   main a:link,main a:visited{
     color:$page-labs;
+    &:hover{  color:darken($page-labs, 10%); }
+
   }
 }
 body.page.media{
@@ -161,14 +172,27 @@ body.page.media{
   }
   main a:link,main a:visited{
     color:$page-media;
+    &:hover{  color:darken($page-media, 10%); }
+
   }
 }
-body.page.publications{
+body.page.publications{ // roll of publications
   #header-background{
     background:$page-publications;
   }
   main a:link,main a:visited{
     color:$page-publications;
+    &:hover{  color:darken($page-publications, 10%); }
+
+  }
+}
+body.publication{ // a single publication view (ie the article with abstract)
+  // #header-background{
+  //   background:$page-publications;
+  // }
+  main a:link,main a:visited{
+    color:$page-publication;
+    &:hover{  color:darken($page-publication, 10%); }
   }
 }
 body.page.outreach{
@@ -177,6 +201,8 @@ body.page.outreach{
   }
   main a:link,main a:visited{
     color:$page-outreach;
+    &:hover{  color:darken($page-outreach, 10%); }
+
   }
 }
 body.page.people{
@@ -185,6 +211,8 @@ body.page.people{
   }
   main a:link,main a:visited{
     color:$page-people;
+    &:hover{  color:darken($page-people, 10%); }
+
   }
 }
 body.page.software{
@@ -193,6 +221,8 @@ body.page.software{
   }
   main a:link,main a:visited{
     color:$page-software;
+    &:hover{  color:darken($page-software, 10%); }
+
   }
 }
 body.page.visitingdays{
@@ -201,6 +231,8 @@ body.page.visitingdays{
   }
   main a:link,main a:visited{
     color:$page-visitingdays;
+    &:hover{  color:darken($page-visitingdays, 10%); }
+
   }
 }
 
@@ -251,7 +283,9 @@ body.frontpage{
     a:link,a:visited{
       color:#a1a6ac;
       }
-    a:hover{color:#555}
+    a:hover{color:darken($page-publication, 10%);}
+
+
     }
 }
 

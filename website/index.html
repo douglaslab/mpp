@@ -123,21 +123,20 @@ title: Home
 
 			<div class="half">
 
-				<h4>Latest Publications<small><a class="float-right" href="/publications/">See All</a></small></h4>
+				<a href="/publications"><h4>Latest Publications</a> <small><a class="float-right icon-rss-squared" href="/feed.xml/">Feed</a></small></h4>
 
-				<div class=" ">
 					<ul id="latest-publications">
 					{% for post in site.posts limit:4 %}
 					<li>
-						<a class="icon-book-open" href="{{ post.url }}">{{ post.title }}</a>
+						<a class="icon-book-open" href="{{ post.url }}">{{ post.title }}
 						<span><time datetime="{{ post.date | date: "%b %-d, %Y" }}">  ({{ post.date | date: "%b %-d, %Y" }})</time> </span>
+						</a>
 						<a href="{{ post.url }}" class="icon-right-dir">read</a>
 
 
 					</li>
 					{% endfor %}
 					</ul>
-				</div>
 
 
 	</div>
