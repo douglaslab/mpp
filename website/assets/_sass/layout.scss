@@ -191,7 +191,7 @@ body.page,body.publication{
 body.publications{
   section article{
     .icon-right-dir{font-size:80%}
-    time {font-size:80%;opacity:.5;}  
+    time {font-size:80%;opacity:.5;}
     margin-bottom:3em;
     padding-bottom:1em;
     border-bottom:1px solid #ddd;
@@ -251,6 +251,7 @@ body > footer {
     padding-top:6em;
   }
 }
+
 img.icon { // circles with icons, 3 in a row
   display: block;
 //  font-size: 8em;
