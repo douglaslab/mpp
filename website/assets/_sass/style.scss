@@ -244,7 +244,7 @@ body.frontpage{
   .headroom{background:$frontpage-header}
   p{color:$frontpage-text}
 
-  page-top{
+  #frontpage-top{
     background:$frontpage-top;
     h1,h2,h3,h4,h5,h6{color:$frontpage-top-h1-h6;}
     p {
