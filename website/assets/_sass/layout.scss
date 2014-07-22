@@ -332,6 +332,11 @@ img.icon { // circles with icons, 3 in a row
 
   // share icons in footer
   ul#share-buttons{width:400px;}
+
+
+  span.desktop-slogan{visibility:hidden;display:none}
+  span.tablet-slogan{visibility:hidden;display:none}
+  span.mobile-slogan{visibility:visible;display:inline}
 }
 
 
@@ -346,7 +351,9 @@ img.icon { // circles with icons, 3 in a row
 
   // .show-on-tablet{display:block;visibility:visible}
 
-
+  span.desktop-slogan{visibility:hidden;display:none}
+  span.tablet-slogan{visibility:visible;display:inline}
+  span.mobile-slogan{visibility:hidden;display:none}
 
 
 // main is the outer container on .page and .publication pages.
@@ -413,6 +420,10 @@ body.page.fullwidth{
   .hide-on-desktop{display:block;visibility:visible}
 
 //  aside section {@include span-columns(4);}
+
+  span.desktop-slogan{visibility:visible;display:inline}
+  span.tablet-slogan{visibility:hidden;display:none}
+  span.mobile-slogan{visibility:hidden;display:none}
 
    footer { padding: 0; }
 

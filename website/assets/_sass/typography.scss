@@ -21,13 +21,16 @@ body {
 }
 
 
-a#menu-logo{
+header {
+		text-transform:lowercase;
 
-	@extend .bold;
-	text-transform:lowercase;
-	margin-top:5px;
-	color:#555;
-	&:hover{color:#111;}
+		a:link,header a:visited{
+
+		@extend .bold;
+		margin-top:5px;
+		color:#555;
+		&:hover{color:#111;}
+	}
 }
 
 #navigation{color:#555}
