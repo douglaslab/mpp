@@ -24,7 +24,7 @@ body {
 header {
 		text-transform:lowercase;
 
-		a:link,header a:visited{
+		a:link,a:visited{
 
 		@extend .bold;
 		margin-top:5px;
