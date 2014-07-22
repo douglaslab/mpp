@@ -128,7 +128,7 @@ title: Home
 					<ul id="latest-publications">
 					{% for post in site.posts limit:4 %}
 					<li>
-						<a class="icon-book-open" href="{{ post.url }}">{{ post.title }}
+						<a class="icon-book-open" href="{{ post.url }}">{{ post.firstauthor}} <i>et al.</i> {{ post.title }}
 						<span><time datetime="{{ post.date | date: "%b %-d, %Y" }}">  ({{ post.date | date: "%b %-d, %Y" }})</time> </span>
 						</a>
 						<a href="{{ post.url }}" class="icon-right-dir">read</a>
