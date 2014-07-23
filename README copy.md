@@ -1,16 +1,12 @@
 
 
 ### Email concealment.
+
 We use a conceal email script on the site to prevent bots from adding our email addresses to spamlists.
 
 <span class="e">winfree / caltech, edu </span>
 
-this turns into: winfree@caltech.edu
-
-
-
- I encourage you to use the <span></span> method when putting email addresses into the site.
-
+this turns into a real email address.
 
 
 mpp
@@ -41,7 +37,6 @@ Jekyll is a static website generator that makes websites:
 3. The news page can be edited in the root dir too.
 3. The news page pulls/sorts blog posts from inside the /_posts
 4. Many settings are found in the root dir -> _config.yml
-
 
 
 ## More about content pages

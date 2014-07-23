@@ -1,10 +1,10 @@
 # Site settings
 name: mpp
 title: Molecular Programming Project
-email: your-email@domain.com
+email: shawn.douglas@ucsf.edu
 description: "Molecular Programming | Architectures, Abstractions, Algorithyms and Applications"
 baseurl: ""
-url: "http://localhost:4000"
+url: "http://bionano.io"
 
 # Build settings
 markdown: kramdown
