@@ -14,7 +14,7 @@ To start the server:
 
 Now open a browser to localhost:4000
 
-### Now, SASS
+## Now, SASS
 
 gem install sass
 AND it might need a dependency
@@ -30,7 +30,7 @@ Now, the site only loads the .css files, it doesn't know about the the .scss fil
 
 Never change a .css file, only change a .scss file, or the SASS compiler will overwrite those changes.
 
-### Important issue with CSS
+## Important issue with CSS
   
 CSS files aren't being tracked until we're ready for production: this is because every commit creates conflicts needing merges. SO in production, the line in .gitignore must be removed so git just tracks css files again.
 
@@ -38,9 +38,7 @@ CSS files aren't being tracked until we're ready for production: this is because
 
 [Bourbon](http://bourbon.io/), a set of sass classes is installed and we're using its companion set, 'Neat' for its grid. To update these libraries, go into the /assets/scss directory and type `update neat` and `update bourbon`.
 
-
-
-### Email concealment.
+## Email concealment.
 
 We use a conceal email script on the site to prevent bots from adding our email addresses to spamlists.
 
@@ -48,18 +46,8 @@ We use a conceal email script on the site to prevent bots from adding our email 
 
 this turns into a real email address.
 
-
-mpp
-===
-
-### to be fixed
-
-Right now the top nav.menu, left column, is generating dynamic items. For no reason I can understand it's including main.css as a 'page'. Could be a jekyll bug.
-If we don't resolve it, let's change the items to static.
-
-### BEFORE this can be hosted in production, remove the line _site/* from .gitignore
-
 ## A Little About Jekyll
+
 Jekyll is a static website generator that makes websites:
 
 - SAFE from Denial of Service Attacks
@@ -100,7 +88,7 @@ The /assets/css/main.scss is really the important file here. It just imports a l
 
 Jekyll parses all the files imported in the '/assets/css/main.scss' file, and generates it into one, single, compressed file ucalled /_site/assets/css/main.css.
 
-#### Grid
+### Grid
 
 The grid we use is [Bourbon's Neat](http://neat.bourbon.io/). It's a semantic grid, so we style elements directly, not fill our html up with classes like 'article class="etc"'. The documentation is pretty easy.
 
@@ -108,6 +96,6 @@ The grid is only invoked in two places: assets/_sass/layout.scss and /assets/_sa
 
 We don't mention the grid anywhere else, not in styles or typography or anywhere else.
 
-#### Typography
+### Typography
 
 We use [Typeplate](http://typeplate.com/) to set some basicly proper typographical proportions - not font choices but their behavior, relationship stuff. This is very subtle stuff, and shouldnt be touched. They're loaded in /assets/_sass/typelate-scss/*
