@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Workshops
-subheading: 2013 MPP Workshop Retreat
+title: "Workshops"
+subheading: "2013 MPP Workshop Retreat"
 permalink: /workshops/1/
 body_class: fullwidth
 published: true
