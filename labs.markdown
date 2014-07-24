@@ -19,7 +19,7 @@ published: true
   * Georg Seelig: [Personal Page][15] and [Group Page][16] (facilitator for knowledge transfer - web resources)
   * William Shih: [Personal Page][17] and [Group Page][18] (facilitator for knowledge transfer - industrial contacts) [regional director]
   * Erik Winfree: [Personal Page][19] and [Group Page][20] (facilitator for knowledge transfer - annual workshops) [director]
-  * Peng Yin&nbsp;: [Personal Page][21] and [Group Page][22] (facilitator for knowledge transfer - affiliates)
+  * Peng Yin: [Personal Page][21] and [Group Page][22] (facilitator for knowledge transfer - affiliates)
 
 
    [1]: http://molecular-programming.org#column-one
