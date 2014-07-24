@@ -6,7 +6,7 @@ body_class: people
 published: true
 ---
 
-### HH At the California Institute of Technology...
+### At the California Institute of Technology...
 
 - [Shuki Bruck](http://www.paradise.caltech.edu/bruck.html) (PI)
 - [Harry Choi](http://piercelab.caltech.edu/) (research scientist)
