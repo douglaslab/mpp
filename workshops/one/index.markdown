@@ -2,7 +2,7 @@
 layout: page
 title: "Workshops"
 subheading: "2013 MPP Workshop Retreat"
-permalink: /workshops/1/
+permalink: /workshops/one/
 body_class: fullwidth
 published: true
 ---
@@ -130,27 +130,27 @@ The organizers of the workshop are Erik Winfree and Lucinda Acosta. If you have 
 
 ##### Accomodations
 
-The hotel for the work shop is the Embassy Suites Mandalay Beach in Oxnard, CA:
+The hotel for the work shop is the Embassy Suites Mandalay Beach in Oxnard, CA:  
 
-Embassy Suites Mandalay Beach - Hotel & Resort
-2101 Mandalay Beach Road
-Oxnard, California, 93035
-TEL: 1-805-984-2500
+Embassy Suites Mandalay Beach - Hotel & Resort  
+2101 Mandalay Beach Road  
+Oxnard, California, 93035  
+TEL: 1-805-984-2500  
 
 
 Lodging will be arranged for you, expecting arrival Thursday afternoon and departure Sunday afternoon.
 
 #### Driving Directions
 
-Oxnard is ~65 miles from Pasadena (California 134 West to US-101N). From LAX it's also ~65 (Interstate 405 North to US-101 North).
+Oxnard is ~65 miles from Pasadena (California 134 West to US-101N). From LAX it's also ~65 (Interstate 405 North to US-101 North).  
 
-We can provide a link for coordinating carpooling for those interested. Shuttle services from LAX providing transportation to and from Oxnard/LAX are:
+We can provide a link for coordinating carpooling for those interested. Shuttle services from LAX providing transportation to and from Oxnard/LAX are:  
 
-The Coast Shuttle,
-1 800 449 8267
-info@coastshuttle.co
+The Coast Shuttle,  
+1 800 449 8267  
+info@coastshuttle.co  
 
-RoadRunner Shuttle
-1 800 247 7919
+RoadRunner Shuttle  
+1 800 247 7919  
 
 Please contact Lucinda Acosta if you require assistance with booking your travel/transportation arrangements.
