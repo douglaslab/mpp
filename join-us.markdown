@@ -16,7 +16,9 @@ At Caltech, this would include (but not exclusively), [Bioengineering][3], [Comp
 
 At UW, this would include [Electrical Engineering][9], [Bioengineering][10], and [Computer Science and Engineering][11].
 
-At Harvard, this would include [Systems Biology][12], [Biophysics][13], [Chemistry][14], and [Computer Science][15]. At UCSF, this would include [Biophysics][16], [Bioengineering][17], and [Bioinformatics][18]. In your research statement, be sure to clearly state your interest in the MPP and particular faculty.
+At Harvard, this would include [Systems Biology][12], [Biophysics][13], [Chemistry][14], and [Computer Science][15]. 
+
+At UCSF, this would include [Biophysics][16], [Bioengineering][17], and [Bioinformatics][18]. In your research statement, be sure to clearly state your interest in the MPP and particular faculty.
 
 ### Undergraduate Students
 Undergraduate students may be interested in summer research projects. At Caltech, opportunities abound in [SURF][19] and [MURF][20] programs. At UW, the place to start is the [URP][21]. At Harvard, the place to start is [PRISE][22] or [SHURP][23]. At UCSF, the place to start is [here][24]. You are strongly encouraged to consider joining an [iGEM][25] or [BIOMOD][26] summer research competition team!

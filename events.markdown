@@ -9,7 +9,7 @@ Subgroup meetings and supergroup meetings are held in the New Media Classroom (C
 
 ##  2014
 
-  * Jan,Feb,March: Peter Clote ([web page][3]) visiting Niles Pierce's lab.
+  * Jan, Feb, March: Peter Clote ([web page][3]) visiting Niles Pierce's lab.
   * Feb, March: Yannick Rondelez ([web page][4]) visiting Erik Winfree's lab.
 
 ##  2013
@@ -19,10 +19,7 @@ Subgroup meetings and supergroup meetings are held in the New Media Classroom (C
     * He will be here, with Mingjie Dai and Jo Woehrstein also from Peng Yin's lab, from 9/30 through 10/4.
   * September 18: Visit by Petr Sulc (Oxford), seminar at 4pm in Moore 070, Caltech, "Coarse grained modelling of nucleic acids"
   * April 19: Supergroup meeting, New Media Classroom (Caltech) and Kane Hall Room 019 (UW), 2-3pm. Speakers:
-    * Gourab Chatterjee and Richard Muscat (Seelig lab), "DNA-based Molecular Architecture with Spatially Localized
-
-Components".
-
+    * Gourab Chatterjee and Richard Muscat (Seelig lab), "DNA-based Molecular Architecture with Spatially Localized Components".
   * April 4 - April 12: Visit by Jack and Robyn Lutz (Iowa State U)
   * April 3: Visit by Patrick Cai (Johns Hopkins and Edinburgh) and Carlos Olguin (Autodesk)
     * 10am -- Carlos's talk in room 070 Moore: "Design software for programming matter across scales and domains"
@@ -117,10 +114,6 @@ Components".
   * November 7&nbsp;: Supergroup meeting -- Elisa Franco (Murray group) on "Flow regulation for transcriptional circuits" and Peng Yin &amp; Joe Zadeh (Pierce group) on "Towards a compiler for dynamic nucleic acid systems".
   * October 3&nbsp;: Supergroup meeting -- Kevin Oishi (Klavins group) and David Soloveichik (Winfree group).
 
-[Site visit planning][8]
-
-[Bootcamp Planning][9]
-
    [1]: http://molecular-programming.org/MPPWiki/index.php/Main_Page (Main Page)
    [2]: /assets/images/pdfs/NMCmap.pdf (File:NMCmap.pdf)
    [3]: http://bioinformatics.bc.edu/~clote/
@@ -128,5 +121,3 @@ Components".
    [5]: http://molecular-programming.org/MPPWiki/index.php/2013_MPP_Workshop_Retreat (2013 MPP Workshop Retreat)
    [6]: http://molecular-programming.org/MPPWiki/index.php/2012_MPP_Workshop_Retreat (2012 MPP Workshop Retreat)
    [7]: http://molecular-programming.org/MPPWiki/index.php/2011_MPP_Workshop_Retreat (2011 MPP Workshop Retreat)
-   [8]: http://molecular-programming.org/MPPWiki/index.php/Site_visit_planning (Site visit planning)
-   [9]: http://molecular-programming.org/MPPWiki/index.php/Bootcamp_Planning (Bootcamp Planning)

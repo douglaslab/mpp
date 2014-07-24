@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: "Ensemble Bayesian analysis of bistability in a synthetic transcriptional switch."
-date: 2013-05-08 12:00:00
+date: 2012-08-17 12:00:00
 pmid: 23651285
 authors: "Subsoontorn P, Kim J, Winfree E"
 firstauthor: "Subsoontorn P"

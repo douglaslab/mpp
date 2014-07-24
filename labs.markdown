@@ -6,8 +6,7 @@ body_class: labs
 published: true
 ---
 
-# Core MMP Labs
-
+# Core MPP Labs
 
 
   * Jehoshua "Shuki" Bruck: [Personal Page][3] and [Group Page][4] (facilitator for education - courses)
