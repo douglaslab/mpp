@@ -27,8 +27,7 @@ published: true
   * [Engadget][14] on neural networks with DNA (July 30, 2011)
   * [Engineering and Science article "Programming Molecular Apps"][15] (Winter, 2012)
   * [Economist article "Computing with Soup"][16] (May 3rd, 2012)
-
-
+  * An interview with Lulu Qian featured in [Futurescapes][16] (December 3, 2013)
 
 
    [1]: http://molecular-programming.org#column-one
@@ -47,3 +46,4 @@ published: true
    [14]: http://www.engadget.com/2011/07/30/dna-based-artificial-neural-network-is-a-primitive-brain-in-a-te/
    [15]: http://eands.caltech.edu/articles/LXXIV4/2012_Winter_Programming_Molecular_Apps.pdf
    [16]: http://www.economist.com/node/21548488
+   [17]:http://www.tvguide.com/tvshows/futurescape-2013/episode-4-season-1/replacing-god/603303
