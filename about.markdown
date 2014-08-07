@@ -33,4 +33,4 @@ Our work involves four themes.
 
 Our long-term vision is to establish molecular programming as a subdiscipline of computer science—one that will enable a yet-to-be imagined array of applications from chemical circuitry for interacting with biological molecules to nanoscale computing and molecular robotics.
 
-More information is available at the MPP Wiki.
+More information is available at the [archived MPP Wiki](http://archive.molecular-programming.org/).
