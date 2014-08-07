@@ -4,7 +4,7 @@ title: Molecular Programming Project
 email: shawn.douglas@ucsf.edu
 description: "Molecular Programming | Architectures, Abstractions, Algorithyms and Applications"
 baseurl: ""
-url: "http://bionano.io"
+url: "http://molecular-programming.org"
 
 # Build settings
 markdown: kramdown
