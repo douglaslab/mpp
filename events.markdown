@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Events Calendar
+title: MPP Events Calendar
 body_class: events
 published: true
 ---

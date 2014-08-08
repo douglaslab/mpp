@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Software"
+title: "MPP Software"
 subheading: Useful software members of our organistion use or maintain.
 body_class: software
 published: true

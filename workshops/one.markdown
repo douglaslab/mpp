@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Workshops"
+title: "MPP Workshop 2013"
 subheading: "2013 MPP Workshop Retreat"
 body_class: fullwidth
 published: true
@@ -123,19 +123,14 @@ The organizers of the workshop are Erik Winfree and Lucinda Acosta. If you have 
 </td></tr></tbody></table>
 
 
+##### Accommodations
 
-
-
-
-##### Accomodations
-
-The hotel for the work shop is the Embassy Suites Mandalay Beach in Oxnard, CA:
+The hotel for the workshop is the Embassy Suites Mandalay Beach in Oxnard, CA:
 
 Embassy Suites Mandalay Beach - Hotel & Resort
 2101 Mandalay Beach Road
 Oxnard, California, 93035
 TEL: 1-805-984-2500
-
 
 Lodging will be arranged for you, expecting arrival Thursday afternoon and departure Sunday afternoon.
 
@@ -147,9 +142,8 @@ We can provide a link for coordinating carpooling for those interested. Shuttle 
 
 The Coast Shuttle,
 1 800 449 8267
-info@coastshuttle.co
+info@coastshuttle.com
 
 RoadRunner Shuttle
 1 800 247 7919
 
-Please contact Lucinda Acosta if you require assistance with booking your travel/transportation arrangements.

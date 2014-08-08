@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Media
+title: MPP Media Coverage
 subheading: Coverage of the Molecular Programming Project in the media.
 body_class: media
 published: true

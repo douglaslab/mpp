@@ -26,3 +26,6 @@ paginate_path: "publications/page:num/index.html"
 sass:
     sass_dir: assets/_sass
     style: :compressed
+
+gems:
+  - jekyll-redirect-from

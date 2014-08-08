@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About MPP
 subheading: Welcome to the 2nd-generation Molecular Programming Project.
 permalink: /about/
 body_class: about
