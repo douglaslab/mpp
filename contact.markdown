@@ -4,6 +4,9 @@ title: "MPP Contact Us"
 body_class: contact
 subheading: "Getting in touch with our organization."
 published: true
+redirect_from:
+  - /people/contact.html
+  - /people/contact2.html
 ---
 
 

@@ -4,6 +4,9 @@ title: "MPP People"
 subheading: "People involved with the Molecular Programming Project include:"
 body_class: people
 published: true
+redirect_from:
+  - /people/index.html
+  - /people/people2.html
 ---
 
 ### At the California Institute of Technology...

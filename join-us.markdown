@@ -6,6 +6,7 @@ body_class: joinus
 published: true
 redirect_from:
   - /join_us.html
+  - /join_us2.html
 ---
 
 
