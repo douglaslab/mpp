@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MPP Labs
+title: Labs
 subheading: "Labs associated with the Molecular Programming Project."
 body_class: labs
 published: true

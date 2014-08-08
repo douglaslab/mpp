@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MPP Outreach, Knowledge Transfer, and Education
+title: Outreach, Knowledge Transfer, and Education
 body_class: outreach
 published: true
 ---

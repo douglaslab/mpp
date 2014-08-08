@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "MPP Contact Us"
+title: "Contact Us"
 body_class: contact
 subheading: "Getting in touch with our organization."
 published: true

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "MPP People"
+title: "People"
 subheading: "People involved with the Molecular Programming Project include:"
 body_class: people
 published: true

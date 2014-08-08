@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "MPP Workshop 2013"
+title: "Workshop 2013"
 subheading: "2013 MPP Workshop Retreat"
 body_class: fullwidth
 published: true
