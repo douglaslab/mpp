@@ -31,11 +31,12 @@ published: true
 
 ## Institutional Coverage & Announcements
 
-  * [NSF Announces Expeditions in Computing Awards][21] (2008)
-  * [NSF announces new Expeditions in Computing awards][22] (2013)
-  * [Team Led by Caltech Wins Second $10 Million Award for Research in Molecular Programming][19]
-  * [Eric Klavins, Georg Seelig win NSF award for molecular programming][20]
-  * [Programming molecular robots][18]: Q&A with William Shih and Peng Yin
+  * [NSF Announces Expeditions in Computing Awards][21] (August 18, 2008)
+  * [NSF announces new Expeditions in Computing awards][22] (September 17, 2013)
+  * [Team Led by Caltech Wins Second $10 Million Award for Research in Molecular Programming][19] (September 17, 2013)
+  * [UCSF Investigator Wins NSF Award for Molecular Programming Project][24] (September 17, 2013)
+  * [Eric Klavins, Georg Seelig win NSF award for molecular programming][20] (September 18, 2013)
+  * [Programming molecular robots][18]&nbsp;: Q&A with William Shih and Peng Yin (2014)
 
    [1]: http://molecular-programming.org#column-one
    [2]: http://molecular-programming.org#searchInput
@@ -60,3 +61,4 @@ published: true
    [21]: http://www.nsf.gov/news/news_summ.jsp?cntn_id=112075&org=NSF&from=news
    [22]: http://www.nsf.gov/news/news_summ.jsp?cntn_id=128886
    [23]: http://www.caltech.edu/content/caltech-researchers-awarded-10-million-molecular-programming-project-collaborative-project
+   [24]: http://www.ucsf.edu/news/2013/09/108906/ucsf-investigator-wins-nsf-award-molecular-programming-project
