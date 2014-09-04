@@ -71,15 +71,15 @@ Subgroup meetings and supergroup meetings are held in the New Media Classroom (C
   * October 4-7&nbsp;: Eric Klavins &amp; co in town
   * October 4-6: NSF site visit. Poster session 10am-noon.
   * September 21: Six-talk mini-retreat, from 10am to 3pm, New Media Classroom @ Caltech
-  ** 10:00am Welcome
-  ** 10:15am David Lee (Bruck Group) --- "Stochastic Flow, Random Walks, and Biology"
-  ** 10:45am Nadine Dabby (Winfree Group) ---  "The Kinetics of Toehold-Mediated 4-Way Branch Migration"
-  ** 11:15am Victor Beck (Pierce Group) --- "Elucidation and Control of the Hybridization Chain Reaction"
-  ** 11:45am LUNCH BREAK
-  ** 1:00pm Richard Murray --- "An Experimental Framework for Design and Validation of Robust Biochemical Circuits"
-  ** 1:30pm Rob Egbert (Klavins Group) --- "Tuning Genetic Regulatory Networks with Slip-Strand Mis-Pairing"
-  ** 2:00pm Town Hall Meeting
-  ** 3:00pm Adjourn
+    * 10:00am Welcome
+    * 10:15am David Lee (Bruck Group) --- "Stochastic Flow, Random Walks, and Biology"
+    * 10:45am Nadine Dabby (Winfree Group) ---  "The Kinetics of Toehold-Mediated 4-Way Branch Migration"
+    * 11:15am Victor Beck (Pierce Group) --- "Elucidation and Control of the Hybridization Chain Reaction"
+    * 11:45am LUNCH BREAK
+    * 1:00pm Richard Murray --- "An Experimental Framework for Design and Validation of Robust Biochemical Circuits"
+    * 1:30pm Rob Egbert (Klavins Group) --- "Tuning Genetic Regulatory Networks with Slip-Strand Mis-Pairing"
+    * 2:00pm Town Hall Meeting
+    * 3:00pm Adjourn
   * September 12-30: MPP visitor Bernie Yurke
   * September 7: Supergroup meeting -- Speaker: Lulu Qian on "Building a DNA brain". New Media Classroom, 3-5pm.
   * August 26-27: MPP visitor Nils Napp
