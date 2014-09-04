@@ -8,7 +8,7 @@ published: true
 # Outreach
 - [K-12 Visiting Days](http://molecular-programming.org/MPPWiki/index.php/MPPWiki:K-12_Visiting_Days) at Caltech.
 - We sometimes participate in [Science Cafes](http://sciencecafe.org), (e.g. [Eric Klavins at Queen Anne's](http://kcts9.org/events/synthetic-biology-queen-anne-science-cafe)), and [BioCurious](http://www.biocurious.org) events.
-- [Collaboration with artist Ann Erpino](http://annerpino.com/the-winfree-series.html) including a [Book about the Erpino paintings](http://molecular-programming.org/MPPWiki/index.php/Book_about_the_Erpino_paintings) in progress
+- [Collaboration with artist Ann Erpino](http://annerpino.com/the-winfree-series.html)
 
 # Knowledge Transfer
 - Annual MPP workshop retreats: 2009–present

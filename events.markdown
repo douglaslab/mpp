@@ -5,12 +5,13 @@ body_class: events
 published: true
 ---
 
-Subgroup meetings and supergroup meetings are held in the New Media Classroom (Caltech, [File:NMCmap.pdf][2]) or Kane Hall Room 019 (UW) at 3:00pm unless otherwise noted.
+Subgroup meetings and supergroup meetings are held in the New Media Classroom (Caltech, [map][2]) or Kane Hall Room 019 (UW) at 3:00pm unless otherwise noted.
 
 ##  2014
 
   * Jan, Feb, March: Peter Clote ([web page][3]) visiting Niles Pierce's lab.
   * Feb, March: Yannick Rondelez ([web page][4]) visiting Erik Winfree's lab.
+  * June 23–26: Workshop on TX-TL Prototyping and Debugging, California Institute of Technology
 
 ##  2013
 
@@ -18,6 +19,8 @@ Subgroup meetings and supergroup meetings are held in the New Media Classroom (C
   * September 30: Visit by Ralf Jungmann, seminar at 2pm (location TBA), Caltech, "DNA probes for super-resolution bioimaging"
     * He will be here, with Mingjie Dai and Jo Woehrstein also from Peng Yin's lab, from 9/30 through 10/4.
   * September 18: Visit by Petr Sulc (Oxford), seminar at 4pm in Moore 070, Caltech, "Coarse grained modelling of nucleic acids"
+
+  * August 26–30: Workshop on TX-TL Prototyping and Debugging, California Institute of Technology
   * April 19: Supergroup meeting, New Media Classroom (Caltech) and Kane Hall Room 019 (UW), 2-3pm. Speakers:
     * Gourab Chatterjee and Richard Muscat (Seelig lab), "DNA-based Molecular Architecture with Spatially Localized Components".
   * April 4 - April 12: Visit by Jack and Robyn Lutz (Iowa State U)
@@ -68,29 +71,22 @@ Subgroup meetings and supergroup meetings are held in the New Media Classroom (C
   * October 4-7&nbsp;: Eric Klavins &amp; co in town
   * October 4-6: NSF site visit. Poster session 10am-noon.
   * September 21: Six-talk mini-retreat, from 10am to 3pm, New Media Classroom @ Caltech
-
-
-    10:00am Welcome
-    10:15am David Lee (Bruck Group) --- "Stochastic Flow, Random Walks, and Biology"
-    10:45am Nadine Dabby (Winfree Group) ---  "The Kinetics of Toehold-Mediated 4-Way Branch Migration"
-    11:15am Victor Beck (Pierce Group) --- "Elucidation and Control of the Hybridization Chain Reaction"
-    11:45am LUNCH BREAK
-    1:00pm Richard Murray --- "An Experimental Framework for Design and Validation of Robust Biochemical Circuits"
-    1:30pm Rob Egbert (Klavins Group) --- "Tuning Genetic Regulatory Networks with Slip-Strand Mis-Pairing"
-    2:00pm Town Hall Meeting*
-        -- Visions and grand challenges
-        -- What we want to learn from each other
-        -- What works and what doesn't in the MPP
-    3:00pm Adjourn
-
-
+  ** 10:00am Welcome
+  ** 10:15am David Lee (Bruck Group) --- "Stochastic Flow, Random Walks, and Biology"
+  ** 10:45am Nadine Dabby (Winfree Group) ---  "The Kinetics of Toehold-Mediated 4-Way Branch Migration"
+  ** 11:15am Victor Beck (Pierce Group) --- "Elucidation and Control of the Hybridization Chain Reaction"
+  ** 11:45am LUNCH BREAK
+  ** 1:00pm Richard Murray --- "An Experimental Framework for Design and Validation of Robust Biochemical Circuits"
+  ** 1:30pm Rob Egbert (Klavins Group) --- "Tuning Genetic Regulatory Networks with Slip-Strand Mis-Pairing"
+  ** 2:00pm Town Hall Meeting
+  ** 3:00pm Adjourn
   * September 12-30: MPP visitor Bernie Yurke
   * September 7: Supergroup meeting -- Speaker: Lulu Qian on "Building a DNA brain". New Media Classroom, 3-5pm.
   * August 26-27: MPP visitor Nils Napp
   * August 24: Supergroup meeting -- Speaker: Elisa Franco on "Programming molecular clocks." New Media Classroom, 3-5pm.
   * May 28: MPP Outreach&nbsp;:: Visit Day&nbsp;:: Marshall Fundamental Secondary School
   * May 15: PhD thesis defense -- Dave Zhang (Winfree group) on "Dynamic DNA Strand Displacement Circuits." Moore 070, 10am.
-  * January 8-10&nbsp;: MPP workshop retreat, Oxnard, CA.
+  * January 8-10&nbsp;: [MPP workshop retreat][8], Oxnard, CA.
 
 ##  2009
 
@@ -106,7 +102,7 @@ Subgroup meetings and supergroup meetings are held in the New Media Classroom (C
   * April 3&nbsp;: Subgroup meeting -- nonlinear systems and analysis of biochemical circuits (lead by Eric Klavins).
   * March 6&nbsp;: Subgroup meeting -- stochastic behavior, design, analysis, computation.
   * February 6&nbsp;: Subgroup meeting -- genelets &amp; in vitro transcriptional circuits (lead by Erik Winfree). 4-5pm, Moore 239.
-  * January 8-10&nbsp;: MPP workshop retreat, Oxnard, CA.
+  * January 8-10&nbsp;: [MPP workshop retreat][9], Oxnard, CA.
 
 ##  2008
 
@@ -115,9 +111,12 @@ Subgroup meetings and supergroup meetings are held in the New Media Classroom (C
   * October 3&nbsp;: Supergroup meeting -- Kevin Oishi (Klavins group) and David Soloveichik (Winfree group).
 
    [1]: http://molecular-programming.org/MPPWiki/index.php/Main_Page (Main Page)
-   [2]: /assets/images/pdfs/NMCmap.pdf (File:NMCmap.pdf)
+   [2]: http://addis.caltech.edu/teaching/EST199_F09/New%20Media%20Classroom%20Map.pdf
    [3]: http://bioinformatics.bc.edu/~clote/
    [4]: http://limmshp.iis.u-tokyo.ac.jp/member/researchers/yannick_rondelez_dr
    [5]: http://molecular-programming.org/MPPWiki/index.php/2013_MPP_Workshop_Retreat (2013 MPP Workshop Retreat)
    [6]: http://molecular-programming.org/MPPWiki/index.php/2012_MPP_Workshop_Retreat (2012 MPP Workshop Retreat)
    [7]: http://molecular-programming.org/MPPWiki/index.php/2011_MPP_Workshop_Retreat (2011 MPP Workshop Retreat)
+   [8]: http://archive.molecular-programming.org/2010MPPWorkshopSchedule.pdf
+   [9]: http://archive.molecular-programming.org/2009MPPWorkshopSchedule.pdf
+

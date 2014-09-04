@@ -11,11 +11,11 @@ redirect_from:
 
 
 
-To pursue postdoctoral research in the Project, you may contact the relevant [faculty member][1] directly or apply for a [Molecular Programming Project Postdoctoral Fellowship][2]. Funding decisions will typically be made in the spring of each year.
+To pursue postdoctoral research in the Project, you may contact the relevant [faculty member][1] directly.
 
 Graduate students may be interested in applying to different graduate programs depending on their background and interest.
 
-At Caltech, this would include (but not exclusively), [Bioengineering][3], [Computer Science][4], [Applied and Computational Mathematics][5], [Control and Dynamical Systems][6], [Computation and Neural Systems][7], and [Electrical Engineering][8].
+At Caltech, this would include (but not exclusively), [Bioengineering][3], [Computation + Mathematical Science][4], [Computation and Neural Systems][7], and [Electrical Engineering][8].
 
 At UW, this would include [Electrical Engineering][9], [Bioengineering][10], and [Computer Science and Engineering][11].
 
@@ -28,12 +28,11 @@ Undergraduate students may be interested in summer research projects. At Caltech
 
 Talented high school students are also encouraged to contact faculty directly.
 
-More information can be found on the [MPP Wiki][27].
 
    [1]: http://molecular-programming.org/people/people2.html
    [2]: http://molecular-programming.org/MPPWiki/index.php/MPP_Postdoctoral_Fellowship_Program
    [3]: http://www.be.caltech.edu
-   [4]: http://www.cs.caltech.edu
+   [4]: http://www.cms.caltech.edu
    [5]: http://www.acm.caltech.edu
    [6]: http://www.cds.caltech.edu
    [7]: http://www.cns.caltech.edu
