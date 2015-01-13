@@ -36,17 +36,13 @@ redirect_from:
 
 ### At the University of Washington, Seattle...
 
-- [Leandra
-Brettner](http://depts.washington.edu/soslab/mw/index.php?title=People) (G)
-- [Shelly Jang](http://depts.washington.edu/soslab/mw/index.php?title=User:Jang)
-(G)
+- [Leandra Brettner](http://depts.washington.edu/soslab/mw/index.php?title=People) (G)
+- [Shelly Jang](http://depts.washington.edu/soslab/mw/index.php?title=User:Jang) (G)
 - [Erik Klavins](http://www.ee.washington.edu/faculty/klavins_eric/) (PI)
-- [Richard Muscat](http://homes.cs.washington.edu/~seelig/people/index.html)
-(postdoc)
-- [Kevin
-Oishi](http://depts.washington.edu/soslab/mw/index.php?title=User:Oishi) (G)
-- [Georg Seelig](http://www.engr.washington.edu/facresearch/newfaculty/georgseel
-ig.html) (PI)
+- [Richard Muscat](http://homes.cs.washington.edu/~seelig/people/index.html) (postdoc)
+- [Kevin Oishi](http://depts.washington.edu/soslab/mw/index.php?title=User:Oishi) (G)
+- [Georg Seelig](http://www.engr.washington.edu/facresearch/newfaculty/georgseelig.html) (PI)
+- [Yaoyu Yang](http://klavinslab.org/people/Yang.html)
 - [David Younger](http://depts.washington.edu/soslab/mw/index.php?title=People)
 (G)
 
@@ -75,62 +71,46 @@ ig.html) (PI)
 - [Tom Schaus](http://molsys.net/people.html) (Postdoc)
 - [Jie Shen](http://molsys.net/people.html) (Postdoc)
 - [William Shih](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (PI)
-- [Shelley Wickham](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
-(Postdoc)
-- [Nandhini Ponnuswamy](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/P
-eople.html) (Postdoc)
-- [Seungwoo Lee](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
-(Postdoc)
-- [Jianghong Min](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
-(Research assistant)
-- [Steve Perrault](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
-(Postdoc)
-- [Zhao Zhao](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
-(Postdoc)
-- [Maartje Bastings](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
-(Postdoc)
-- [Bhavik Nathwani](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
-(Postdoc)
-- [Jaeseung Hahn](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html)
-(Grad)
+- [Shelley Wickham](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Postdoc)
+- [Nandhini Ponnuswamy](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Postdoc)
+- [Seungwoo Lee](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Postdoc)
+- [Jianghong Min](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Research assistant)
+- [Steve Perrault](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Postdoc)
+- [Zhao Zhao](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Postdoc)
+- [Maartje Bastings](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Postdoc)
+- [Bhavik Nathwani](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Postdoc)
+- [Jaeseung Hahn](http://http://research4.dfci.harvard.edu/shih/SHIH_LAB/People.html) (Grad)
 
 ...and others...
 
 
 ### At the University of California, San Francisco...
 
-- Shawn Douglas (PI)
-- Brian O'Donovan (G)
-- Parsa Nafisi (G)
+- [Shawn Douglas](http://shawndouglas.com/) (PI)
+- [Parsa Nafisi](http://www.parsanafisi.com/) (G)
+- [Han Tran](http://bionano.ucsf.edu/people) (G)
 
 
 ### Collaborators around the world...
 
 - [David Baker](http://depts.washington.edu/bakerpg/) (UW)
-- [Luca Cardelli](http://lucacardelli.name/indexMe.html) (Microsoft Research,
-Cambridge)
+- [Luca Cardelli](http://lucacardelli.name/indexMe.html) (Microsoft Research, Cambridge)
 - [Domitilla Del Vecchio](http://www.mit.edu/~ddv/) (MIT)
 - [Scott Fraser](http://bioimaging.caltech.edu/) (Caltech)
 - [Mary Lidstrom](http://depts.washington.edu/mllab/mLidstrom.php) (UW)
-- [Jennifer Nemhauser](http://www.biology.washington.edu/users/jennifer-
-nemhauser) (UW)
+- [Jennifer Nemhauser](http://www.biology.washington.edu/users/jennifer-nemhauser) (UW)
 - [Herbert Sauro](http://depts.washington.edu/bioe/people/core/sauro.html) (UW)
-- [Fritz Simmel](http://www.e14.ph.tum.de/index.php/group-
-members/friedrich-c-simmel) (Tech. Univ. Munich)
+- [Fritz Simmel](http://www.e14.ph.tum.de/index.php/group-members/friedrich-c-simmel) (Tech. Univ. Munich)
 - [Mark Sims](http://www.nanoengineer-1.com) (Nanorex, Inc.)
 - [David Soloveichik](http://dna.caltech.edu/~davids/) (UCSF)
-- [Milan Stojanovic](http://asp.cumc.columbia.edu/facdb/profile_list.asp?uni=mns
-18&amp;DepAffil=Medicine) (Columbia)
-- [Greg Wallraff](http://researcher.watson.ibm.com/researcher/view.php?person
-=us-gmwall) (IBM)
-- [Bernie Yurke](http://coen.boisestate.edu/faculty-staff/bernardyurke/) (Boise
-State Univ.)
+- [Milan Stojanovic](http://asp.cumc.columbia.edu/facdb/profile_list.asp?uni=mns18&amp;DepAffil=Medicine) (Columbia)
+- [Greg Wallraff](http://researcher.watson.ibm.com/researcher/view.php?person=us-gmwall) (IBM)
+- [Bernie Yurke](http://coen.boisestate.edu/faculty-staff/bernardyurke/) (Boise State Univ.)
 
 ## MPP Lab Alumni...
 
 - [Dionysios Barmpoutis](http://www.cns.caltech.edu/people/alumni.html)
-- [Victor Beck](http://www.parc.com/about/people/2660/victor-beck.html) (now at
-PARC research)
+- [Victor Beck](http://www.parc.com/about/people/2660/victor-beck.html) (now at PARC research)
 - [Justin Bois](http://www.justinbois.info/) (now at Caltech, lecturer)
 - Fei Chen (now at MIT, graduate student)
 - Ho-Lin Chen (now at Taiwan National University, asst prof)
