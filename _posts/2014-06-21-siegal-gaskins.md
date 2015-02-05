@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Gene circuit performance characterization and resource usage in a cell-free 'breadboard'."
 date: 2014-06-21 12:00:00
