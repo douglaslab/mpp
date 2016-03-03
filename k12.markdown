@@ -8,16 +8,16 @@ published: true
 # K-12 Visiting Days at Caltech
 
 <h2>Pasadena High School, April 2015 </h2>
-<figure><img src="/assets/images/outreach/2015-01.JPG" /><figcaption>Niles Pierce's talk</figcaption></figure>
-<figure><img src="/assets/images/outreach/2015-02.JPG" /><figcaption>Paul and Niles</figcaption></figure>
-<figure><img src="/assets/images/outreach/2015-03.JPG" /><figcaption>Pasadena High School students</figcaption></figure>
-<figure><img src="/assets/images/outreach/2015-04.JPG" /><figcaption>Lab tour with Paul Rothemund</figcaption></figure>
-<figure><img src="/assets/images/outreach/2015-05.JPG" /><figcaption>Atomic Force Microscope</figcaption></figure>
-<figure><img src="/assets/images/outreach/2015-06.JPG" /><figcaption>Fluorescent Microscope</figcaption></figure>
+<figure><img src="/assets/images/outreach/2015-01.jpg" /><figcaption>Niles Pierce's talk</figcaption></figure>
+<figure><img src="/assets/images/outreach/2015-02.jpg" /><figcaption>Paul and Niles</figcaption></figure>
+<figure><img src="/assets/images/outreach/2015-03.jpg" /><figcaption>Pasadena High School students</figcaption></figure>
+<figure><img src="/assets/images/outreach/2015-04.jpg" /><figcaption>Lab tour with Paul Rothemund</figcaption></figure>
+<figure><img src="/assets/images/outreach/2015-05.jpg" /><figcaption>Atomic Force Microscope</figcaption></figure>
+<figure><img src="/assets/images/outreach/2015-06.jpg" /><figcaption>Fluorescent Microscope</figcaption></figure>
 <figure><img src="/assets/images/outreach/2015-07.jpg" /><figcaption>Chatting with lab members</figcaption></figure>
 <figure><img src="/assets/images/outreach/2015-08.jpg" /><figcaption>Chatting with lab members</figcaption></figure>
-<figure><img src="/assets/images/outreach/2015-09.JPG" /><figcaption>Group Lunch</figcaption></figure>
-<figure><img src="/assets/images/outreach/2015-10.JPG" /><figcaption>Group Lunch</figcaption></figure>
+<figure><img src="/assets/images/outreach/2015-09.jpg" /><figcaption>Group Lunch</figcaption></figure>
+<figure><img src="/assets/images/outreach/2015-10.jpg" /><figcaption>Group Lunch</figcaption></figure>
 
 
 <h2>John Muir High School, May 2013 </h2>
