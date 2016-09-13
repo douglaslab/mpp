@@ -1,15 +1,13 @@
 ---
 layout: page
 title: "Workshop"
-subheading: "2016 MPP Workshop Retreat"
+subheading: "Molecular Programming Project 2016 Annual Workshop"
 body_class: fullwidth
 published: true
 ---
 
 
-<h1 class='title'>Molecular Programming Project<br />2016 Annual Workshop</h1>
-<h3 class='subtitle'>January 15-18, 2016</h3>
-<h3 class='subtitle'>Seattle, WA</h3>
+January 15-18, 2016 — Seattle, WA
 
 <h4 class="room">Friday January 15, 2016</h4>
 
