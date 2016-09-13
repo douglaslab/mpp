@@ -19,7 +19,7 @@ og_image_height: 300
 #fb_admins: 000000
 
 # pagination
-paginate: 5
+paginate: 25
 paginate_path: "publications/page:num/index.html"
 
 # Sass settings
@@ -29,3 +29,4 @@ sass:
 
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate
