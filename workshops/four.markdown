@@ -6,15 +6,159 @@ body_class: fullwidth
 published: true
 ---
 
-The Boston MPP Meeting official website is at [mpp2016.strikingly.com](http://mpp2016.strikingly.com/). This page serves as an archive of the schedule. Special thanks to the organizing committee: Christina Chen, Jodi Saia, William Shih, and Peng Yin.
+<style>
 
-# Friday December 9, 2016
+body {
+  font-size: 14px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+div.table-title {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+   color: #cc0000;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding: 5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+
+th {
+  /*color:#cc0000;*/
+  border-bottom:4px solid #9ea7af;
+  /*border-right: 1px solid #343a45;*/
+  font-size:18px;
+  font-weight: 800;
+  padding:5px;
+  text-align:left;
+  /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:14px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+
+td {
+  background:#FFFFFF;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:14px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+  max-width: 500px;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+</style>
+
+
+The official MPP-Boston Workshop website is at **[mpp2016.strikingly.com](http://mpp2016.strikingly.com/)**. This page serves as an archive of the schedule.<br>Special thanks to the organizing committee: Christina Chen, Jodi Saia, William Shih, and Peng Yin.
+
+### Friday December 9, 2016
 
 Location: Martin Conference Center (3rd Floor Rotunda); 77 Avenue Louis Pasteur, Boston, MA 02115
 
 |Time||Description|
 |-|-|-|
-|7:30 AM|Registration & Contenental Breakfast||
+|7:30 AM|Registration|Continental Breakfast|
 |8:30 AM|William Shih/Peng Yin|Welcome and Overview|
 ||SESSION 1|Chair: William Shih|
 |8:40 AM|Vinny Manoharan |Invited Talk: Responsive and dynamic DNA-grafted colloidal particles|
@@ -42,7 +186,7 @@ Location: Martin Conference Center (3rd Floor Rotunda); 77 Avenue Louis Pasteur,
 |5:00 PM|Last name B—L|Poster Session I – Wyss Institute (5th floor CLSB, Room 521), catered|
 |Evening|Dinner on your own||
 
-# Saturday December 10, 2016
+### Saturday December 10, 2016
 
 Martin Conference Center (3rd Floor Rotunda)
 
@@ -70,7 +214,7 @@ Martin Conference Center (3rd Floor Rotunda)
 |4:45 PM||Move to the Martin Conference Center|
 |5:00 PM|Dinner|Catered|
 
-# Sunday December 11, 2016
+### Sunday December 11, 2016
 
 Trainee Workshop – Martin Conference Center (3rd Floor Rotunda)
 
