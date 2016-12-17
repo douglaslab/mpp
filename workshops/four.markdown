@@ -6,10 +6,7 @@ body_class: fullwidth
 published: true
 ---
 
-## Boston MPP Meeting
-
-mpp2016.strikingly.com
-
+The Boston MPP Meeting official website is at [mpp2016.strikingly.com](http://mpp2016.strikingly.com/). This page serves as an archive of the schedule. Special thanks to the organizing committee: Christina Chen, Jodi Saia, William Shih, and Peng Yin.
 
 # Friday December 9, 2016
 
