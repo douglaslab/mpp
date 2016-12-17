@@ -14,6 +14,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 div.table-title {
   display: block;
   margin: auto;
@@ -51,7 +55,7 @@ div.table-title {
 th {
   /*color:#cc0000;*/
   border-bottom:4px solid #9ea7af;
-  /*border-right: 1px solid #343a45;*/
+  border-right: 1px solid #9ea7af;
   font-size:18px;
   font-weight: 800;
   padding:5px;
@@ -156,7 +160,7 @@ The official MPP-Boston Workshop website is at **[mpp2016.strikingly.com](http:/
 
 Location: Martin Conference Center (3rd Floor Rotunda); 77 Avenue Louis Pasteur, Boston, MA 02115
 
-|Time||Description|
+|Time|Name|Description|
 |-|-|-|
 |7:30 AM|Registration|Continental Breakfast|
 |8:30 AM|William Shih/Peng Yin|Welcome and Overview|
@@ -190,7 +194,7 @@ Location: Martin Conference Center (3rd Floor Rotunda); 77 Avenue Louis Pasteur,
 
 Martin Conference Center (3rd Floor Rotunda)
 
-|Time||Description|
+|Time|Name|Description|
 |-|-|-|
 |8:00 AM|Continental Breakfast||
 ||SESSION 5|Chair: Erik Winfree|
@@ -218,13 +222,13 @@ Martin Conference Center (3rd Floor Rotunda)
 
 Trainee Workshop – Martin Conference Center (3rd Floor Rotunda)
 
-|Time||Description|
+|Time|Name|Description|
 |-|-|-|
 |9:00 AM|Continental Breakfast|Catered|
 |10:00 AM|Welcome Remarks|Science Speed Dating: talk about your science in pairs to 10 people, 5 min per pair|
 |11:00 AM|Small Group Project #1|Using molecular programming, design a system that solves an important societal challenge. Groups of 7, 20 min design, 3 min presentation|
 |12:00 PM|Lunch|Catered|
 |1:00 PM|Small Group Discussion|Discuss talks from main MPP event|
-|2:00 PM|Small Group Project #2|Molecular programming group exercise. Groups of 7, 20 min design, 3 min presentation|
+|2:00 PM|Small Group Project #2|Use molecular programming to design a system that expands our knowledge of the universe. Groups of 7, 20 min design, 3 min presentation|
 |3:00 PM|Round Table & Closing Remarks|Whole group on future of molecular programming|
-|4:00 PM-onwards|Boston excursion on your own||
+|4:00 PM+|Boston excursion on your own||
