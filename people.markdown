@@ -38,7 +38,7 @@ redirect_from:
 
 - [Leandra Brettner](http://depts.washington.edu/soslab/mw/index.php?title=People) (G)
 - [Shelly Jang](http://depts.washington.edu/soslab/mw/index.php?title=User:Jang) (G)
-- [Erik Klavins](http://www.ee.washington.edu/faculty/klavins_eric/) (PI)
+- [Eric Klavins](http://www.ee.washington.edu/faculty/klavins_eric/) (PI)
 - [Richard Muscat](http://homes.cs.washington.edu/~seelig/people/index.html) (postdoc)
 - [Kevin Oishi](http://depts.washington.edu/soslab/mw/index.php?title=User:Oishi) (G)
 - [Georg Seelig](http://www.engr.washington.edu/facresearch/newfaculty/georgseelig.html) (PI)
