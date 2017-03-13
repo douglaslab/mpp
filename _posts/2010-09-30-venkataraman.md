@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Selective cell death mediated by small conditional RNAs."
 date: 2010-09-30 12:00:00

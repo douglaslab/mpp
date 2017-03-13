@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Localizing transcripts to single cells suggests an important role of uncultured deltaproteobacteria in the termite gut hydrogen economy."
 date: 2013-10-02 12:00:00

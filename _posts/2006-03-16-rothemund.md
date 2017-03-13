@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Folding DNA to create nanoscale shapes and patterns."
 date: 2006-03-16 12:00:00

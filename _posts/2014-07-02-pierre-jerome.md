@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Recapitulation of the forward nuclear auxin response pathway in yeast."
 date: 2014-07-02 12:00:00

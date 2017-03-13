@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Synergistic dual positive feedback loops established by molecular sequestration generate robust bimodal response."
 date: 2012-11-28 12:00:00

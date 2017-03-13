@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Design and characterization of programmable DNA nanotubes."
 date: 2004-12-16 12:00:00

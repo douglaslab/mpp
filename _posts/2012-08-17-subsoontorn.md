@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Ensemble Bayesian analysis of bistability in a synthetic transcriptional switch."
 date: 2012-08-17 12:00:00

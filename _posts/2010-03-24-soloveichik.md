@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "DNA as a universal substrate for chemical kinetics."
 date: 2010-03-24 12:00:00

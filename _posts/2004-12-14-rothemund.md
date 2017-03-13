@@ -1,5 +1,6 @@
 ---
 layout: post
+category: publication
 published: true
 title: "Algorithmic self-assembly of DNA Sierpinski triangles."
 date: 2004-12-14 12:00:00
