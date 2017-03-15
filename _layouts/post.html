@@ -4,7 +4,7 @@ type_class: publication
 ---
 
 
-{% capture title %}{% if page.title %}{{ page.title }} {% else %}" "{% endif %}{% endcapture %}
+{% capture title %}{% if page.title %}{{ page.title }}{% else %}" "{% endif %}{% endcapture %}
 {% capture link %}{% if page.pmid %}"http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}"{% else %}""{% endif %} {% endcapture %}
 {% capture date %}{% if page.date %}<time datetime="{{ page.date | date: "%b %-d, %Y" }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% else %}" "{% endif %}{% endcapture %}
 {% capture authors %}{% if page.authors %}{{ page.authors }} {% else %}" "{% endif %}{% endcapture %}
@@ -21,11 +21,11 @@ type_class: publication
       <article>
         <header>
 
-        {% if page.title && page.pmid %}
+        {% unless page.title == blank and page.pmid == blank %}
           <h2 class="icon-book-open"><a href={{ link }}>{{ title }}</a></h2>
         {% else %}
           <h2>{{ title }}</h2>
-        {% endif %}
+        {% endunless %}
 
         </header>
 
