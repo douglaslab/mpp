@@ -34,9 +34,7 @@ body_class: publications
 
     {{ post.content | truncate: 300 | remove:'{u’#text’: u’' }}
     </br>
-    <a class="icon-right-dir" href="{{ post.url }}">Read the abstract</a>
-    </br>
-    <a class="icon-right-dir" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ post.pmid }}">Link to article</a>
+    <a class="icon-right-dir" href="{{ post.url }}">Read more</a>
   </article>
 
 {% endfor %}
