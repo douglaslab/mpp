@@ -8,3 +8,4 @@ published: true
 - [Second workshop: UCSF Jan 2015](two.html)
 - [Third workshop: UW Jan 2016](three.html)
 - [Fourth workshop: Boston Dec 2016](four.html)
+- [Finale workshop: Caltech June 2019](finale.html)
