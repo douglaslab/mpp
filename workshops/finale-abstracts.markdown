@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "MPP2-Finale Workshop"
+title: "MPP2-Finale Faculty Abstracts"
 subheading: "June 2019 MPP Workshop Retreat"
 body_class: fullwidth
 published: true
