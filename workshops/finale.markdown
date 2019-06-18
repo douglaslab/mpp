@@ -202,15 +202,15 @@ Location: Talks in Annenberg 105.  Registration and refreshment in Moore courtya
 |10:40 AM|David Soloveichik|Alumnus talk: Thermodynamic binding networks and the computational power of self-disassembly |
 |11:05 AM|Break| |
 ||SESSION 7|Chair: David Soloveichik|
-|11:30 AM|William Shih|[Faculty thesis: Scalable data storage and autonomous molecular recording are related killer apps for molecular programming](finale-abstracts.html)|
+|11:30 AM|William Shih|Faculty thesis: Scalable data storage and autonomous molecular recording are related killer apps for molecular programming|
 |12:15 AM|Lunch|On your own|
 ||SESSION 8|Chair: William Shih|
 |2:15 PM|Niles Pierce |Faculty thesis: Molecular programming in a biological context: hard but worth it|
-|3:00 PM|Richard Murray|Faculty thesis: Engineers are going to built a self-reproducing artificial cell  entirely from scratch in 20 years|
+|3:00 PM|Richard Murray|Faculty thesis: Engineers are going to build a self-reproducing artificial cell  entirely from scratch in 20 years|
 |3:45 AM|Snack break|Catered|
 ||SESSION 9|Chair: Paul Rothemund|
-|4:15 PM|Lulu Qian|[Faculty thesis: The same molecules will be playing multiple roles in future programmable molecular machines](finale-abstracts.html)|
-|5:00 PM|Erik Winfree|[Faculty thesis: A successful general-purpose molecular programming language won't look anything at all like conventional programming languages](finale-abstracts.html)|
+|4:15 PM|Lulu Qian|Faculty thesis: The same molecules will be playing multiple roles in future programmable molecular machines|
+|5:00 PM|Erik Winfree|Faculty thesis: A successful general-purpose molecular programming language won't look anything at all like conventional programming languages|
 |5:45 PM|Erik Winfree|Conclusion and last words|
 |6:00 PM|Break| |
 |6:30 PM|Dinner|Athenaeum|
