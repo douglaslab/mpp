@@ -207,7 +207,7 @@ Location: Talks in Annenberg 105.  Registration and refreshment in Moore courtya
 ||SESSION 8|Chair: William Shih|
 |2:15 PM|Niles Pierce |[Faculty thesis: Molecular programming in a biological context: hard but worth it](finale-abstracts.html)|
 |3:00 PM|Richard Murray|[Faculty thesis: Engineers are going to build a self-reproducing artificial cell entirely from scratch in 20 years](finale-abstracts.html)|
-|3:45 AM|Snack break|Catered|
+|3:45 PM|Snack break|Catered|
 ||SESSION 9|Chair: Paul Rothemund|
 |4:15 PM|Lulu Qian|[Faculty thesis: The same molecules will be playing multiple roles in future programmable molecular machines](finale-abstracts.html)|
 |5:00 PM|Erik Winfree|[Faculty thesis: A successful general-purpose molecular programming language won't look anything at all like conventional programming languages](finale-abstracts.html)|
