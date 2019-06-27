@@ -183,7 +183,7 @@ Location: Talks in Annenberg 105.  Registration, refreshment, and posters in Moo
 |4:00 PM|Cody Geary | Modular design of functional RNA origami scaffolds |
 |4:25 PM|Siddharth Jain | A novel signature for cancer classification from healthy DNA|
 |4:50 PM|Lee Organick | Probing the physical limits of reliable DNA data retrieval |
-|5:00 PM|Poster session||
+|5:15 PM|Poster session||
 |Evening|Dinner|On your own|
 
 ### Friday June 28, 2019
